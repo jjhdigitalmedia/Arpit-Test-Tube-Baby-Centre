@@ -4,7 +4,7 @@ import reviewVideo from '../../assets/videos/reviewVideo.mp4';
 import Ptientsreiview from '../../assets/videos/Ptientsreiview.mp4';
 import patient from '../../assets/videos/patient.mp4';
 
-export const PatientReviewVideo = () => {
+const PatientReviewVideo = () => {
   const TestimonialsVideo = [
     {
       v1: reviewVideo,

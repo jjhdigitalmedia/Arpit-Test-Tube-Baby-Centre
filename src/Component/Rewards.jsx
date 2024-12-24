@@ -5,7 +5,7 @@ import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import lab0 from "../assets/lab0.png";
 import patientweb from "../assets/patientweb.png";
 
-export const Rewards = () => {
+const Rewards = () => {
   return (
     <>
       <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto mt-10">
@@ -71,3 +71,4 @@ export const Rewards = () => {
     </>
   );
 };
+export default Rewards;
