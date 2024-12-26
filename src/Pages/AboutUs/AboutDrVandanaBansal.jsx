@@ -31,7 +31,7 @@ const AboutDrVandanaBansal = ({ data }) => {
     //         s: 'gg'
     //     },
     //     {
-    //         s: 'gg'
+    //         s: 'gg
     //     },
     // ]
     return (
