@@ -266,6 +266,7 @@ import BookYourAppointment from './Pages/BookYourAppointment.jsx'
 import PatientReviewVideo from './Pages/Rewards/PatientReviewVideo.jsx'
 import GuestSpeaker from './Pages/Rewards/GuestSpeaker.jsx'
 import NewsPaperCutting from './Pages/NewsPaperCutting.jsx'
+import AboutDrVandanaBansal from './Pages/AboutUs/AboutDrVandanaBansal.jsx'
 
 
 const router = createBrowserRouter([
@@ -424,7 +425,6 @@ const router = createBrowserRouter([
         element: <CryopreservationTreatment />,
         children: []
       },
-
       {
         path: 'guestspeaker',
         element: <GuestSpeaker />,
@@ -432,6 +432,20 @@ const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path: '/ourfounder',
+    element: <> <OurFounders /></>,
+    children: [
+      {
+        path: 'str',
+        element: <AboutDrVandanaBansal />,
+      },
+      {
+        path: 'about',
+        element: <About />,
+      },
+    ]
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
