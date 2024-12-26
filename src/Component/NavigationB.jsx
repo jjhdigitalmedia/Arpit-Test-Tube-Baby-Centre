@@ -268,7 +268,7 @@ function NavigationB() {
                   onMouseLeave={() => setIsAboutDropdownOpen(false)}
                   className="ml-4"
                 >
-                  <Link to='ourfounders' className="block px-4 py-2 text-gray-700">
+                  <Link to='ourfounder' className="block px-4 py-2 text-gray-700">
                     Our Founders
                   </Link>
                   <Link to='ourprofile' className="block px-4 py-2 text-gray-700">
