@@ -46,21 +46,6 @@ const About = () => {
                         <h1 className="title-font sm:text-3xl text-2xl md:mb-2 font-medium text-left text-black"> Late Dr. Ashvini Kumar Bansal
                         </h1>
 
-                        {/* <div className='flex'>
-                            <a href="https://www.instagram.com/drvandanabansal_gynaecologist/" target='_blank'>
-                        <FaInstagram className='m-2 md:text-white text-xl' />
-                            </a>
-                        <a href="https://www.facebook.com/vandana.bansal.33" target='_blank'>
-                        <FaFacebook className='m-2 md:text-white text-xl'/>
-                        </a>
-                        <a href="https://www.youtube.com/@DrVandanaBansal" target='_blank'>
-                        <FaYoutube className='m-2 text-white text-xl'/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/dr-vandana-bansal-5916279b/" target='_blank'>
-                        <FaLinkedinIn className='m-2 text-white text-xl' />
-                        </a>
-                        </div> */}
-
                         <p className="mb-8 md:text-left text-sm leading-relaxed text-black font-semibold text-justify"> DR. Late Dr. Ashwini Kumar Bansal was one of the most renowned Senior Laparoscopic and General Surgeons, with a heart of gold. He was a leading specialist in Male Infertility in the state of Uttar Pradesh. He was the Founder and Director of the 210-bed Multi speciality & Super speciality Jeevan Jyoti Group of Hospitals, Allahabad. <span className='text-rose-700'> know more </span></p>
                         {/* <div className="flex justify-center">
                             <Link to='bookappointment'>
