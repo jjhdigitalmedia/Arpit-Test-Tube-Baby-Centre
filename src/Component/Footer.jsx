@@ -6,6 +6,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -67,7 +68,7 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a href='/' className="text-black hover:text-red-600">Home</a>
+                  <Link to='/' className="text-black hover:text-red-600">Home</Link>
                 </li>
                 <li>
                   <a className="text-black hover:text-red-600">Patients Guide</a>

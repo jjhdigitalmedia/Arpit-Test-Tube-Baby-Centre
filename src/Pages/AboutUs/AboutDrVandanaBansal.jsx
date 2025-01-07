@@ -100,7 +100,7 @@ const AboutDrVandanaBansal = ({ data }) => {
                                                             ) :
                                                                 (
                                                                     <div>
-                                                                        <p>---------------h-----</p>
+                                                                        <p className='my-2'>---------------h-----</p>
                                                                     </div>
                                                                 )
             }
@@ -117,20 +117,20 @@ export default AboutDrVandanaBansal
 const Introduction = () => {
     return (
         <>
-            <h1>Introduction of Dr vandana Bansal inside a component</h1>
-            <p>
+            <h1 className='text-2xl font-semibold my-3'>Introduction of Dr vandana Bansal inside a component</h1>
+            <p className='my-3'>
                 DR. VANDANA BANSAL – MBBS, DGO, MS, D.Phil (Gold Medalist) FCGP is one of the renowned and Senior Gynaecologists and Obstetricians of the state of Uttar Pradesh. She is specialized in Laparoscopy and Hysteroscopic Surgery – since 18 years. Besided, she is Director of 500-bedded, multi-speciality Jeevan Jyoti Hospital, Arpit Test Tube Baby Centre & Vandana Women’s Hospital Allahabad. Jeevan Jyoti Hospital has completed 25th years in Oct-2013 Silver Jubilee celebration.
             </p>
-            <p>
+            <p className='my-3'>
                 The old adage “every big success has a small beginning” is what that truly defines the unflagging efforts of the doctor couple who disowned the proverbial status of ‘born with silver spoon’ and nestled in one of the oldest religious and historical cities-Allahabad to ‘serve the poor’.
             </p>
-            <p>
+            <p className='my-3'>
                 Their mettle was more appreciated specially at the time in 80s when the young technocrats like doctors and engineers had a craze to go aboard in the pursuit of joining the ‘neo-rich club’. Overlapping with apprehension and hope, Dr. Vandana Bansal, an infertility expert and Dr. A.K. Bansal, a laparoscopic surgeon decided to swim against the tide by setting up a small clinic in Sangam city.
             </p>
-            <p>
+            <p className='my-3'>
                 The young medico couple had set up a small 10 bedded clinic in Allahabad in 1988. While medicine (treating patients) is the duo’s karma, dreaming about establishing a chain of world class hospitals is their vision.
             </p>
-            <p>
+            <p className='my-3'>
                 Dreamt of setting up a hospital on the lines of Mayo Hospital of USA in Allahabad. Dr. Vandana restless medico have an excellent team and thus have been able to write what one calls-the success story”.
             </p>
         </>
@@ -139,28 +139,28 @@ const Introduction = () => {
 const Profile = () => {
     return (
         <>
-            <h1>Profile of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Profile of Dr vandana Bansal inside a component</h1>
 
-            <p>
+            <p className='my-3'>
                 Dr. Vandana plays the role of visionary and Dr. A.K. Bansal executes these plans and ideas. Passionate for innovations and experimenting with new ideas. On the other hand Dr. A.K. Bansals foresightedness and hard work makes it possible to realize the goals and plans.
 
             </p>
-            <p>
+            <p className='my-3'>
                 Their sheer hard work and determination finally bore the results with world class 500 bed Jeevan Jyoti Hospital and Arpit Test Tube Baby Center, the brain child of infertility expert and senior gynaecologist Dr. Vandana S. Bansal and laparoscopic surgeon Dr. A.K. Bansal. The duo has made the Arpit Test Tube Baby Center, a pet word for every woman who wants a baby. With international success rate, around 3,000 couples have so far been returned from the center with a smile on their faces and baby in their lap within the span of 13 years. The center has patients coming from Gulf Countries, Middle East and European countries.
             </p>
-            <p>
+            <p className='my-3'>
                 Guru Gobind Singh Memorial “Vandana Women’s Superspecialty Hospital” Arpit International Fertility Institute & Test Tube Baby Centre in Allahabad, a new venture of the Jeevan Jyoti Group has been setup under the active supervision of Dr. Vandana Bansal. Updating with advancements in the field, the couple do not miss any national or international seminar and have also organized a good number of international and national seminars on various aspects of medical sciences.
             </p>
-            <p>
+            <p className='my-3'>
                 The group has a nursing and paramedical school and a public school. It is planning to setup a chain of infertility clinics across the country. Besides these, work on setting up a university is on. A lot of research is being done in the field of infertility management by Dr. Vandana and her team. It is because of her research work and sincerity that Dr. Vandana has received so many awards including Rashtriya Ratna.
             </p>
-            <p>
+            <p className='my-3'>
                 Jeevan Jyoti Hospital, Allahabad has successfully set the Guinness New World Record of in relation to operation on behalf of 10 years old girl on 13th April 2011 in a seven hours long operation at Jeevan Jyoti Hospital, Allahabad. The most hydatid cyst removed is 296 by our Jeevan Jyoti Hospital, Allahabad India on 13th April 2011.
             </p>
-            <p>
+            <p className='my-3'>
                 Guinness World Record (GWR) made at Jeevan Jyoti Hospital, Allahabad (JJH) in cooperation with Jeevan Jyoti Research Centre (RC) and Jeevan Jyoti Charitable Trust, Allahabad (JJCT).
             </p>
-            <p>
+            <p className='my-3'>
                 MADAM TARIKA VARA
                 17 HANOVER SQUARE, LONDON CAME
                 VIA DUBAI TO PRESENT
@@ -169,16 +169,16 @@ const Profile = () => {
                 DR. A.K. BANSAL of JEEVAN JYOTI HOSPITAL, ALLAHABAD
                 DR. VANDANA BANSAL ON 09TH NOVEMBER 2012.
             </p>
-            <p>
+            <p className='my-3'>
                 The creators of world record is Jeevan Jyoti Group of Hospitals, Allahabad. When it comes to healthcare potential, U.P. cannot be found lacking, in the world scenario. But this potential has meaning only if supported by opportunity. Where Dr. A.K. Bansal & Dr. Vandana Bansal succeeded from creating new records, bring development to the existing infrastructures in healthcare, helped people of not only Uttar Pradesh but whole India and abroad named and famed and leaving no stones unturned to help Uttar Pradesh and India prosper in healthcare projects.
             </p>
-            <p>
+            <p className='my-3'>
                 We all know that, humble way of thanking for those who are making sure that our Uttar Pradesh and our nation is moving forwards towards healthcare projects for a better tomorrow are working tirelessly in the field of health.
             </p>
-            <p>
+            <p className='my-3'>
                 Allahabad, one of the large cities of U.P. state of India, is in global map for Maha Kumbh, garlanded by three rivers The Ganga, The Yamuna and the Mythical Saraswati (SANGAM), is famous for its rich intellectual past heritage and for giving in our country and to the world several eminent personalities in different walks of life. As Allahabad is significant so also Jeevan Jyoti Group of Hospitals, its research centre and charitable trust (SANGAM) excelled in health scenario which got place in Guinness World Record has been awarded the distinction of being receiver of Guinness World Record certificate.
             </p>
-            <p>
+            <p className='my-3'>
                 Pt. Keshri Nath Tripathi earlier Sr. Advocate of Hon’ble High Court Allahabad, speaker of Vidhan Sabha Uttar Pradesh, Governor of West Bengal has inaugurated and participated in many programmes of Jeevan Jyoti Group of Hospitals and appreciated endevours of Dr. A.K. Bansal and Dr. Vandana Bansal.
             </p>
         </>
@@ -187,10 +187,10 @@ const Profile = () => {
 const Objectives = () => {
     return (
         <>
-            <h1>Objectives of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Objectives of Dr vandana Bansal inside a component</h1>
 
-            <p> Objectives in the Jeevan Jyoti Hospital DGO, DCh & DNB courses & apprenticeship training vocational nursing, paramedical setup</p>
-            <ul>
+            <p className='my-3'> Objectives in the Jeevan Jyoti Hospital DGO, DCh & DNB courses & apprenticeship training vocational nursing, paramedical setup</p>
+            <ul className='list-disc '>
                 <li>To prove for instruction and training in such branches of medicine and Allied sciences, as may be considered suitable and to make provision for research and for the advancement and dissemination of knowledge in Health Sciences, striving to maintain at all times highest possible standards of excellence. DGO, DCh & DNB courses also incorporated apprenticeship training vocational.</li>
                 <li>To institute and award degrees, diplomas, certificates and other academic distinctions for persons who shall have pursued approved courses of study in college and services rendered in hospital.</li>
                 <li>To develop, upgrade and start departments in medical specialties as may be required and to provide instruction for such courses of study as it may determine.</li>
@@ -215,9 +215,9 @@ const Objectives = () => {
 const Research = () => {
     return (
         <>
-            <h1>Research of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Research of Dr vandana Bansal inside a component</h1>
 
-            <ul>
+            <ul className='list-disc '>
                 <li>Investigator, Phase III study on sildenafil citrate for Unichem laboratories, 2000. Crash-I.</li>
                 <li>Investigator, Phase III study on sildenafil citrate for Ranbaxy laboratories, 2000 . Crash-II.</li>
                 <li>Vandana Bansal, Arpit Bansal, Ashwani Kumar Bansal, Ajay Kumar. Identification of Hepatitis B Virus Pre-Core Mutant and Association with HBV Genotype by PCR- RFLP in Patients Suffering From Chronic Liver Disease, Uttar Pradesh: North India. Int J Health Sci Res. 2014;4(9):216-223.</li>
@@ -238,10 +238,10 @@ const Research = () => {
 const Achievements = () => {
     return (
         <>
-            <h1>Achievements of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Achievements of Dr vandana Bansal inside a component</h1>
 
             <h2>Major Achievements</h2>
-            <ul>
+            <ul className='list-disc '>
                 <li>
                     1. The Hospital has introduced Bar Coding System in hospital. By this hospital hopes to eliminate/minimize the human involvement and reduce the time taken for the emergency treatment.
                 </li>
@@ -249,17 +249,17 @@ const Achievements = () => {
                     2. Promoting youth activities like NSS, Culture and Sports as Co-curricular activities bringing Medicos closer to the society in cooperation with Khelgaon Gymnastics Allahabad.
                 </li>
             </ul>
-            <p>
+            <p className='my-3'>
                 Experienced excellent consultant staffs headed the Directors towards achieving excellence setting unique goals and application towards improvement with the administration acumen they have made the hospital sail smoothly with a wisdom and gait of an elephant organization royal march is on.
             </p>
 
             <h3>NATIONAL TRAINING</h3>
-            <p>
+            <p className='my-3'>
                 She was trained in Advanced Laparoscopic & Hysteroscopy training programme, including model sessions, Animal laboratory & Real time operations. in Oct-1994.
             </p>
 
             <h2>INTERNATIONAL QUALIFICATIONS</h2>
-            <ul>
+            <ul className='list-disc '>
                 <li>
                     She got training in Infertility & IVF in Dubai, Boston (USA) & Singapore.
                 </li>
@@ -309,8 +309,8 @@ const Achievements = () => {
 const Awards = () => {
     return (
         <>
-            <h1>Awards of Dr vandana Bansal inside a component</h1>
-            <ul>
+            <h1 className='text-2xl font-semibold my-3'>Awards of Dr vandana Bansal inside a component</h1>
+            <ul className='list-disc '>
                 <li>She was awarded as Association of member of Royal Society of Health (AMRSH), London on March-1991.</li>
                 <li>She was awarded IInd prize in flower show in 1997 at Company Garden, Allahabad.</li>
                 <li>She was awarded Honour of Excellence by Rotary Midtown Allahabad on 28th November 1997.</li>
@@ -351,9 +351,8 @@ const Awards = () => {
 const Membership = () => {
     return (
         <>
-            <h1>Membership of Dr vandana Bansal inside a component</h1>
-            <ul>
-
+            <h1 className='text-2xl font-semibold my-3'>Membership of Dr vandana Bansal inside a component</h1>
+            <ul className='list-disc '>
                 <li>Life member of Indian Medical Association based at AMA Allahabad. Allahabad Membership No. UP/2611/1/34/44396/95-96/CL, Patna Membership No. BHR/4405/80/154/81330/2000-01/L.</li>
                 <li>She is associate member of the Royal Society of Health (AMRSH), London from March-1991.</li>
                 <li>She is Indian Society for Prenatal Diagnosis and Therapy & International Integration and Growth Society, New Delhi.</li>
@@ -379,10 +378,9 @@ const Membership = () => {
 const NationalConference = () => {
     return (
         <>
-            <h1>National Conference vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>National Conference vandana Bansal inside a component</h1>
 
-            <ul>
-
+            <ul className='list-disc '>
                 <li>Workshop on Fetal Medicine 12th to 13th November 1991 Bombay Indian Society for Prenatal Diagnosis and Therapy & International Integration and Growth Society, New Delhi.</li>
                 <li>37th All India Obstetric & Gynaecological Congress from 27th to 30th December 1993 at Calcutta.</li>
                 <li>World Congress of Gynaecological Endoscopy in December 1993 (Bombay).</li>
@@ -542,8 +540,8 @@ const NationalConference = () => {
 const InternationalConference = () => {
     return (
         <>
-            <h1>Internaandana Bansal inside a component</h1>
-            <ul>
+            <h1 className='text-2xl font-semibold my-3'>Internaandana Bansal inside a component</h1>
+            <ul className='list-disc '>
                 <li>She attended conference in Endoscopic Surgery in BOSTON (USA) in November 1998.</li>
                 <li>She attended Dubai in April 1999 on invitation from INFAR INTERNATIONAL at Symposium on Infertility.</li>
                 <li>She attended University of Columbia in Aug. 1999 for training and workshop symposium on In Vitro Fertilization, and ICSI.</li>
@@ -582,9 +580,9 @@ const InternationalConference = () => {
 const Workshop = () => {
     return (
         <>
-            <h1>Workshopndana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Workshopndana Bansal inside a component</h1>
 
-            <ul>
+            <ul className='list-disc '>
                 <li>Dr. Vandana Bansal has organised National Conferences and Workshops in Infertility, Endoscopy and Colour Doppler, 1998.</li>
                 <li>She has conducted IECD, conference in Nov. 1998, ENT conference, RCH conference and laparoscopic workshop at Allahabad.</li>
                 <li>Laparoscopy Update, 2004 was conducted at Jeevan Jyoti Hospital by Dr. Vandana Bansal.</li>
@@ -623,9 +621,9 @@ const Workshop = () => {
 const OtherAchievements = () => {
     return (
         <>
-            <h1>Other Acheivements na Bansal inside a component</h1>
+            {/* <h1 className='text-2xl font-semibold my-3' className='text-xl '>Other Acheivements na Bansal inside a component</h1> */}
 
-            <p>Dr. Vandana Bansal and her team appeared in Guinness World Record for doing surgery of maximum number of Intracranial cysts removed from a 10 years old girl, on 13 April 2011.</p>
+            <p className='my-3'>Dr. Vandana Bansal and her team appeared in Guinness World Record for doing surgery of maximum number of Intracranial cysts removed from a 10 years old girl, on 13 April 2011.</p>
 
             She was project Director of SIFPSA TBA training project to train 3824 Traditional Birth Attendants in 28 Blocks of Allahabad and Kaushambi,
             Dr. Vandana Bansal played a vital role to run a college of NARCHI where MBBS are trained to become DGO (Diploma in Gynec and Obst.) associated with Reproductive and child Health and family welfare.
@@ -665,7 +663,7 @@ const OtherAchievements = () => {
 const Visits = () => {
     return (
         <>
-            <h1>Visits vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Visits vandana Bansal inside a component</h1>
             
 
 <div class="relative overflow-x-auto">

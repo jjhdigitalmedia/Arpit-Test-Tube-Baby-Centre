@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import DrBANSAL from '../assets//DrBANSAL.jpg';
 import aboutvandana from '../assets/aboutvandana.jpg';
 import ArpitPic from '../assets/ArpitPic.png';
@@ -96,21 +97,114 @@ const IVFteam = () => {
                     <div className="flex justify-center space-x-4 p-8">
                         {pics.map((card, index) => (
                             <div className="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white transform transition-all hover:scale-105 hover:shadow-2xl">
-                            <img src={card.photo} alt={card.name} className="w-full h-48 object-cover" />
-                            <div className="p-4">
-                              <h3 className="text-xl font-semibold text-gray-800 mb-2">{card.name}</h3>
-                              <p className="text-gray-600 mb-4">{card.desg}</p>
-                              <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none">
-                                Learn More
-                              </button>
+                                <img src={card.photo} alt={card.name} className="w-full h-48 object-cover" />
+                                <div className="p-4">
+                                    <h3 className="text-xl font-semibold text-gray-800 mb-2">{card.name}</h3>
+                                    <p className="text-gray-600 mb-4">{card.desg}</p>
+                                    <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none">
+                                        Learn More
+                                    </button>
+                                </div>
                             </div>
-                          </div>
                         ))}
                     </div>
                 </div>
             </div>
+            <CardDemo />
         </section>
     )
 }
 
 export default IVFteam;
+
+// App.js
+// import React, { useState } from 'react';
+
+const CardDemo = () => {
+    // Example card data
+    const cardData = [
+        { id: 1, title: 'Card 1', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 2, title: 'Card 2', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 3, title: 'Card 3', description: 'This is card 3This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 4, title: 'Card 4', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 5, title: 'Card 5', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 6, title: 'Card 6', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+    ];
+
+    // State to control the current index of the cards
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const slideLeft = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? cardData.length - 3 : prevIndex - 1));
+    };
+
+    const slideRight = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === cardData.length - 3 ? 0 : prevIndex + 1));
+    };
+    useEffect(() => {
+        const interval = setInterval(() => {
+            slideRight(); // Automatically slide to the right
+        }, 3000); // 3000ms = 3 seconds
+
+        // Clear interval on component unmount
+        return () => clearInterval(interval);
+    }, []); // Empty dependency array ensures this runs only once when the component mounts
+
+    return (
+        <div className="container mx-auto py-8">
+            <div className="relative">
+                <div className="flex overflow-hidden">
+                    {/* Cards */}
+                    <div
+                        className="flex transition-transform duration-500"
+                        style={{
+                            transform: `translateX(-${currentIndex * 100 / 3}%)`,
+                            width: `${cardData.length * 33.33}%`, // Ensure the container is wide enough to display all cards
+                        }}
+                    >
+                        {cardData.map((card) => (
+                            <div
+                                key={card.id}
+                                className="flex-none w-full sm:w-1/3 p-4 bg-white rounded-lg shadow-md mx-2"
+                            >
+                                <div className="relative">
+                                    {/* Main Image */}
+                                    <img
+                                        src={SaugatBose}
+                                        alt={card.title}
+                                        className=" object-cover rounded-lg mb-4"
+                                    />
+                                    {/* Circle at the bottom of the image */}
+                                    <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-28 h-28 bg-gray-50 rounded-full flex items-center justify-center">
+                                        {/* Icon inside the circle */}
+                                        <i className="text-white text-xl fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div className="text-center">
+                                    <h2 className="text-xl font-semibold">{card.title}</h2>
+                                    <p className="text-gray-600">{card.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Left and Right Buttons */}
+                    <button
+                        onClick={slideLeft}
+                        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+                    >
+                        &lt;
+                    </button>
+                    <button
+                        onClick={slideRight}
+                        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+                    >
+                        &gt;
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+// export default CardDemo;
