@@ -127,15 +127,15 @@ export default IVFteam;
 const CardDemo = () => {
     // Example card data
     const cardData = [
-        { id: 6, photo: DrBANSAL, title: 'Late Dr. Ashwini Kumar Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 1, photo: aboutvandana, title: 'Dr. Vandana Bansal', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: ArpitPic, title: 'Late Dr. Ashwini Kumar Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 1, photo: ArpitPic, title: 'Dr. Vandana Bansal', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
         { id: 3, photo: ArpitPic, title: 'Dr. Arpit Bansal', description: 'This is card 3This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 2, photo: aboutvandana, title: 'Mrs. Mamta Tiwari', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 4, photo: Anjula, title: 'Dr. Anjula Sahay', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 5, photo: SaugatBose, title: 'Mr. Saugat Bose', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: aboutvandana, title: 'Dr Harshit Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: aboutvandana, title: 'Dr Sakshi Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: aboutvandana, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 2, photo: ArpitPic, title: 'Mrs. Mamta Tiwari', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 4, photo: ArpitPic, title: 'Dr. Anjula Sahay', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 5, photo: ArpitPic, title: 'Mr. Saugat Bose', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: ArpitPic, title: 'Dr Harshit Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: ArpitPic, title: 'Dr Sakshi Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: ArpitPic, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
     ];
 
     // State to control the current index of the cards
@@ -241,7 +241,7 @@ const CardDemo = () => {
                             {cardData.map((card) => (
                                 <div
                                     key={card.id}
-                                    className="flex-none w-[32.3%] p-4 bg-white rounded-lg shadow-md mx-2"
+                                    className="flex-none w-[31%] p-4 bg-white rounded-lg shadow-md mx-2"
                                 >
                                     <div className="relative bg-slate-300">
                                         {/* Main Image */}

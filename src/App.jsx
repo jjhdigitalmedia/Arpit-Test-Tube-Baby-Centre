@@ -25,7 +25,7 @@ function App() {
         </a>
       </div>
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
