@@ -10,6 +10,7 @@ import gallery02 from '../assets/Gallery/gallery02.jpg';
 import gallery04 from '../assets/Gallery/gallery04.jpg';
 import embryo from "../assets/icons/Treatment/embryo.png";
 import lasehatching from "../assets/icons/Treatment/lasehatching.png";
+import DoctorsBG1 from "../assets/DoctorsBG1.jpg";
 
 const pics = [
     {
@@ -126,12 +127,15 @@ export default IVFteam;
 const CardDemo = () => {
     // Example card data
     const cardData = [
-        { id: 1, title: 'Dr. Vandana Bansal', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
-        { id: 2, title: 'Dr. Ashwini Kumar Bansal', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
-        { id: 3, title: 'Dr. Arpit Bansal', description: 'This is card 3This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
-        { id: 4, title: 'Dr. Anjula Sahay', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
-        { id: 5, title: 'Mr. Saugat Bose', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
-        { id: 6, title: 'Card 6', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1' },
+        { id: 6, photo: DrBANSAL, title: 'Late Dr. Ashwini Kumar Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 1, photo: aboutvandana, title: 'Dr. Vandana Bansal', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 3, photo: ArpitPic, title: 'Dr. Arpit Bansal', description: 'This is card 3This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 2, photo: aboutvandana, title: 'Mrs. Mamta Tiwari', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 4, photo: Anjula, title: 'Dr. Anjula Sahay', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 5, photo: SaugatBose, title: 'Mr. Saugat Bose', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: aboutvandana, title: 'Dr Harshit Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: aboutvandana, title: 'Dr Sakshi Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: aboutvandana, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
     ];
 
     // State to control the current index of the cards
@@ -153,127 +157,135 @@ const CardDemo = () => {
         return () => clearInterval(interval);
     }, []); // Empty dependency array ensures this runs only once when the component mounts
 
-//     return (
-//         <div className="container mx-auto py-8">
-//             <div className="relative">
-//                 <div className="flex overflow-hidden">
-                   
-//                     <div
-//                         className="flex transition-transform duration-500"
-//                         style={{
-//                             transform: `translateX(-${currentIndex * 100 / 3}%)`,
-//                             width: `${cardData.length * 33.33}%`, 
-//                         }}
-//                     >
-//                         {cardData.map((card) => (
-//                             <div
-//                                 key={card.id}
-//                                 className="flex-none w-ful sm:w-1/3 p-4 bg-white rounded-lg shadow-md mx-2"
-//                             >
-//                                 <div className="relative bg-slate-300">
-                                
-//                                     <img
-//                                         src={SaugatBose}
-//                                         alt={card.title}
-//                                         className="max-w-full h-auto object-cover rounded-lg mb-4"
-//                                     />
-                                   
-//                                     <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-8 border-white rounded-full flex items-center justify-center">
-                                      
-//                                         <img
-//                                         src={lasehatching}
-//                                         alt={card.title}
-//                                         className="w-12 h-12"
-//                                     />
-//                                     </div>
-//                                 </div>
-//                                 <div className="text-center px-20">
-//                                     <h2 className="text-xl font-semibold">{card.title}</h2>
-//                                     <p className="text-gray-600">{card.description}</p>
-//                                 </div>
-//                             </div>
-//                         ))}
-//                     </div>
-//                     <button
-//                         onClick={slideLeft}
-//                         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
-//                     >
-//                         &lt;
-//                     </button>
-//                     <button
-//                         onClick={slideRight}
-//                         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
-//                     >
-//                         &gt;
-//                     </button>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
+    //     return (
+    //         <div className="container mx-auto py-8">
+    //             <div className="relative">
+    //                 <div className="flex overflow-hidden">
 
-return (
-    <div className="container mx-auto w-11/12 py-8">
-        <div className="relative">
-            <div className="flex overflow-hidden">
-                {/* Cards */}
-                <div
-                    className="flex transition-transform duration-500 mb-10"
-                    // style={{
-                    //     transform: `translateX(-${currentIndex * 100 / 3}%)`,
-                    //     width: `${cardData.length * 33.33}%`, 
-                    // }}
-                    style={{
-                        transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, // Adjust based on card count or max 3 cards
-                        width: `${Math.min(cardData.length, 3) * 100}%`, // Ensure max 3 cards displayed on large screens
-                    }}
-                >
-                    {cardData.map((card) => (
+    //                     <div
+    //                         className="flex transition-transform duration-500"
+    //                         style={{
+    //                             transform: `translateX(-${currentIndex * 100 / 3}%)`,
+    //                             width: `${cardData.length * 33.33}%`, 
+    //                         }}
+    //                     >
+    //                         {cardData.map((card) => (
+    //                             <div
+    //                                 key={card.id}
+    //                                 className="flex-none w-ful sm:w-1/3 p-4 bg-white rounded-lg shadow-md mx-2"
+    //                             >
+    //                                 <div className="relative bg-slate-300">
+
+    //                                     <img
+    //                                         src={SaugatBose}
+    //                                         alt={card.title}
+    //                                         className="max-w-full h-auto object-cover rounded-lg mb-4"
+    //                                     />
+
+    //                                     <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-8 border-white rounded-full flex items-center justify-center">
+
+    //                                         <img
+    //                                         src={lasehatching}
+    //                                         alt={card.title}
+    //                                         className="w-12 h-12"
+    //                                     />
+    //                                     </div>
+    //                                 </div>
+    //                                 <div className="text-center px-20">
+    //                                     <h2 className="text-xl font-semibold">{card.title}</h2>
+    //                                     <p className="text-gray-600">{card.description}</p>
+    //                                 </div>
+    //                             </div>
+    //                         ))}
+    //                     </div>
+    //                     <button
+    //                         onClick={slideLeft}
+    //                         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+    //                     >
+    //                         &lt;
+    //                     </button>
+    //                     <button
+    //                         onClick={slideRight}
+    //                         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+    //                     >
+    //                         &gt;
+    //                     </button>
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     );
+    // };
+
+    return (
+        <>
+            <img
+                src={DoctorsBG1}
+                alt='ghfhfg'
+                className="w-full h-auto object-cover rounded-lg sm:-mb-72"
+            />
+            <div className="container mx-auto w-11/12 py-8">
+                <div className="relative">
+                    <div className="flex overflow-hidden">
+                        {/* Cards */}
                         <div
-                            key={card.id}
-                            className="flex-none w-[32.3%] p-4 bg-white rounded-lg shadow-md mx-2"
+                            className="flex transition-transform duration-500 mb-10"
+                            // style={{
+                            //     transform: `translateX(-${currentIndex * 100 / 3}%)`,
+                            //     width: `${cardData.length * 33.33}%`, 
+                            // }}
+                            style={{
+                                transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, // Adjust based on card count or max 3 cards
+                                width: `${Math.min(cardData.length, 3) * 100}%`, // Ensure max 3 cards displayed on large screens
+                            }}
                         >
-                            <div className="relative bg-slate-300">
-                                {/* Main Image */}
-                                <img
-                                    src={SaugatBose}
-                                    alt={card.title}
-                                    className="max-w-full h-auto object-cover rounded-lg mb-4"
-                                />
-                                {/* Circle at the bottom of the image */}
-                                <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-8 border-white rounded-full flex items-center justify-center">
-                                    {/* Icon inside the circle */}
-                                    <img
-                                        src={lasehatching}
-                                        alt={card.title}
-                                        className="w-12 h-12"
-                                    />
+                            {cardData.map((card) => (
+                                <div
+                                    key={card.id}
+                                    className="flex-none w-[32.3%] p-4 bg-white rounded-lg shadow-md mx-2"
+                                >
+                                    <div className="relative bg-slate-300">
+                                        {/* Main Image */}
+                                        <img
+                                            src={card.photo}
+                                            alt={card.title}
+                                            className="max-w-full h-auto object-cover rounded-lg mb-4"
+                                        />
+                                        {/* Circle at the bottom of the image */}
+                                        <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-[10px] border-white rounded-full flex items-center justify-center">
+                                            {/* Icon inside the circle */}
+                                            <img
+                                                src={lasehatching}
+                                                alt={card.title}
+                                                className="w-12 h-12"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="text-center my-10 px-4 sm:px-20">
+                                        <h2 className="text-xl font-semibold">{card.title}</h2>
+                                        <p className="text-gray-600">{card.description}</p>
+                                        <p className="text-blue-400">{card.Knowmore}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="text-center my-10 px-4 sm:px-20">
-                                <h2 className="text-xl font-semibold">{card.title}</h2>
-                                <p className="text-gray-600">{card.description}</p>
-                            </div>
+                            ))}
                         </div>
-                    ))}
-                </div>
 
-                {/* Left and Right Buttons */}
-                <button
-                    onClick={slideLeft}
-                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
-                >
-                    &lt;
-                </button>
-                <button
-                    onClick={slideRight}
-                    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
-                >
-                    &gt;
-                </button>
+                        {/* Left and Right Buttons */}
+                        <button
+                            onClick={slideLeft}
+                            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
+                        >
+                            &lt;
+                        </button>
+                        <button
+                            onClick={slideRight}
+                            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
+                        >
+                            &gt;
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-);
+        </>
+    );
 }
 // export default CardDemo;
