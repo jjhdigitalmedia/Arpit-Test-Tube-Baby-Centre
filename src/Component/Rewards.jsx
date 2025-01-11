@@ -4,13 +4,13 @@ import speaker1 from "../assets/speaker1.jpg";
 import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import lab0 from "../assets/lab0.png";
 import patientweb from "../assets/patientweb.png";
-import qqq from '../assets/Banners/qqq.jpg';;
+import qqq1 from '../assets/Banners/qqq1.jpg';;
 
 const Rewards = () => {
   return (
     <>
       <div className="-mb-80">
-        <img src={qqq} alt="" />
+        <img src={qqq1} alt="" />
       </div>
       <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto mt-10">
 

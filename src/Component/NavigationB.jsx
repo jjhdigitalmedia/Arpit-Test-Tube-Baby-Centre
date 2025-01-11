@@ -76,7 +76,7 @@ function NavigationB() {
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
           <div className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <span className="text-pink-600 text-2xl font-bold ml-2">
+              <span className="text-rose-400 text-2xl font-bold ml-2">
                 Dr Vandana Bansal
               </span>
             </span>
@@ -231,7 +231,7 @@ function NavigationB() {
               Gallery
             </Link>
           </div>
-          <Link to='bookappointment' className="hidden md:block text-white bg-pink-700 px-3 py-1 text-sm rounded-xl">
+          <Link to='bookappointment' className="hidden md:block text-white bg-rose-400 px-3 py-1 text-sm rounded-xl">
             Contact Us
           </Link>
           <button

@@ -10,6 +10,7 @@ import { FAQ } from './Component/FAQ.jsx'
 import NavigationB from './Component/NavigationB.jsx'
 import Home from './Component/Home.jsx'
 import Footer from './Component/Footer.jsx'
+// import Stats from './Component/Stats.jsx'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           </button>
         </a>
       </div>
+      {/* <Stats/> */}
       <Outlet />
       <Footer />
     </>
