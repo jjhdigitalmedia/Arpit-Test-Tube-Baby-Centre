@@ -267,6 +267,7 @@ import PatientReviewVideo from './Pages/Rewards/PatientReviewVideo.jsx'
 import GuestSpeaker from './Pages/Rewards/GuestSpeaker.jsx'
 import NewsPaperCutting from './Pages/NewsPaperCutting.jsx'
 import AboutDrVandanaBansal from './Pages/AboutUs/AboutDrVandanaBansal.jsx'
+import IVFLab from './Pages/Rewards/IVFLab.jsx'
 
 
 const router = createBrowserRouter([
@@ -317,6 +318,11 @@ const router = createBrowserRouter([
       {
         path: 'patientsreview',
         element: <PatientReviewVideo />,
+        children: []
+      },
+      {
+        path: 'ivflab',
+        element: <IVFLab />,
         children: []
       },
       {

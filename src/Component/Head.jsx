@@ -1,22 +1,24 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
-import Banner02Final from "../assets/Banner02Final.png";
+// import Banner02Final from "../assets/Banner02Final.png";
+import BannerMain from "../assets/Banners/BannerMain.jpg";
 import BannerFinal from "../assets/BannerFinal.png";
-import banner06 from "../assets/banner06.png";
-import slide04 from "../assets/slide04.jpg";
+// import banner06 from "../assets/banner06.png";
+import slide041 from "../assets/slide041.jpg";
 import slide051 from "../assets/slide051.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
+    BannerMain,
     BannerFinal,
-    banner06,
-    Banner02Final,
-    slide04,
-    slide051
+    slide051,
+    slide041,
+    // Banner02Final,
   ];
-
+  
+  // banner06,
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Function to go to the next image
@@ -78,7 +80,7 @@ const Head = () => {
           {images.map((_, index) => (
             <button
               key={index}
-              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' : 'bg-white'}`}
+              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-400' : 'bg-gray-300'}`}
               onClick={() => setCurrentIndex(index)}
             />
           ))}

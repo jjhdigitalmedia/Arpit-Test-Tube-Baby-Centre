@@ -45,7 +45,7 @@ function NavigationB() {
   };
   return (
     <>
-      <div className=" hidden md:flex flex-wrap z-50 justify-between py-1 px-3 bg-pink-800">
+      <div className=" hidden md:flex flex-wrap z-50 justify-between py-1 px-3 bg-rose-400">
         <div>
           <span className="pr-8 text-sm text-white">
             <MdOutlineMail className="inline" /> Phone: +91 6390103002

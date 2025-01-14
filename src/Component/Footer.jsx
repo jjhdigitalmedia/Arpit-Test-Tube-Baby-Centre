@@ -13,10 +13,10 @@ const Footer = () => {
     <>
       <footer className="text-gray-600 body-font">
         <hr className="text-gray-300" />
-        <div className="container flex flex-wrap px-5 py-16 mx-auto ">
+        <div className="container flex flex-wrap px-5 py-12 mx-auto ">
           {/* <div className="flex flex-wrap md:text-left order-first"> */}
 
-          <div className="lg:w-1/4 md:w-1/2 w-full px-10">
+          <div className="lg:w-1/4 md:w-1/2 w-full pr-16">
             <h1 className="font-bold text-2xl my-10">Arpi Test Tube Baby Centre</h1>
             <p>Arpit Test Tube Baby Centre is situasacrifice after creating thh falls once every 12 years, is always held in Prayagraj. An entire sea of humanity descends upon the riverside town during this time. </p>
             <div className="flex m-auto my-4">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-black tracking-widest text-lg mb-3">
+            <h2 className="font-bold text-2xl my-10">
               Treatment
             </h2>
             <nav className="list-none mb-10">
@@ -95,7 +95,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-black tracking-widest text-lg mb-3">
+            <h2 className="font-bold text-2xl my-10">
               Important Links
             </h2>
             <nav className="list-none mb-10">
@@ -122,7 +122,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-1">
-            <h2 className="title-font font-medium text-black tracking-widest text-lg mb-3">
+            <h2 className="font-bold text-2xl my-10">
               Contact Info
             </h2>
             <nav className="list-none mb-10">
@@ -152,7 +152,7 @@ const Footer = () => {
             {/* <a className="text-white flex title-font font-medium items-center md:justify-start justify-center">
               <span className="ml-3 text-xl">Best IVF Centre in Prayagraj</span>
             </a> */}
-            <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0">
+            <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
               © 2024 All rights reserved by Arpit Test Tube Baby Centre
             </p>
           </div>

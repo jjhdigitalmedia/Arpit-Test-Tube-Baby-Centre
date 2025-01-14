@@ -9,12 +9,12 @@ import qqq1 from '../assets/Banners/qqq1.jpg';;
 const Rewards = () => {
   return (
     <>
-      <div className="-mb-80">
+      <div className="-mb-16 md:-mb-80">
         <img src={qqq1} alt="" />
       </div>
-      <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto mt-10">
+      <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto lg:mt-10">
 
-        <Link to="guestspeaker" className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
+        <Link to="ivflab" className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={lab0}
             alt="Mountain"

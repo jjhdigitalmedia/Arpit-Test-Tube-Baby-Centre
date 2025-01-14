@@ -100,7 +100,7 @@ const AboutDrVandanaBansal = ({ data }) => {
                                                             ) :
                                                                 (
                                                                     <div>
-                                                                        <p className='my-2'>---------------h-----</p>
+                                                                        <p className='my-2'>Meet Dr. Vandana Bansal</p>
                                                                     </div>
                                                                 )
             }
