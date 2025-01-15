@@ -11,6 +11,7 @@ import gallery04 from '../assets/Gallery/gallery04.jpg';
 import embryo from "../assets/icons/Treatment/embryo.png";
 import lasehatching from "../assets/icons/Treatment/lasehatching.png";
 import DoctorsBG1 from "../assets/DoctorsBG1.jpg";
+import qqq1 from '../assets/Banners/qqq1.jpg';;
 
 const pics = [
     {
@@ -81,39 +82,6 @@ const pics = [
 const IVFteam = () => {
     return (
         <section class="text-gray-600 body-font">
-            {/* <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap -m-4 ">
-                    {
-                        pics.map((ind) => (
-                            <div class="p-2 md:w-1/3">
-                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={ind.photo} alt="blog" />
-                                    <div class="p-2">
-                                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{ind.name}</h1>
-                                        <p class="leading-relaxed mb-3">{ind.qualification}</p>
-                                        <p class="leading-relaxed mb-3">{ind.desg}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        ))
-                    }
-                    <div className="flex justify-center space-x-4 p-8">
-                        {pics.map((card, index) => (
-                            <div className="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white transform transition-all hover:scale-105 hover:shadow-2xl">
-                                <img src={card.photo} alt={card.name} className="w-full h-48 object-cover" />
-                                <div className="p-4">
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-2">{card.name}</h3>
-                                    <p className="text-gray-600 mb-4">{card.desg}</p>
-                                    <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none">
-                                        Learn More
-                                    </button>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-            */}
             <CardDemo />
         </section>
     )
@@ -157,113 +125,51 @@ const CardDemo = () => {
         return () => clearInterval(interval);
     }, []); // Empty dependency array ensures this runs only once when the component mounts
 
-    //     return (
-    //         <div className="container mx-auto py-8">
-    //             <div className="relative">
-    //                 <div className="flex overflow-hidden">
 
-    //                     <div
-    //                         className="flex transition-transform duration-500"
-    //                         style={{
-    //                             transform: `translateX(-${currentIndex * 100 / 3}%)`,
-    //                             width: `${cardData.length * 33.33}%`, 
-    //                         }}
-    //                     >
-    //                         {cardData.map((card) => (
-    //                             <div
-    //                                 key={card.id}
-    //                                 className="flex-none w-ful sm:w-1/3 p-4 bg-white rounded-lg shadow-md mx-2"
-    //                             >
-    //                                 <div className="relative bg-slate-300">
-
-    //                                     <img
-    //                                         src={SaugatBose}
-    //                                         alt={card.title}
-    //                                         className="max-w-full h-auto object-cover rounded-lg mb-4"
-    //                                     />
-
-    //                                     <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-8 border-white rounded-full flex items-center justify-center">
-
-    //                                         <img
-    //                                         src={lasehatching}
-    //                                         alt={card.title}
-    //                                         className="w-12 h-12"
-    //                                     />
-    //                                     </div>
-    //                                 </div>
-    //                                 <div className="text-center px-20">
-    //                                     <h2 className="text-xl font-semibold">{card.title}</h2>
-    //                                     <p className="text-gray-600">{card.description}</p>
-    //                                 </div>
-    //                             </div>
-    //                         ))}
-    //                     </div>
-    //                     <button
-    //                         onClick={slideLeft}
-    //                         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
-    //                     >
-    //                         &lt;
-    //                     </button>
-    //                     <button
-    //                         onClick={slideRight}
-    //                         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
-    //                     >
-    //                         &gt;
-    //                     </button>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     );
-    // };
 
     return (
         <>
             <img
-                src={DoctorsBG1}
+                src={qqq1}
                 alt='ghfhfg'
                 className="w-full h-auto object-cover rounded-lg sm:-mb-72"
             />
-            <div className="container mx-auto w-11/12 py-8">
+            <div className="container mx-auto w-5/6 py-8">
                 <div className="relative">
                     <div className="flex overflow-hidden">
                         {/* Cards */}
                         <div
                             className="flex transition-transform duration-500 mb-10"
-                            // style={{
-                            //     transform: `translateX(-${currentIndex * 100 / 3}%)`,
-                            //     width: `${cardData.length * 33.33}%`, 
-                            // }}
+
                             style={{
                                 transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, // Adjust based on card count or max 3 cards
                                 width: `${Math.min(cardData.length, 3) * 100}%`, // Ensure max 3 cards displayed on large screens
                             }}
                         >
                             {cardData.map((card) => (
-                                <div
-                                    key={card.id}
-                                    className="flex-none w-[31%] p-4 bg-white rounded-lg shadow-md mx-2"
-                                >
-                                    <div className="relative bg-slate-300">
-                                        {/* Main Image */}
-                                        <img
-                                            src={card.photo}
-                                            alt={card.title}
-                                            className="max-w-full h-auto object-cover rounded-lg mb-4"
-                                        />
-                                        {/* Circle at the bottom of the image */}
-                                        <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-[10px] border-white rounded-full flex items-center justify-center">
-                                            {/* Icon inside the circle */}
+                                <div className="flex-none max-w-sm mx-2 bg-white shadow-sm rounded-lg p-6">
+                                    <div className="flex flex-col items-center">
+                                        <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-gray-200 mb-4">
                                             <img
-                                                src={lasehatching}
-                                                alt={card.title}
-                                                className="w-12 h-12"
+                                                src={ArpitPic}
+                                                alt="Dr. Shalini Dwivedi"
+                                                className="w-full h-full object-cover"
                                             />
                                         </div>
-                                    </div>
-                                    <div className="text-center my-10 px-4 sm:px-20">
-                                        <h2 className="text-xl font-semibold">{card.title}</h2>
-                                        <p className="text-gray-600">{card.description}</p>
-                                        <p className="text-blue-400">{card.Knowmore}</p>
+                                        <h2 className="text-lg font-semibold text-gray-800">{card.title}</h2>
+                                        <p className="text-sm text-gray-600">MBBS, MS (OBG)</p>
+                                        <p className="text-center text-sm text-gray-500 mt-2">
+                                            Over 6+ years of experience in the field of reproductive medicine
+                                            <br />
+                                            <span className="text-pink-700 font-medium">
+                                                Infertility Specialist in Prayagraj
+                                            </span>
+                                        </p>
+                                        <button
+                                            className="mt-4 px-4 py-2 bg-pink-700 text-white font-medium text-sm rounded-md hover:bg-pink-800 focus:outline-none"
+                                        >
+                                            BOOK AN APPOINTMENT
+                                        </button>
                                     </div>
                                 </div>
                             ))}
@@ -285,6 +191,65 @@ const CardDemo = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="container mx-auto w-5/6 py-8">
+                <div className="relative">
+                    <div className="flex overflow-hidden">
+                        
+                        <div
+                            className="flex transition-transform duration-500 mb-10"
+
+                            style={{
+                                transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, 
+                                width: `${Math.min(cardData.length, 3) * 100}%`, 
+                            }}
+                        >
+                            {cardData.map((card) => (
+                                <div
+                                    key={card.id}
+                                    className="flex-none w-[21%] p-4 bg-white rounded-lg shadow-md mx-2"
+                                >
+                                    <div className="relative bg-slate-300">
+                                       
+                                        <img
+                                            src={card.photo}
+                                            alt={card.title}
+                                            className="max-w-full h-auto object-cover rounded-lg mb-4"
+                                        />
+                                     
+                                        <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-[10px] border-white rounded-full flex items-center justify-center">
+                                            
+                                            <img
+                                                src={lasehatching}
+                                                alt={card.title}
+                                                className="w-12 h-12"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="text-center my-10 px-4 sm:px-20">
+                                        <h2 className="text-xl font-semibold">{card.title}</h2>
+                                        <p className="text-gray-600">{card.description}</p>
+                                        <p className="text-blue-400">{card.Knowmore}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                  
+                        <button
+                            onClick={slideLeft}
+                            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
+                        >
+                            &lt;
+                        </button>
+                        <button
+                            onClick={slideRight}
+                            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
+                        >
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+            </div> */}
         </>
     );
 }

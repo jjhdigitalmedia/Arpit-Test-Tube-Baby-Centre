@@ -4,7 +4,7 @@ import speaker1 from "../assets/speaker1.jpg";
 import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import lab0 from "../assets/lab0.png";
 import patientweb from "../assets/patientweb.png";
-import qqq1 from '../assets/Banners/qqq1.jpg';;
+import qqq1 from '../assets/Banners/qqq1.jpg';
 
 const Rewards = () => {
   return (
