@@ -134,7 +134,7 @@ const CardDemo = () => {
                 alt='ghfhfg'
                 className="w-full h-auto object-cover rounded-lg sm:-mb-72"
             />
-            <div className="container mx-auto w-5/6 py-8">
+            <div className="container mx-auto w-5/6 -mt-20 py-8">
                 <div className="relative">
                     <div className="flex overflow-hidden">
                         {/* Cards */}
@@ -147,29 +147,53 @@ const CardDemo = () => {
                             }}
                         >
                             {cardData.map((card) => (
-                                <div className="flex-none max-w-sm mx-2 bg-white shadow-sm rounded-lg p-6">
-                                    <div className="flex flex-col items-center">
-                                        <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-gray-200 mb-4">
-                                            <img
-                                                src={ArpitPic}
-                                                alt="Dr. Shalini Dwivedi"
-                                                className="w-full h-full object-cover"
-                                            />
+                                // <div className="flex-none max-w-sm mx-2 bg-white shadow-sm rounded-lg p-6">
+                                //     <div className="flex flex-col items-center">
+                                //         <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-gray-200 mb-4">
+                                //             <img
+                                //                 src={ArpitPic}
+                                //                 alt="Dr. Shalini Dwivedi"
+                                //                 className="w-full h-full object-cover"
+                                //             />
+                                //         </div>
+                                //         <h2 className="text-lg font-semibold text-gray-800">{card.title}</h2>
+                                //         <p className="text-sm text-gray-600">MBBS, MS (OBG)</p>
+                                //         <p className="text-center text-sm text-gray-500 mt-2">
+                                //             Over 6+ years of experience in the field of reproductive medicine
+                                //             <br />
+                                //             <span className="text-pink-700 font-medium">
+                                //                 Infertility Specialist in Prayagraj
+                                //             </span>
+                                //         </p>
+                                //         <button
+                                //             className="mt-4 px-4 py-2 bg-pink-700 text-white font-medium text-sm rounded-md hover:bg-pink-800 focus:outline-none"
+                                //         >
+                                //             BOOK AN APPOINTMENT
+                                //         </button>
+                                //     </div>
+                                // </div>
+                                <div className="flex justify-center items-center min-h-screen">
+                                    <div className="relative w-80 mx-2 bg-white shadow-lg rounded-2xl p-6">
+                                        {/* Circle Image */}
+                                        <div className="absolute -top-36 left-1/2 transform -translate-x-1/2">
+                                            <div className="w-52 h-52 rounded-full border-4 border-white overflow-hidden shadow-md">
+                                                <img
+                                                    src={ArpitPic}
+                                                    alt="Profile"
+                                                    className="object-cover w-full h-full"
+                                                />
+                                            </div>
                                         </div>
-                                        <h2 className="text-lg font-semibold text-gray-800">{card.title}</h2>
-                                        <p className="text-sm text-gray-600">MBBS, MS (OBG)</p>
-                                        <p className="text-center text-sm text-gray-500 mt-2">
-                                            Over 6+ years of experience in the field of reproductive medicine
-                                            <br />
-                                            <span className="text-pink-700 font-medium">
-                                                Infertility Specialist in Prayagraj
-                                            </span>
-                                        </p>
-                                        <button
-                                            className="mt-4 px-4 py-2 bg-pink-700 text-white font-medium text-sm rounded-md hover:bg-pink-800 focus:outline-none"
-                                        >
-                                            BOOK AN APPOINTMENT
-                                        </button>
+                                        {/* Content */}
+                                        <div className="mt-16 text-center">
+                                            <h3 className="text-lg font-bold text-gray-800">Card Title</h3>
+                                            <p className="text-gray-600 mt-2">
+                                                This is a description for the card. You can use this space to provide details.
+                                            </p>
+                                            <button className="mt-4 px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-600 transition">
+                                                Learn More
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             ))}
@@ -191,65 +215,6 @@ const CardDemo = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="container mx-auto w-5/6 py-8">
-                <div className="relative">
-                    <div className="flex overflow-hidden">
-                        
-                        <div
-                            className="flex transition-transform duration-500 mb-10"
-
-                            style={{
-                                transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, 
-                                width: `${Math.min(cardData.length, 3) * 100}%`, 
-                            }}
-                        >
-                            {cardData.map((card) => (
-                                <div
-                                    key={card.id}
-                                    className="flex-none w-[21%] p-4 bg-white rounded-lg shadow-md mx-2"
-                                >
-                                    <div className="relative bg-slate-300">
-                                       
-                                        <img
-                                            src={card.photo}
-                                            alt={card.title}
-                                            className="max-w-full h-auto object-cover rounded-lg mb-4"
-                                        />
-                                     
-                                        <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-20 h-20 bg-rose-200 border-[10px] border-white rounded-full flex items-center justify-center">
-                                            
-                                            <img
-                                                src={lasehatching}
-                                                alt={card.title}
-                                                className="w-12 h-12"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="text-center my-10 px-4 sm:px-20">
-                                        <h2 className="text-xl font-semibold">{card.title}</h2>
-                                        <p className="text-gray-600">{card.description}</p>
-                                        <p className="text-blue-400">{card.Knowmore}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-
-                  
-                        <button
-                            onClick={slideLeft}
-                            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
-                        >
-                            &lt;
-                        </button>
-                        <button
-                            onClick={slideRight}
-                            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full sm:hidden"
-                        >
-                            &gt;
-                        </button>
-                    </div>
-                </div>
-            </div> */}
         </>
     );
 }
