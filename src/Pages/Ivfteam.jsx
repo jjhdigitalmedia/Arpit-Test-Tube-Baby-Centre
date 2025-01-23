@@ -139,7 +139,7 @@ const CardDemo = () => {
                     <div className="flex overflow-hidden">
                         {/* Cards */}
                         <div
-                            className="flex transition-transform duration-500 mb-10"
+                            className="flex transition-transform duration-500 mb-20"
 
                             style={{
                                 transform: `translateX(-${currentIndex * 100 / Math.min(cardData.length, 3)}%)`, // Adjust based on card count or max 3 cards
@@ -172,11 +172,11 @@ const CardDemo = () => {
                                 //         </button>
                                 //     </div>
                                 // </div>
-                                <div className="flex justify-center items-center min-h-screen">
-                                    <div className="relative w-80 mx-2 bg-white shadow-lg rounded-2xl p-6">
+                                // <div className="flex justify-center items-center min-h-96 min-h-fit mt-28">
+                                    <div className="relative w-80 mx-2 shadow-lg rounded-2xl p-6 flex justify-center items-center z-50 min-h-fit mt-28">
                                         {/* Circle Image */}
-                                        <div className="absolute -top-36 left-1/2 transform -translate-x-1/2">
-                                            <div className="w-52 h-52 rounded-full border-4 border-white overflow-hidden shadow-md">
+                                        <div className="absolute -top-28 left-1/2 transform -translate-x-1/2">
+                                            <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-md">
                                                 <img
                                                     src={ArpitPic}
                                                     alt="Profile"
@@ -186,7 +186,7 @@ const CardDemo = () => {
                                         </div>
                                         {/* Content */}
                                         <div className="mt-16 text-center">
-                                            <h3 className="text-lg font-bold text-gray-800">Card Title</h3>
+                                            <h3 className="text-lg font-bold text-gray-800">{card.title}</h3>
                                             <p className="text-gray-600 mt-2">
                                                 This is a description for the card. You can use this space to provide details.
                                             </p>
@@ -195,7 +195,7 @@ const CardDemo = () => {
                                             </button>
                                         </div>
                                     </div>
-                                </div>
+                                // </div>
                             ))}
                         </div>
 
