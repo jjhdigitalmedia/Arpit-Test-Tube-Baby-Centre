@@ -8,7 +8,9 @@ import About from './About'
 import {FAQ} from './FAQ'
 import Contact from './Contact'
 import Stats from './Stats'
+import Ivfteam from '../Pages/Ivfteam'
 import Appointment from './Appointment'
+import VideoOfCentre from './VideoOfCentre'
 
 const Home = () => {
   return (
@@ -16,7 +18,9 @@ const Home = () => {
         <Head/>
         <Rewards/>
         <Treatements/>
+        {/* <VideoOfCentre/> */}
         <About/>
+        <Ivfteam/>
         <GoogleReview/>
         <Stats/>
         {/* <NewsImages/> */}

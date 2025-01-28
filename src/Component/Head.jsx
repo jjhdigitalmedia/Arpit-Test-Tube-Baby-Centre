@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
+// import banner06 from "../assets/banner06.png";
 // import Banner02Final from "../assets/Banner02Final.png";
 import BannerMain from "../assets/Banners/BannerMain.jpg";
 import BannerFinal from "../assets/BannerFinal.png";
-// import banner06 from "../assets/banner06.png";
-import slide041 from "../assets/slide041.jpg";
-import slide051 from "../assets/slide051.jpg";
+import slide0411 from "../assets/Banners/slide041.jpg";
+import slide051 from "../assets/Banners/slide051.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
@@ -14,7 +14,7 @@ const Head = () => {
     BannerMain,
     BannerFinal,
     slide051,
-    slide041,
+    slide0411,
     // Banner02Final,
   ];
   
@@ -42,7 +42,7 @@ const Head = () => {
 
   return (
     <>
-      <div className="relative mx-auto overflow-hidden">
+      <div className="relative h-auto mx-auto overflow-hidden">
         {/* Left Arrow Button */}
         <button
           className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-black z-10 bg-opacity-50 p-2 rounded-full text-xl"
@@ -80,7 +80,7 @@ const Head = () => {
           {images.map((_, index) => (
             <button
               key={index}
-              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-400' : 'bg-gray-300'}`}
+              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' :  'bg-gray-200'}`}
               onClick={() => setCurrentIndex(index)}
             />
           ))}

@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="container flex flex-wrap px-5 py-12 mx-auto ">
           {/* <div className="flex flex-wrap md:text-left order-first"> */}
 
-          <div className="lg:w-1/4 md:w-1/2 w-full pr-16">
+          <div className="lg:w-1/4 md:w-1/2 w-full md:pr-16">
             <h1 className="font-bold text-2xl my-10">Arpi Test Tube Baby Centre</h1>
             <p>Arpit Test Tube Baby Centre is situasacrifice after creating thh falls once every 12 years, is always held in Prayagraj. An entire sea of humanity descends upon the riverside town during this time. </p>
             <div className="flex m-auto my-4">
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
           </div>
 
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Treatment
             </h2>
@@ -94,7 +94,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Important Links
             </h2>
@@ -121,7 +121,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-1">
+          <div className="lg:w-1/4 md:w-1/2 w-full md:px-1">
             <h2 className="font-bold text-2xl my-10">
               Contact Info
             </h2>

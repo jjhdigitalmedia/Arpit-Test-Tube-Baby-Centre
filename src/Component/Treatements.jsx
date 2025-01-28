@@ -13,6 +13,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import '../Style/Style.css'
 import { Link } from "react-router-dom";
+import VideoOfCentre from "./VideoOfCentre";
 
 const Treatements = () => {
   useEffect(() => {
@@ -82,7 +83,7 @@ const Treatements = () => {
 
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Treatments Provided by Dr. Vandana Bansal</h1>
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">FertilityTreatments Provided by Arpit Test Tube Baby Centre</h1>
           <p className="lg:w-2/3 mx-auto text-sm leading-relaxed">Dr. Vandana Bansal is a highly regarded medical professional known for expertise and compassionate care. With extensive experience, Dr. Bansal specializes in advanced treatments, combining cutting-edge technology with personalized care. Her commitment to excellence and patient well-being has earned him a reputation as a trusted figure in the medical community.</p>
         </div>
         <div className="flex flex-wrap text-center mx-auto m-0 md:m-4 lg:w-4/5 ">
@@ -103,14 +104,15 @@ const Treatements = () => {
         </div>
       </div>
     </section>
-    <div className="w-full md:px-52 py-10 bg-red-50 my-5">
-      <video className="h-11/12 m-auto w-screen border-rose-50 " controls>
+    <div className="w-full md:px-52 py-10 bg-red-200 my-5">
+      {/* <video className="h-11/12 m-auto w-screen border-rose-50 " controls>
         <source
           src={IVFvideo}
           type="video/mp4"
         />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
+      <VideoOfCentre/>
     </div>
   </>
   );
