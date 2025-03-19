@@ -26,6 +26,8 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         local-dir: dist/
-        server-dir: /domains/yellowgreen-sardine-476504.hostingersite.com/public_html/
+        server-dir: //public_html/
+        passive: true
+        insecure: true
 
 
