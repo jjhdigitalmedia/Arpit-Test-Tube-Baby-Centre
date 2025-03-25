@@ -232,25 +232,25 @@ import Contact from './Component/Contact.jsx'
 import { ParallaxProvider } from 'react-scroll-parallax'
 // import Layout from './Layout.jsx'
 
-import Home from './Component/Home.jsx'
 // import Gallery from './Component/Gallery.jsx'
+// import IvmTreatment from './Pages/Treatments/IvmTreatment.jsx'
+import EmbryoTreatment from './Pages/Treatments/EmbryoTreatment.jsx'
+import SonographyTreatment from './Pages/Treatments/SonographyTreatment.jsx'
+import EggDonationTreatment from './Pages/Treatments/EggDonationTreatment.jsx'
+import SemenBankTreatment from './Pages/Treatments/SemenBankTreatment.jsx'
+import EndocrineTreatment from './Pages/Treatments/EndocrineTreatment.jsx'
+import CryopreservationTreatment from './Pages/Treatments/CryopreservationTreatment.jsx'
+import LaparoscopyTreatment from './Pages/Treatments/LaparoscopyTreatment.jsx'
 
+import Home from './Component/Home.jsx'
 import IuiTreatment from './Pages/Treatments/IuiTreatment.jsx'
 import IcsiTreatment from './Pages/Treatments/IcsiTreatment.jsx'
 import IvfEtTreatment from './Pages/Treatments/IvfEtTreatment.jsx'
 import ImsiTreatment from './Pages/Treatments/ImsiTreatment.jsx'
-import IvmTreatment from './Pages/Treatments/IvmTreatment.jsx'
-import EmbryoTreatment from './Pages/Treatments/EmbryoTreatment.jsx'
-import SonographyTreatment from './Pages/Treatments/SonographyTreatment.jsx'
 import LaserAssistedTreatment from './Pages/Treatments/LaserAssistedTreatment.jsx'
 import EmbryoBankTreatment from './Pages/Treatments/EmbryoBankTreatment.jsx'
-import EggDonationTreatment from './Pages/Treatments/EggDonationTreatment.jsx'
-import SemenBankTreatment from './Pages/Treatments/SemenBankTreatment.jsx'
 import HSGSonoTreatment from './Pages/Treatments/HSGSonoTreatment.jsx'
-import EndocrineTreatment from './Pages/Treatments/EndocrineTreatment.jsx'
 import BlastocystTreatment from './Pages/Treatments/BlastocystTreatment.jsx'
-import CryopreservationTreatment from './Pages/Treatments/CryopreservationTreatment.jsx'
-import LaparoscopyTreatment from './Pages/Treatments/LaparoscopyTreatment.jsx'
 import OurFounders from './Pages/AboutUs/OurFounders.jsx'
 import SpiritualJourney from './Pages/AboutUs/SpiritualJourney.jsx'
 import OurVisionMissions from './Pages/AboutUs/OurVisionMissions.jsx'
@@ -268,6 +268,21 @@ import GuestSpeaker from './Pages/Rewards/GuestSpeaker.jsx'
 import NewsPaperCutting from './Pages/NewsPaperCutting.jsx'
 import AboutDrVandanaBansal from './Pages/AboutUs/AboutDrVandanaBansal.jsx'
 import IVFLab from './Pages/Rewards/IVFLab.jsx'
+import EmbryoDonation from './Pages/Treatments/EmbryoDonation.jsx'
+import OocyteDonation from './Pages/Treatments/OocyteDonation.jsx'
+import SemenCryopreservation from './Pages/Treatments/SemenCryopreservation.jsx'
+import OocyteCryopreservation from './Pages/Treatments/OocyteCryopreservation.jsx'
+import TESA from './Pages/Treatments/TESA.jsx'
+import MESA from './Pages/Treatments/MESA.jsx'
+import HormonalAnalysis from './Pages/TestsAndEvaluation/HormonalAnalysis.jsx'
+import UltrasoundColourDoppler3D4D from './Pages/TestsAndEvaluation/UltrasoundColourDoppler3D4D.jsx'
+import OvulationInduction from './Pages/TestsAndEvaluation/OvulationInduction.jsx'
+import AISemenAnalysis from './Pages/TestsAndEvaluation/AISemenAnalysis.jsx'
+import LaproscopicHysteroscopicSurgeries from './Pages/TestsAndEvaluation/LaproscopicHysteroscopicSurgeries.jsx'
+import DiagnosticVideoLaparoscopyHysteroscopy from './Pages/TestsAndEvaluation/DiagnosticVideoLaparoscopyHysteroscopy.jsx'
+import MaleInfertilitySurgeries from './Pages/TestsAndEvaluation/MaleInfertilitySurgeries.jsx'
+import PRPTreatment from './Pages/TestsAndEvaluation/PRPTreatment.jsx'
+import StemCellTherapy from './Pages/TestsAndEvaluation/StemCellTherapy.jsx'
 
 
 const router = createBrowserRouter([
@@ -313,6 +328,11 @@ const router = createBrowserRouter([
       {
         path: 'gallery',
         element: <Gallery />,
+        children: []
+      },
+      {
+        path: 'guestspeaker',
+        element: <GuestSpeaker />,
         children: []
       },
       {
@@ -367,8 +387,8 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'ivmtreatment',
-        element: <IvmTreatment />,
+        path: 'laserassisted',
+        element: <LaserAssistedTreatment />,
         children: []
       },
       {
@@ -377,43 +397,13 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'embryomonitoring',
-        element: <EmbryoTreatment />,
+        path: 'embryo-donation',
+        element: <EmbryoDonation />,
         children: []
       },
       {
-        path: 'laserassisted',
-        element: <LaserAssistedTreatment />,
-        children: []
-      },
-      {
-        path: 'laparoscopy',
-        element: <LaparoscopyTreatment />,
-        children: []
-      },
-      {
-        path: 'endocrine',
-        element: <EndocrineTreatment />,
-        children: []
-      },
-      {
-        path: 'sonography',
-        element: <SonographyTreatment />,
-        children: []
-      },
-      {
-        path: 'hsgsono',
-        element: <HSGSonoTreatment />,
-        children: []
-      },
-      {
-        path: 'semenbank',
-        element: <SemenBankTreatment />,
-        children: []
-      },
-      {
-        path: 'embryobank',
-        element: <EmbryoBankTreatment />,
+        path: 'oocyte-donation',
+        element: <OocyteDonation />,
         children: []
       },
       {
@@ -422,18 +412,78 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'eggdonation',
-        element: <EggDonationTreatment />,
+        path: 'semen-cryopreservation',
+        element: <SemenCryopreservation />,
         children: []
       },
       {
-        path: 'cryopreservation',
-        element: <CryopreservationTreatment />,
+        path: 'oocyte-cryopreservation',
+        element: <OocyteCryopreservation />,
         children: []
       },
       {
-        path: 'guestspeaker',
-        element: <GuestSpeaker />,
+        path: 'embryobank',
+        element: <EmbryoBankTreatment />,
+        children: []
+      },
+      {
+        path: 'mesa-microepididymal-sperm-aspiration',
+        element: <MESA />,
+        children: []
+      },
+      {
+        path: 'tesa-testicular-sperm-aspiration-cryopreservation',
+        element: <TESA />,
+        children: []
+      },
+      {
+        path: 'hormonal-analysis',
+        element: <HormonalAnalysis />,
+        children: []
+      },
+      {
+        path: '3d-4d-ultrasound-colour-doppler',
+        element: <UltrasoundColourDoppler3D4D/>,
+        children: []
+      },
+      {
+        path: 'hsgsono',
+        element: <HSGSonoTreatment />,
+        children: []
+      },
+      {
+        path: 'ovulation-induction',
+        element: <OvulationInduction />,
+        children: []
+      },
+      {
+        path: 'ai-semen-analysis',
+        element: <AISemenAnalysis />,
+        children: []
+      },
+      {
+        path: 'fertility-enhancing-laparoscopic-hysteroscopic-surgeries',
+        element: <LaproscopicHysteroscopicSurgeries />,
+        children: []
+      },
+      {
+        path: 'diagnostic-video-laparoscopic-hysteroscopic',
+        element: <DiagnosticVideoLaparoscopyHysteroscopy />,
+        children: []
+      },
+      {
+        path: 'surgery-for-male-infertility',
+        element: <MaleInfertilitySurgeries />,
+        children: []
+      },
+      {
+        path: 'prp-treatment',
+        element: <PRPTreatment />,
+        children: []
+      },
+      {
+        path: 'stemcell-therapy',
+        element: <StemCellTherapy />,
         children: []
       },
     ]

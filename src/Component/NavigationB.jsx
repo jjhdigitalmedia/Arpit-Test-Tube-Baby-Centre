@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
 import "../Style/Style.css";
 import "../Style/neonStyle.css";
-import ATTBClogo1 from "../assets/ATTBClogo1.png";
+// import ATTBClogo1 from "../assets/ATTBClogo1.png";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
@@ -48,10 +48,10 @@ function NavigationB() {
       <div className=" hidden md:flex flex-wrap z-50 justify-between py-1 px-3 bg-rose-400">
         <div>
           <span className="pr-8 text-sm text-white">
-            <MdOutlineMail className="inline" /> Phone: +91 6390103002
+          <IoCallOutline className="inline" />  Phone: +91 6390103002, +91 9151037783
           </span>
           <span className="pr-8 text-sm text-white">
-            <IoCallOutline className="inline" /> Email: arpitivf@gmail.com
+             <MdOutlineMail className="inline" /> Email: arpitivf@gmail.com
           </span>
         </div>
         {/* <div className="text-xs text-white md:mt-2 mt-0">
@@ -130,37 +130,82 @@ function NavigationB() {
               <div className="dropdown-content font-thin">
                 <a className="dropdownn">
                   <Link className="dropbtnn">Treatments</Link>
-                  <div className="dropdown-contentt font-thin">
-                    <Link to="iuitreatment" onClick={navClose}>
+                  <div className="dropdown-contentt font-medium bg-rose-100">
+                    <Link to="iuitreatment" onClick={navClose} className="border-b-2 px-6 bg-rose-100">
                       IUI
                     </Link>
-                    <Link to="ivfet" onClick={navClose}>
+                    <Link to="ivfet" onClick={navClose} className="border-b-2 bg-rose-100">
                       IVF ET
                     </Link>
-                    <Link to="icsi" onClick={navClose}>
+                    <Link to="icsi" onClick={navClose} className="border-b-2 bg-rose-100">
                       ICSI
                     </Link>
-                    <Link to="ivmtreatment" onClick={navClose}>
-                      IVM
+                    <Link to="laserassisted" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Laser Assisted Hatching (LAH)
                     </Link>
-                    <Link to="imsitreatment" onClick={navClose}>
+                    <Link to="imsitreatment" onClick={navClose} className="border-b-2 bg-rose-100">
                       IMSI
                     </Link>
-                    <Link to="embryomonitoring" onClick={navClose}>
-                      Embryo Monitoring
+                    <Link to="embryo-donation" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Embryo Donation (ED)
                     </Link>
-                    <Link to="laserassisted" onClick={navClose}>
-                      Laser Assisted Hatching
+                    <Link to="oocyte-donation" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Occyte Donation (OD)
+                    </Link>
+                      <Link to="blastocyst" onClick={navClose} className="border-b-2 bg-rose-100">
+                        Blastocyst Culture
+                      </Link>
+                    <Link to="semen-cryopreservation" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Semen Cryopreservation
+                    </Link>
+                    <Link to="oocyte-cryopreservation" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Oocyte Cryopreservation
+                    </Link>
+                    <Link to="embryobank" onClick={navClose} className="border-b-2 bg-rose-100">
+                      Embryo Banking (Cryopreservation) 
+                    </Link>
+                    <Link to="mesa-microepididymal-sperm-aspiration" onClick={navClose} className="border-b-2 border-zinc-300 bg-rose-100">
+                      MESA (Microepididymal Sperm Aspiration)
+                    </Link>
+                    <Link to="tesa-testicular-sperm-aspiration-cryopreservation" onClick={navClose} className="border-b-2 bg-rose-100">
+                      TESA (Testicular Sperm Aspiration and Cryopreservation)
                     </Link>
                   </div>
                 </a>
                 <a className="dropdownn">
                   <button className="dropbtnn">Test & Evaluation</button>
-                  <div className="dropdown-contentt font-thin">
-                    <Link to="endocrine" onClick={navClose}>
-                      Endocrine Profile
+                  <div className="dropdown-contentt font-medium">
+                    <Link to="hormonal-analysis" onClick={navClose} className=" px-6 bg-rose-100">
+                      Hormonal Analysis
                     </Link>
-                    <Link to="sonography" onClick={navClose}>
+                    <Link to="3d-4d-ultrasound-colour-doppler" onClick={navClose} className=" px-6 bg-rose-100">
+                      3D & 4D Ultrasound & Colour Doppler
+                    </Link>
+                    <Link to="hsgsono" onClick={navClose} className=" px-6 bg-rose-100">
+                      Hysterosalpinography (HSG) & Sono Salpinography
+                    </Link>
+                    <Link to="ovulation-induction" onClick={navClose} className=" px-6 bg-rose-100">
+                      Ovulation Induction with Follicle Monitoring
+                    </Link>
+                    <Link to="ai-semen-analysis" onClick={navClose} className=" px-6 bg-rose-100">
+                      AI Assisted Semen Analysis
+                    </Link>
+                    <Link to="fertility-enhancing-laparoscopic-hysteroscopic-surgeries" onClick={navClose} className=" px-6 bg-rose-100">
+                      Fertility Enhancing Laparoscopic and Hysteroscopic Surgeries
+                    </Link>
+                    <Link to="diagnostic-video-laparoscopic-hysteroscopic" onClick={navClose} className=" px-6 bg-rose-100">
+                      Dignostic Video Laparoscopy / Hysterosocpy
+                    </Link>
+                    <Link to="surgery-for-male-infertility" onClick={navClose} className=" px-6 bg-rose-100">
+                      Surgery for Male Infertility
+                    </Link>
+                    <Link to="prp-treatment" onClick={navClose} className=" px-6 bg-rose-100">
+                      PRP treatment for Endometrium & Ovary
+                    </Link>
+                    <Link to="stemcell-therapy" onClick={navClose} className=" px-6 bg-rose-100">
+                      Stem Cell Therapy
+                    </Link>
+                    {/* <Link to="sonography" onClick={navClose}>
                       Sonography
                     </Link>
                     <Link to="hsgsono" onClick={navClose}>
@@ -168,18 +213,12 @@ function NavigationB() {
                     </Link>
                     <Link to="semenbank" onClick={navClose}>
                       Semen Bank
-                    </Link>
+                    </Link> */}
                   </div>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <button className="dropbtnn">Other Services</button>
                   <div className="dropdown-contentt font-thin">
-                    <Link to="embryobank" onClick={navClose}>
-                      Embryo Bank
-                    </Link>
-                    <Link to="blastocyst" onClick={navClose}>
-                      Blastocyst Culture
-                    </Link>
                     <Link to="eggdonation" onClick={navClose}>
                       Egg Donation
                     </Link>
@@ -187,7 +226,7 @@ function NavigationB() {
                       Cryopreservation
                     </Link>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
             {/* <div
@@ -215,9 +254,9 @@ function NavigationB() {
             {/* </div>
             )} */}
 
-            <Link to='facilities' className="text-black text-sm font-semibold">
+            {/* <Link to='facilities' className="text-black text-sm font-semibold">
               Facilities
-            </Link>
+            </Link> */}
             <Link to='patientsguide' className="text-black text-sm font-semibold">
               Patients Guide
             </Link>
@@ -315,17 +354,35 @@ function NavigationB() {
                       <Link to='icsi' className="block px-4 py-2 text-gray-500">
                         ICSI
                       </Link>
-                      <Link to='ivm' className="block px-4 py-2 text-gray-500">
-                        IVM
+                      <Link to='laserassistedhatcing' className="block px-4 py-2 text-gray-500">
+                        Laser Assisted Hatching (LAH)
                       </Link>
                       <Link to='imsi' className="block px-4 py-2 text-gray-500">
                         IMSI
                       </Link>
-                      <Link to='embryomonitorign' className="block px-4 py-2 text-gray-500">
-                        Embryo Monitoring
+                      <Link to='embryo-donation' className="block px-4 py-2 text-gray-500">
+                        Embryo Donation (ED)
                       </Link>
-                      <Link to='laserassistedhatcing' className="block px-4 py-2 text-gray-500">
-                        Laser Assisted Hatching
+                      <Link to='oocyte-donation' className="block px-4 py-2 text-gray-500">
+                        Oocyte Donation (OD)
+                      </Link>
+                      <Link to='blastocyst' className="block px-4 py-2 text-gray-500">
+                        Blastocyst
+                      </Link>
+                      <Link to='semen-cryopreservation' className="block px-4 py-2 text-gray-500">
+                        Semen Cryopreservation
+                      </Link>
+                      <Link to='oocyte-cryopreservation' className="block px-4 py-2 text-gray-500">
+                        Oocyte Cryopreservation
+                      </Link>
+                      <Link to='embryobank' className="block px-4 py-2 text-gray-500">
+                        Embryo Banking
+                      </Link>
+                      <Link to='mesa-microepididymal-sperm-aspiration' className="block px-4 py-2 text-gray-500">
+                        MESA (Microepididymal Sperm Aspiration)
+                      </Link>
+                      <Link to='tesa-testicular-sperm-aspiration-cryopreservation' className="block px-4 py-2 text-gray-500">
+                        TESA (Testicular Sperm Aspiration and Cryopreservation)
                       </Link>
                     </div>
                   )}
@@ -346,7 +403,47 @@ function NavigationB() {
                   </button>
                   {isNestedDropdownOpen.ivf && (
                     <div className="ml-4">
-                      <Link to='endocrineprofile' className="block px-4 py-2 text-gray-500">
+                      <Link to="hormonal-analysis" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Hormonal Analysis
+                    </Link>
+                    <Link to="3d-4d-ultrasound-colour-doppler" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      3D & 4D Ultrasound & Colour Doppler
+                    </Link>
+                    <Link to="hsgsono" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Hysterosalpinography (HSG) & Sono Salpinography
+                    </Link>
+                    <Link to="ovulation-induction" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Ovulation Induction with Follicle Monitoring
+                    </Link>
+                    <Link to="ai-semen-analysis" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      AI Assisted Semen Analysis
+                    </Link>
+                    <Link to="fertility-enhancing-laparoscopic-hysteroscopic-surgeries" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Fertility Enhancing Laparoscopic and Hysteroscopic Surgeries
+                    </Link>
+                    <Link to="diagnostic-video-laparoscopic-hysteroscopic" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Dignostic Video Laparoscopy / Hysterosocpy
+                    </Link>
+                    <Link to="surgery-for-male-infertility" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Surgery for Male Infertility
+                    </Link>
+                    <Link to="prp-treatment" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      PRP treatment for Endometrium & Ovary
+                    </Link>
+                    <Link to="stemcell-therapy" onClick={navClose} className="block px-4 py-2 text-gray-500">
+                      Stem Cell Therapy
+                    </Link>
+                    {/* <Link to="sonography" onClick={navClose}>
+                      Sonography
+                    </Link>
+                    <Link to="hsgsono" onClick={navClose}>
+                      HSG / SONO
+                    </Link>
+                    <Link to="semenbank" onClick={navClose}>
+                      Semen Bank
+                    </Link> */}
+
+                      {/* <Link to='endocrineprofile' className="block px-4 py-2 text-gray-500">
                         Endocrine Profile
                       </Link>
                       <Link to='sonography' className="block px-4 py-2 text-gray-500">
@@ -357,7 +454,7 @@ function NavigationB() {
                       </Link>
                       <Link to='semenbank' className="block px-4 py-2 text-gray-500">
                         Semen Bank
-                      </Link>
+                      </Link> */}
                     </div>
                   )}
                 </div>

@@ -8,15 +8,17 @@ import DrArpitPic from '../assets/IVFTeamPic/DrArpitPic.png';
 import DrAnjulaPic from '../assets/IVFTeamPic/DrAnjulaPic.png';
 import DrHarshitPic from '../assets/IVFTeamPic/DrHarshitPic.jpg';
 import DrSakshiPic from '../assets/IVFTeamPic/DrSakshiPic.jpg';
-import DrMoolNarayanPic from '../assets/IVFTeamPic/DrMoolNarayanPic.jpg';
+// import DrMoolNarayanPic from '../assets/IVFTeamPic/DrMoolNarayanPic.jpg';
 import BosePic from '../assets/IVFTeamPic/BosePic.png';
+import DrShipraPic from '../assets/IVFTeamPic/DrShipraPic.jpg';
+import MrsMamtaPic from '../assets/IVFTeamPic/MrsMamtaPic.jpg';
 // import Anjula from '../assets/Anjula.jpg';
 // import SaugatBose from '../assets//SaugatBose.png';
 import gallery01 from '../assets/Gallery/gallery01.jpg';
-import gallery02 from '../assets/Gallery/gallery02.jpg';
-import gallery04 from '../assets/Gallery/gallery04.jpg';
-import embryo from "../assets/icons/Treatment/embryo.png";
-import lasehatching from "../assets/icons/Treatment/lasehatching.png";
+// import gallery02 from '../assets/Gallery/gallery02.jpg';
+// import gallery04 from '../assets/Gallery/gallery04.jpg';
+// import embryo from "../assets/icons/Treatment/embryo.png";
+// import lasehatching from "../assets/icons/Treatment/lasehatching.png";
 // import DoctorsBG1 from "../assets/DoctorsBG1.jpg";
 import qqq1 from '../assets/Banners/qqq1.jpg';
 import BgBanner1 from '../assets/BgBanner1.jpg';
@@ -104,18 +106,17 @@ export default IVFteam;
 const CardDemo = () => {
     // Example card data
     const cardData = [
-        { id: 6, photo: DrBansalPic, title: 'Late Dr. Ashwini Kumar Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 1, photo: DrVandanaPic, title: 'Dr. Vandana Bansal', description: 'This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 3, photo: DrArpitPic, title: 'Dr. Arpit Bansal', description: 'This is card 3This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 2, photo: DrArpitPic, title: 'Mrs. Mamta Tiwari', description: 'This is card 2This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 4, photo: DrAnjulaPic, title: 'Dr. Anjula Sahay', description: 'This is card 4This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 5, photo: BosePic, title: 'Mr. Saugat Bose', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 5, photo: DrMoolNarayanPic, title: 'Dr. Mool Narayan Verma', description: 'This is card 5This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: DrArpitPic, title: 'Dr Shipra', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: DrArpitPic, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        { id: 6, photo: DrArpitPic, title: 'Ms. Jyoti', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        { id: 6, photo: DrBansalPic, title: 'Late Dr. Ashwini Kumar Bansal', description: 'M.B.B.S., MS, FAIS, FCGP, FIAGES', Knowmore: 'Founder' },
+        { id: 1, photo: DrVandanaPic, title: 'Dr. Vandana Bansal', description: 'MS, D.Phil (Gold Medalist), DGO, FCGP', Knowmore: 'Director' },
+        { id: 3, photo: DrArpitPic, title: 'Dr. Arpit Bansal', description: 'MBBS, MS, FMAS, FCS', Knowmore: 'Director' },
+        { id: 2, photo: MrsMamtaPic, title: 'Mrs. Mamta Tiwari', description: 'M.Sc. (Medical Micro Biology)', Knowmore: 'IVF Counselor' },
+        { id: 4, photo: DrAnjulaPic, title: 'Dr. Anjula Sahay', description: 'MBBS, DGO, FCPS', Knowmore: 'IVF Counselor' },
+        { id: 5, photo: BosePic, title: 'Mr. Saugat Bose', description: 'M.Sc. (Biochemistry)', Knowmore: 'Embryologist' },
+        { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: '.....................', Knowmore: 'Know more...' },
+        { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: '...................', Knowmore: 'Know more...' },
+        { id: 6, photo: DrShipraPic, title: 'Dr Shipra', description: '.........', Knowmore: 'Know more...' },
+        // { id: 6, photo: DrArpitPic, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
+        // { id: 6, photo: DrArpitPic, title: 'Ms. Jyoti', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
     ];
 
     // State to control the current index of the cards
@@ -172,7 +173,8 @@ const CardDemo = () => {
                                 <div className="mt-20 text-center">
                                     <h3 className="text-lg font-bold text-gray-800">{card.title}</h3>
                                     <p className="text-gray-600 mt-2">
-                                        This is a description for the card. You can use this space to provide details.
+                                        {card.description}<br/>
+                                        {card.Knowmore}
                                     </p>
                                     <button className="mt-4 px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-600 transition">
                                         Learn More

@@ -42,13 +42,13 @@ const Treatements = () => {
       more: 'view more'
 
     },
-    {
-      img: ivm,
-      link: 'ivmtreatment',
-      heading: "IVM Treatment",
-      more: 'view more'
+    // {
+    //   img: ivm,
+    //   link: 'ivmtreatment',
+    //   heading: "IVM Treatment",
+    //   more: 'view more'
 
-    },
+    // },
     {
       img: IMSI,
       link: 'imsitreatment',

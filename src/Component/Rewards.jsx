@@ -38,7 +38,7 @@ const Rewards = () => {
           />
           <div className="px-4 py-0 pt-3">
             <h2 className="text-xl font-bold text-gray-800 mb-2">
-              Patient's Review
+              Testimonials
             </h2>
             <p className="text-gray-700 text-base leading-normal mb-4">
               At our healthcare facility, patient satisfaction is at the core of everything we do. We believe that providing high-quality 

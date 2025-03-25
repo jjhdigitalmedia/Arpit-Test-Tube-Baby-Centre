@@ -4,7 +4,7 @@ const LaserAssistedTreatment = () => {
   return (
     <div className="w-11/12 md:w-1/2 m-auto pt-40 pb-24">
       <h1 className="font-bold text-3xl my-3">
-        LAH- Laser Assisted Hatching Allahabad
+        LAH- Laser Assisted Hatching
       </h1>
       <p>
         Laser-assisted hatching (LAH) is a technique used in assisted
