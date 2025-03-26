@@ -18,7 +18,7 @@ const About = () => {
                         </h1>
 
                         <div className='flex'>
-                            <a href="https://www.instagram.com/drvandanabansal_gynaecologist/" target='_blank'>
+                            <a href="https://www.instagram.com/dr.vandanabansal" target='_blank'>
                                 <FaInstagram className='m-2 md:text-whit text-rose-700 text-xl' />
                             </a>
                             <a href="https://www.facebook.com/vandana.bansal.33" target='_blank'>

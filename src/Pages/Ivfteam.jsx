@@ -112,8 +112,8 @@ const CardDemo = () => {
         { id: 2, photo: MrsMamtaPic, title: 'Mrs. Mamta Tiwari', description: 'M.Sc. (Medical Micro Biology)', Knowmore: 'IVF Counselor' },
         { id: 4, photo: DrAnjulaPic, title: 'Dr. Anjula Sahay', description: 'MBBS, DGO, FCPS', Knowmore: 'IVF Counselor' },
         { id: 5, photo: BosePic, title: 'Mr. Saugat Bose', description: 'M.Sc. (Biochemistry)', Knowmore: 'Embryologist' },
-        { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: '.....................', Knowmore: 'Know more...' },
-        { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: '...................', Knowmore: 'Know more...' },
+        { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: 'MBBS NAMC | MD Radio Diagnosis (UCMS)', Knowmore: 'Know more...' },
+        { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: 'MBBS MD (Paediatrics)', Knowmore: 'Know more...' },
         { id: 6, photo: DrShipraPic, title: 'Dr Shipra', description: '.........', Knowmore: 'Know more...' },
         // { id: 6, photo: DrArpitPic, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
         // { id: 6, photo: DrArpitPic, title: 'Ms. Jyoti', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
@@ -159,7 +159,7 @@ const CardDemo = () => {
                         }}
                     >
                         {cardData.map((card) => (
-                            <div className="relative w-80 bg-white mx-2 shadow-md rounded-2xl p-6 flex justify-center items-center z-50 min-h-fit mt-28">
+                            <div className="relative w-80 bg-rose-50 mx-2 shadow-md rounded-2xl p-6 flex justify-center items-center z-50 min-h-fit mt-28">
                                 {/* Circle Image */}
                                 <div className="absolute -top-28 left-1/2 transform -translate-x-1/2">
                                     <div className="w-48 h-48 rounded-full border-4 border-white overflow-hidden shadow-md">

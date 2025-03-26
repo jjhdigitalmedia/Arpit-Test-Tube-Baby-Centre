@@ -11,8 +11,8 @@ import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    BannerMain,
     BannerFinal,
+    BannerMain,
     slide051,
     slide0411,
     // Banner02Final,

@@ -68,7 +68,7 @@ const Contact = () => {
               <p className="leading-normal my-5">JEEVAN JYOTI HOSPITAL CAMPUS, 162, Himmat Ganj, Bai Ka Bagh, Prayagraj, Uttar Pradesh 211003
               </p>
               <div className='flex m-auto w-fit'>
-                <a href="https://www.instagram.com/drvandanabansal_gynaecologist/" target='_blank'>
+                <a href="https://www.instagram.com/dr.vandanabansal" target='_blank'>
                   <FaInstagram className='mx-2 text-rose-600 text-xl' />
                 </a>
                 <a href="https://www.facebook.com/vandana.bansal.33" target='_blank'>
