@@ -30,7 +30,7 @@ const Rewards = () => {
           </div>
         </Link >
 
-        <Link to='patientsreview' className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden  max-w-72">
+        <Link to='patients-review' className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden  max-w-72">
           <img
             src={patientweb}
             alt="Mountain"
@@ -45,7 +45,7 @@ const Rewards = () => {
             </p>
           </div>
         </Link>
-        <Link to="guestspeaker" className="bg-whie m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
+        <Link to="guest-speaker" className="bg-whie m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={speaker1}
             alt="Mountain"
