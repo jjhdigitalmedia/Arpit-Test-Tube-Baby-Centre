@@ -7,14 +7,14 @@ import "../Style/neonStyle.css";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-
+import Logo from '../assets/Logo.jpg'
 import {
   ChevronDownIcon,
   PlusIcon,
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
-import { Button } from "@material-tailwind/react";
+// import { Button } from "@material-tailwind/react";
 function NavigationB() {
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
@@ -46,7 +46,7 @@ function NavigationB() {
   };
   return (
     <>
-      <div className=" hidden md:flex flex-wrap z-50 justify-between py-1 px-3 bg-rose-400">
+      <div className=" hidden md:flex flex-wrap z-50 justify-between py-2 px-3 bg-rose-400">
         <div>
           <span className="pr-8 text-sm text-white">
             <IoCallOutline className="inline mr-2" />  
@@ -82,9 +82,10 @@ function NavigationB() {
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
           <div className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <span className="text-rose-400 text-2xl font-bold ml-2">
+              {/* <span className="text-rose-400 text-2xl font-bold ml-2">
                 Dr Vandana Bansal
-              </span>
+              </span> */}
+              <img src={Logo} className="w-44 md:w-56" alt="" />
             </span>
           </div>
           <div className="hidden md:flex space-x-4 relative">

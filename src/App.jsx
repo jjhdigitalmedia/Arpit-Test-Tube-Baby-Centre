@@ -21,9 +21,9 @@ function App() {
     74cef0 sky blue color for website
      */}
       <NavigationB />
-      <div className=" fixed top-52 -rotate-90 -ml-16 z-50">
-        <a href="bookappointment">
-          <button className="bg-red-700 hover:bg-red-800 text-white py-2 px-6 rounded-3xl">
+      <div className=" fixed top-52 -rotate-90 -ml- z-50">
+        <a href="book-appointment">
+          <button className="bg-rose-400 hover:bg-red-800 shadow-md text-white py-2 px-6 rounded-br-2xl rounded-bl-2xl">
             Book Appointment
           </button>
         </a>

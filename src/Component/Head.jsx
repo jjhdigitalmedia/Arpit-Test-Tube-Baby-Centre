@@ -6,14 +6,14 @@ import "aos/dist/aos.css";
 import BannerMain from "../assets/Banners/BannerMain.jpg";
 import BannerFinal from "../assets/BannerFinal.png";
 import slide0411 from "../assets/Banners/slide041.jpg";
-import slide051 from "../assets/Banners/slide051.jpg";
+import aa1112 from "../assets/Banners/aa1112.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
+    aa1112,
     BannerFinal,
     BannerMain,
-    slide051,
     slide0411,
     // Banner02Final,
   ];
