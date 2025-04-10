@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Appointment = () => {
   return (
@@ -9,7 +10,7 @@ const Appointment = () => {
     </div>
 
      <div className="text-right items-center md:w-1/2 w-full px-4">
-      <button className='bg-white py-3 md:w-96 w-48 mx-auto rounded-3xl text-2xl px-10'>Book Now</button>
+      <button className='bg-white py-3 md:w-96 w-48 mx-auto rounded-3xl text-2xl px-10'><Link to='/book-appointment'> Book Now</Link></button>
     </div>
     
       {/* <span className='text-3xl text-white font-extrabold'>1100+</span> */}

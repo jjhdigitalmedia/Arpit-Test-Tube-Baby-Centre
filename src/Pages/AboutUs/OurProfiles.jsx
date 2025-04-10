@@ -1,7 +1,16 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 const OurProfiles = () => {
   return (
+    <>
+    <Helmet>
+      <title>Treatments: Arpit Test Tube Baby Centre Prayagraj</title>
+      <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+      <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+      <meta property="og:title" content="Best Gynecology Services" />
+      <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+    </Helmet>
     <div className='w-11/12 md:w-4/5 m-auto pt-10 pb-24'>
       <h1 className='font-bold text-3xl my-3'>ARPIT IVF - Best IVF Centre in Prayagraj</h1>
 
@@ -18,6 +27,7 @@ const OurProfiles = () => {
       <p>Being pioneers in infertility and IVF treatment, for the last 25 years we are at the forefront of helping couples achieve their dreams of parenthood. It's not just about providing medical assistance but also offering hope and support to those who are struggling with fertility issues. Our contributions at both the state and national levels have been appreciated, and extending our expertise internationally further solidifies our reputation as a leader in the field.</p>
 
     </div>
+    </>
   )
 }
 

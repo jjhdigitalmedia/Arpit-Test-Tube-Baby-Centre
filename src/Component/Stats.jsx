@@ -67,18 +67,18 @@ const Stats = () => {
       </div>
 
       <div className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-4">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Patients</h1>
-        <span className='text-3xl text-white font-extrabold'>1100+</span>
+        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Year of Experience</h1>
+        <span className='text-3xl text-white font-extrabold'>38+</span>
       </div>
 
       <div className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-4">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Patients</h1>
-        <span className='text-3xl text-white font-extrabold'>5265+</span>
+        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Success Rate</h1>
+        <span className='text-3xl text-white font-extrabold'>60+%</span>
       </div>
 
       <div className="lg:w-1/4 text-center md:w-1/2 w-full px-1">
         <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Patients</h1>
-        <span className='text-3xl text-white font-extrabold'>99999+</span>
+        <span className='text-3xl text-white font-extrabold'>99+</span>
       </div>
 
     </div>

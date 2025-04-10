@@ -29,7 +29,9 @@ function App() {
         </a>
       </div>
       {/* <Stats/> */}
+      {/* <div className='bg-rose-50'> */}
       <Outlet />
+      {/* </div> */}
       <Footer />
     </>
   )

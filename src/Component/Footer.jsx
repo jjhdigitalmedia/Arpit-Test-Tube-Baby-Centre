@@ -8,7 +8,7 @@ import {
 import { IoIosArrowForward } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-
+import { FaArrowRight } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
@@ -17,26 +17,26 @@ const Footer = () => {
         <div className="container flex flex-wrap px-5 py-12 mx-auto ">
           {/* <div className="flex flex-wrap md:text-left order-first"> */}
 
-        
+
 
           <div className="lg:w-1/4 md:w-1/2 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Treatment
             </h2>
-            <nav className="list-none mb-10">
+            {/* <nav className="list-none mb-10">
               <li>
-              <Link to='' className="text-black hover:text-white">
-              <IoIosArrowForward className="inline" />   IUI
+                <Link to='' className="text-black hover:text-white">
+                  <IoIosArrowForward className="inline" />   IUI
                 </Link>
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> IVF-ET
+                  <IoIosArrowForward className="inline" /> IVF-ET
                 </Link>
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> ICSI
+                  <IoIosArrowForward className="inline" /> ICSI
                 </Link>
               </li>
               <li>
@@ -46,22 +46,22 @@ const Footer = () => {
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> IMSI
+                  <IoIosArrowForward className="inline" /> IMSI
                 </Link>
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> Embryo Donation (ED)
+                  <IoIosArrowForward className="inline" /> Embryo Donation (ED)
                 </Link>
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> Oocyte Donation (OD)
+                  <IoIosArrowForward className="inline" /> Oocyte Donation (OD)
                 </Link>
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> Blastocyst Transfer
+                  <IoIosArrowForward className="inline" /> Blastocyst Transfer
                 </Link>
               </li>
               <li>
@@ -76,7 +76,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                 <IoIosArrowForward className="inline" /> Embryo Banking
+                  <IoIosArrowForward className="inline" /> Embryo Banking
                 </Link>
               </li>
               <li>
@@ -86,57 +86,226 @@ const Footer = () => {
               </li>
               <li>
                 <Link to='' className="text-black hover:text-white">
-                  <IoIosArrowForward className="inline" />MESA (Testicular Sperm Aspiration and Cryopreservation)
+                  <IoIosArrowForward className="inline" />TESA (Testicular Sperm Aspiration and Cryopreservation)
                 </Link>
               </li>
-            </nav>
+            </nav> */}
+            <ul class="flex flex-col mt-4 space-y-2 text-base">
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/iui">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <IoIosArrowForward className="inline" />   
+                  <span>IUI</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ivfet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>IVF-ET</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/icsi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>ICSI</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/laser-assisted">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Laser Assisted Hatching</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/imsi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span> IMSI</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/embryo-donation">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Embryo Donation (ED)</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/oocyte-donation">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Oocyte Donation (OD)</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/blastocyst">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Blastocyst Transfer</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/semen-cryopreservation">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Semen Cryopreservation</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/oocyte-cryopreservation">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span> Oocyte Cryopreservation</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/embryo-bank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Embryo Banking</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/mesa-microepididymal-sperm-aspiration">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>MESA (Microedpididymal Sperm Aspiration)</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/tesa-testicular-sperm-aspiration-cryopreservation">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>TESA (Testicular Sperm Aspiration and Cryopreservation)</span>
+                </Link>
+              </li>
+            </ul>
           </div>
           <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Test & Evaluation
             </h2>
-            <nav className="list-none mb-10">
+            {/* <nav className="list-none mb-10">
               <ol>
+                <li>
+                  <Link to='/' className="text-black hover:text-red-600"><IoIosArrowForward className="inline" />Hormonal Analysis</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:text-red-600"><IoIosArrowForward className="inline" />3D & 4D Ultrasound & Colour Doppler</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:text-red-600">
+                    Hysterosalpingography (HSG) & Sono Salpingography (SSG)
+                  </Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Ovulation Induction wiht Follicle Monitoring</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />AI Assisted Semen Analysis</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Fertility Enhancing Laparoscopic & Hysteroscopic Surgeries</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Diagnostic Video Laparoscopic/Hysteroscopic</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Surgery for Male Infertility</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />PRP Treatment of Endometrium & Ovary</Link>
+                </li>
+                <li>
+                  <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Stem Cell Therapy</Link>
+                </li>
+              </ol>
+            </nav> */}
+            <ul class="flex flex-col mt-4 space-y-2 text-base">
               <li>
-                <Link to='/' className="text-black hover:text-red-600"><IoIosArrowForward className="inline" />Hormonal Analysis</Link>
-              </li>
-              <li>
-                <Link to='' className="text-black hover:text-red-600"><IoIosArrowForward className="inline" />3D & 4D Ultrasound & Colour Doppler</Link>
-              </li>
-              <li>
-                <Link to='' className="text-black hover:text-red-600">
-                  Hysterosalpingography (HSG) & Sono Salpingography (SSG)
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/hormonal-analysis">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Hormonal Analysis</span>
                 </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Ovulation Induction wiht Follicle Monitoring</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/3d-4d-ultrasound-colour-doppler">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>3D & 4D Ultrasound & Colour Doppler</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />AI Assisted Semen Analysis</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/hsg-sono">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span> Hysterosalpingography (HSG) & Sono Salpingography (SSG)</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Fertility Enhancing Laparoscopic & Hysteroscopic Surgeries</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ovulation-induction">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Ovulation Induction wiht Follicle Monitoring</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Diagnostic Video Laparoscopic/Hysteroscopic</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ai-semen-analysis">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>AI Assisted Semen Analysis</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Surgery for Male Infertility</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/fertility-enhancing-laparoscopic-hysteroscopic-surgeries">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Fertility Enhancing Laparoscopic & Hysteroscopic Surgeries</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />PRP Treatment of Endometrium & Ovary</Link>
+                <Link class="flex items-centre hover:text-primary gap-1 hover:ml-1 duration-200" to="/diagnostic-video-laparoscopic-hysteroscopic">
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
+                    <FaArrowRight />
+                  <span>Diagnostic Video Laparoscopic/Hysteroscopic</span>
+                </Link>
               </li>
               <li>
-                <Link to='' className="text-black hover:tewhite"><IoIosArrowForward className="inline" />Stem Cell Therapy</Link>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/surgery-for-male-infertility">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Surgery for Male Infertility</span>
+                </Link>
               </li>
-              </ol>
-            </nav>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/prp-treatment">
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
+                    <FaArrowRight />
+                  <span>PRP Treatment of Endometrium & Ovary</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/stemcell-therapy">
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
+                    <FaArrowRight />
+                  <span>Stem Cell Therapy</span>
+                </Link>
+              </li>
+            </ul>
           </div>
           <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Important Links
             </h2>
-            <nav className="list-none mb-10">
+            {/* <nav className="list-none mb-10">
               <li>
                 <Link to='/' className="text-black hover:text-red-600">Home</Link>
               </li>
@@ -157,16 +326,54 @@ const Footer = () => {
               <li>
                 <a className="text-black hover:tewhite">Gallery</a>
               </li>
-            </nav>
+            </nav> */}
+            <ul class="flex flex-col mt-4 space-y-2 text-base">
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <span>Home</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Patients Guide</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span> Facilities</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Our IVF Team</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Our Success Rates</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Gallery</span>
+                </Link>
+              </li>
+              <li>
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Uterine Fibroid</span>
+                </Link>
+              </li>
+            </ul>
           </div>
+
           <div className="lg:w-1/3 md:w-1/2 w-full md:px-1">
             <h2 className="font-bold text-2xl my-10">
               Contact Info
             </h2>
             <nav className="list-none mb-10 ">
               {/* <li>
-
-
               </li> */}
             </nav>
             <a href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D' className="my-4 text-black" target="_blank">
@@ -174,11 +381,11 @@ const Footer = () => {
               (Allahabad) UTTAR PRADESH, INDIA
             </a>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0597529168485!2d81.84401430943906!3d25.43626577746421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb4375248d9b%3A0x385a6afccbc59834!2sDr.%20Vandana%20Bansal%20-%20Best%7CGynaecologist%20Doctors%7CHigh%20Risk%20Pregnancy%20Doctor%7CLaproscopy%20Doctor%7CInfertility%20Doctor%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1720863709269!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <a href="bookappointment">
               <button className="bg-rose-500 text-white py-2 px-6 mt-4 rounded-xl">
+            <Link to="/book-appointment">
                 Book Appointment
+            </Link>
               </button>
-            </a>
           </div>
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
@@ -222,7 +429,7 @@ const Footer = () => {
               <span className="ml-3 text-xl">Best IVF Centre in Prayagraj</span>
             </a> */}
             <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
-              © 2024 All rights reserved by Arpit Test Tube Baby Centre
+              © 2025 All rights reserved by Arpit Test Tube Baby Centre
             </p>
           </div>
         </div>

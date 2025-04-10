@@ -1,9 +1,16 @@
 import React from 'react'
 import Contact from '../Component/Contact';
-
+import { Helmet } from "react-helmet";
 const BookYourAppointment = () => {
     return (
         <>
+            <Helmet>
+                <title>Book Appointment: Arpit Test Tube Baby Centre Prayagraj</title>
+                <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+                <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+                <meta property="og:title" content="Best Gynecology Services" />
+                <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+            </Helmet>
             <div className='text-center pt-12'>
 
                 {/* <div className="lg:flex-grow mt-3 text-center m-auto md:w-4/5 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center">
@@ -16,7 +23,10 @@ const BookYourAppointment = () => {
                         <button
                             className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xl py-3 px-6 rounded-lg bg-gray-700 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                             type="button">
-                            +91 6390103002 | +91 9151037783</button>
+                            {/* +91 6390103002 | +91 9151037783 */}
+                            <a className="pr-3 text-sm text-white" href="tel:6390103002">Book Now: +91 6390103002,</a>
+                            <a className="pr-6 text-sm text-white" href="tel:9151037783">+91 9151037783</a>
+                            </button>
                         <span
                             className="absolute min-w-[25px] min-h-[25px] rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[2%] translate-x-2/4 -translate-y-2/4 bg-rose-700 text-white">
                         </span>

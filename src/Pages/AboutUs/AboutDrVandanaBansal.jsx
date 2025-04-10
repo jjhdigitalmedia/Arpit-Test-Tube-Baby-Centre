@@ -139,7 +139,7 @@ const Introduction = () => {
 const Profile = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Profile of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Profile of Dr vandana Bansal</h1>
 
             <p className='my-3'>
                 Dr. Vandana plays the role of visionary and Dr. A.K. Bansal executes these plans and ideas. Passionate for innovations and experimenting with new ideas. On the other hand Dr. A.K. Bansals foresightedness and hard work makes it possible to realize the goals and plans.
@@ -187,7 +187,7 @@ const Profile = () => {
 const Objectives = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Objectives of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Objectives of Dr vandana Bansal</h1>
 
             <p className='my-3'> Objectives in the Jeevan Jyoti Hospital DGO, DCh & DNB courses & apprenticeship training vocational nursing, paramedical setup</p>
             <ul className='list-disc '>
@@ -215,7 +215,7 @@ const Objectives = () => {
 const Research = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Research of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Research of Dr vandana Bansal</h1>
 
             <ul className='list-disc '>
                 <li>Investigator, Phase III study on sildenafil citrate for Unichem laboratories, 2000. Crash-I.</li>
@@ -238,7 +238,7 @@ const Research = () => {
 const Achievements = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Achievements of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Achievements of Dr vandana Bansal</h1>
 
             <h2>Major Achievements</h2>
             <ul className='list-disc '>
@@ -309,7 +309,7 @@ const Achievements = () => {
 const Awards = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Awards of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Awards of Dr vandana Bansal</h1>
             <ul className='list-disc '>
                 <li>She was awarded as Association of member of Royal Society of Health (AMRSH), London on March-1991.</li>
                 <li>She was awarded IInd prize in flower show in 1997 at Company Garden, Allahabad.</li>
@@ -351,7 +351,7 @@ const Awards = () => {
 const Membership = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Membership of Dr vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Membership of Dr vandana Bansal</h1>
             <ul className='list-disc '>
                 <li>Life member of Indian Medical Association based at AMA Allahabad. Allahabad Membership No. UP/2611/1/34/44396/95-96/CL, Patna Membership No. BHR/4405/80/154/81330/2000-01/L.</li>
                 <li>She is associate member of the Royal Society of Health (AMRSH), London from March-1991.</li>
@@ -378,7 +378,7 @@ const Membership = () => {
 const NationalConference = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>National Conference vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>National Conference vandana Bansal</h1>
 
             <ul className='list-disc '>
                 <li>Workshop on Fetal Medicine 12th to 13th November 1991 Bombay Indian Society for Prenatal Diagnosis and Therapy & International Integration and Growth Society, New Delhi.</li>
@@ -540,7 +540,7 @@ const NationalConference = () => {
 const InternationalConference = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Internaandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>International Conference Bansal</h1>
             <ul className='list-disc '>
                 <li>She attended conference in Endoscopic Surgery in BOSTON (USA) in November 1998.</li>
                 <li>She attended Dubai in April 1999 on invitation from INFAR INTERNATIONAL at Symposium on Infertility.</li>
@@ -580,7 +580,7 @@ const InternationalConference = () => {
 const Workshop = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Workshopndana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Workshop Dr. Vandana Bansal</h1>
 
             <ul className='list-disc '>
                 <li>Dr. Vandana Bansal has organised National Conferences and Workshops in Infertility, Endoscopy and Colour Doppler, 1998.</li>
@@ -663,7 +663,7 @@ const OtherAchievements = () => {
 const Visits = () => {
     return (
         <>
-            <h1 className='text-2xl font-semibold my-3'>Visits vandana Bansal inside a component</h1>
+            <h1 className='text-2xl font-semibold my-3'>Visits vandana Bansal</h1>
             
 
 <div class="relative overflow-x-auto">

@@ -14,7 +14,7 @@ const Rewards = () => {
       </div>
       <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto lg:mt-10">
 
-        <Link to="ivflab" className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
+        <Link to="ivf-lab" className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={lab0}
             alt="Mountain"

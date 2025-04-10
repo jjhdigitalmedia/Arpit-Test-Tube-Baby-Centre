@@ -1,6 +1,7 @@
 import React from "react";
 import newlab2 from "../assets/newlab2.jpg";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const SuccessRate = () => {
 
@@ -51,6 +52,14 @@ const SuccessRate = () => {
     }
   ]
   return (
+     <>
+        <Helmet>
+            <title>Success Rate: Arpit Test Tube Baby Centre Prayagraj</title>
+            <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+            <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+            <meta property="og:title" content="Best Gynecology Services" />
+            <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+        </Helmet>
     <section className="text-gray-600 z-1 mt-14 body-font">
       <div className="container mx-auto  flex px-5 py-10 md:flex-row flex-col items-center">
         {/* <div className="lg:max-w-lg lg:w-full align-top md:w-1/2 w-5/6 mb-10 md:mb-0 ">
@@ -102,6 +111,7 @@ const SuccessRate = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

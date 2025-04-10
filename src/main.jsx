@@ -283,6 +283,9 @@ import DiagnosticVideoLaparoscopyHysteroscopy from './Pages/TestsAndEvaluation/D
 import MaleInfertilitySurgeries from './Pages/TestsAndEvaluation/MaleInfertilitySurgeries.jsx'
 import PRPTreatment from './Pages/TestsAndEvaluation/PRPTreatment.jsx'
 import StemCellTherapy from './Pages/TestsAndEvaluation/StemCellTherapy.jsx'
+import Treatements from './Component/Treatements.jsx'
+import EmbryoBanking from './Pages/Treatments/EmbryoBanking.jsx'
+import HSGSSG from './Pages/TestsAndEvaluation/HSGSSG.jsx'
 
 
 const router = createBrowserRouter([
@@ -299,11 +302,11 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: 'bookappointment',
+        path: 'book-appointment',
         element: <BookYourAppointment />,
       },
       {
-        path: 'ivfteam',
+        path: 'ivf-team',
         element: <IVFteam />,
       },
       {
@@ -316,7 +319,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'patientsguide',
+        path: 'patients-guide',
         element: <PatientsGuide />,
         children: []
       },
@@ -331,165 +334,170 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'guestspeaker',
+        path: 'guests-peaker',
         element: <GuestSpeaker />,
         children: []
       },
       {
-        path: 'patientsreview',
+        path: 'patient-sreview',
         element: <PatientReviewVideo />,
         children: []
       },
       {
-        path: 'ivflab',
+        path: 'ivf-lab',
         element: <IVFLab />,
         children: []
       },
       {
-        path: 'ourfounder',
+        path: 'our-founder',
         element: <OurFounders />,
         children: []
       },
       {
-        path: 'ourprofile',
+        path: 'ourp-rofile',
         element: <OurProfiles />,
         children: []
       },
       {
-        path: 'ourvisionmission',
+        path: 'our-vision-mission',
         element: <OurVisionMissions />,
         children: []
       },
       {
-        path: 'spiritualjourney',
+        path: 'spiritual-journey',
         element: <SpiritualJourney />,
         children: []
       },
       {
-        path: 'newsimages',
+        path: 'news-images',
         element: <NewsPaperCutting />,
+        children: []
+      },
+      {
+        path: 'treatments',
+        element: <Treatements />,
         children: []
       },
 
       {
-        path: 'iuitreatment',
+        path: 'treatments/iui',
         element: <IuiTreatment />,
         children: []
       },
       {
-        path: 'ivfet',
+        path: 'treatments/ivf-et',
         element: <IvfEtTreatment />,
         children: []
       },
       {
-        path: 'icsi',
+        path: 'treatments/icsi',
         element: <IcsiTreatment />,
         children: []
       },
       {
-        path: 'laserassisted',
+        path: 'treatments/laser-assisted',
         element: <LaserAssistedTreatment />,
         children: []
       },
       {
-        path: 'imsitreatment',
+        path: 'treatments/imsi',
         element: <ImsiTreatment />,
         children: []
       },
       {
-        path: 'embryo-donation',
+        path: 'treatments/embryo-donation',
         element: <EmbryoDonation />,
         children: []
       },
       {
-        path: 'oocyte-donation',
+        path: 'treatments/oocyte-donation',
         element: <OocyteDonation />,
         children: []
       },
       {
-        path: 'blastocyst',
+        path: 'treatments/blastocyst-transfer',
         element: <BlastocystTreatment />,
         children: []
       },
       {
-        path: 'semen-cryopreservation',
+        path: 'treatments/semen-cryopreservation',
         element: <SemenCryopreservation />,
         children: []
       },
       {
-        path: 'oocyte-cryopreservation',
+        path: 'treatments/oocyte-cryopreservation',
         element: <OocyteCryopreservation />,
         children: []
       },
       {
-        path: 'embryobank',
-        element: <EmbryoBankTreatment />,
+        path: 'treatments/embryo-bank',
+        element: <EmbryoBanking />,
         children: []
       },
       {
-        path: 'mesa-microepididymal-sperm-aspiration',
+        path: 'treatments/mesa-microepididymal-sperm-aspiration',
         element: <MESA />,
         children: []
       },
       {
-        path: 'tesa-testicular-sperm-aspiration-cryopreservation',
+        path: 'treatments/tesa-testicular-sperm-aspiration-cryopreservation',
         element: <TESA />,
         children: []
       },
       {
-        path: 'hormonal-analysis',
+        path: 'test-evaluation/hormonal-analysis',
         element: <HormonalAnalysis />,
         children: []
       },
       {
-        path: '3d-4d-ultrasound-colour-doppler',
+        path: 'test-evaluation/3d-4d-ultrasound-colour-doppler',
         element: <UltrasoundColourDoppler3D4D/>,
         children: []
       },
       {
-        path: 'hsgsono',
-        element: <HSGSonoTreatment />,
+        path: 'test-evaluation/hsgssg',
+        element: <HSGSSG />,
         children: []
       },
       {
-        path: 'ovulation-induction',
+        path: 'test-evaluation/ovulation-induction',
         element: <OvulationInduction />,
         children: []
       },
       {
-        path: 'ai-semen-analysis',
+        path: 'test-evaluation/ai-semen-analysis',
         element: <AISemenAnalysis />,
         children: []
       },
       {
-        path: 'fertility-enhancing-laparoscopic-hysteroscopic-surgeries',
+        path: 'test-evaluation/fertility-enhancing-laparoscopic-hysteroscopic-surgeries',
         element: <LaproscopicHysteroscopicSurgeries />,
         children: []
       },
       {
-        path: 'diagnostic-video-laparoscopic-hysteroscopic',
+        path: 'test-evaluation/diagnostic-video-laparoscopic-hysteroscopic',
         element: <DiagnosticVideoLaparoscopyHysteroscopy />,
         children: []
       },
       {
-        path: 'surgery-for-male-infertility',
+        path: 'test-evaluation/surgery-for-male-infertility',
         element: <MaleInfertilitySurgeries />,
         children: []
       },
       {
-        path: 'prp-treatment',
+        path: 'test-evaluation/prp-treatment',
         element: <PRPTreatment />,
         children: []
       },
       {
-        path: 'stemcell-therapy',
+        path: 'test-evaluation/stemcell-therapy',
         element: <StemCellTherapy />,
         children: []
       },
     ]
   },
   {
-    path: '/ourfounder',
+    path: '/our-founder',
     element: <> <OurFounders /></>,
     children: [
       {
@@ -507,9 +515,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ParallaxProvider>
-
       <RouterProvider router={router} />
-
     </ParallaxProvider>
   </React.StrictMode>,
 )

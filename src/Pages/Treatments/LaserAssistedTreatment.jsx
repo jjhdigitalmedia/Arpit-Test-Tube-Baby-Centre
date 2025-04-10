@@ -1,74 +1,58 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+import lab0 from '../../assets/lab0.png'
+
 
 const LaserAssistedTreatment = () => {
   return (
-    <div className="w-11/12 md:w-1/2 m-auto pt-40 pb-24">
-      <h1 className="font-bold text-3xl my-3">
-        LAH- Laser Assisted Hatching
-      </h1>
-      <p>
-        Laser-assisted hatching (LAH) is a technique used in assisted
-        reproductive technology (ART), particularly in vitro fertilization
-        (IVF), to enhance the implantation potential of embryos. Here's an
-        overview of the procedure:
-      </p>
-
-      <ul>
-        <li>
-          1. Purpose: The primary goal of laser-assisted hatching is to create a
-          small opening or thinning in the outer shell (zona pellucida) of the
-          embryo. This is intended to facilitate the embryo's ability to hatch
-          out of its protective shell and implant into the uterine lining.
-        </li>
-        <li>
-          2. Selection of Embryos: Not all embryos may benefit from
-          laser-assisted hatching. The decision to perform LAH is based on
-          various factors, including the woman's age, previous IVF history,
-          embryo quality, and other individualized considerations.
-        </li>
-        <li>
-          3. Timing: Laser-assisted hatching is typically performed on day 3 of
-          embryo development, just before embryo transfer. At this stage, the
-          embryos have reached the cleavage stage, consisting of multiple cells.
-        </li>
-        <li>
-          4. Procedure: Using a specialized laser system, embryologists create a
-          precise, controlled opening in the zona pellucida of each embryo. The
-          laser is targeted at a specific location on the outer shell to create
-          a small hole or thinning without damaging the embryo itself.
-        </li>
-        <li>
-          5. Benefits: Theoretically, laser-assisted hatching may benefit
-          embryos by facilitating their ability to break out of the zona
-          pellucida and implant into the uterine lining. This technique may be
-          particularly beneficial for certain groups of patients, such as older
-          women, those with previous IVF failures, or individuals with thickened
-          or hardened zona pellucida.
-        </li>
-        <li>
-          6. Risks and Considerations: While laser-assisted hatching is
-          generally considered safe, there is a small risk of damaging the
-          embryo during the procedure. Additionally, not all embryos may benefit
-          from LAH, and the decision to perform this technique should be made on
-          a case-by-case basis after careful consideration of individual
-          factors.
-        </li>
-        <li>
-          7. Outcome: Following laser-assisted hatching, the embryos are
-          typically transferred into the woman's uterus using standard embryo
-          transfer procedures. The success of the procedure is assessed based on
-          subsequent implantation and pregnancy rates.
-        </li>
-      </ul>
-      <p>
-        Laser-assisted hatching is one of several techniques available in ART to
-        optimize the chances of successful pregnancy, particularly in cases
-        where embryo implantation may be compromised. As with any medical
-        procedure, patients need to discuss the potential risks and benefits of
-        LAH with their fertility specialist to make informed decisions about
-        their treatment options.
-      </p>
-    </div>
+    <>
+        <Helmet>
+          <title>laser Assisted Hatching: Arpit Test Tube Baby Centre Prayagraj</title>
+          <meta name="description" content="Laser-Assisted Hatching – Laser-Assisted Hatching (LAH) is a breakthrough technique that enhances embryo implantation rates by creating a small opening in the embryo’s outer shell (zona pellucida). At Arpit Test Tube Baby Centre, Prayagraj, Dr. Vandna Bansal uses precise laser technology to improve embryo attachment to the uterus, especially for women with repeated IVF failures or thick zona pellucida. This method significantly increases the chances of a successful pregnancy, ensuring a smoother fertility journey for hopeful parents." />
+          <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+          <meta property="og:title" content="Best Gynecology Services" />
+          <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+        </Helmet>
+        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between w-11/12 items-cente'>
+        <div className='w-1/2'>
+          <h1 className='text-4xl my-4 font-medium'>Laser Assisted Hatching</h1>
+          <p>Laser-assisted hatching uses a laser to create a small opening in the outer shell (zona pellucida) of an embryo, aiding implantation.</p>
+          <h2 className='text-2xl my-6'>Who Can Benefit from Embryo Donation?</h2>
+          <ul className='list-disc'>
+            <li>Women over 35 years</li>
+            <li>Previous IVF failure</li>
+            <li>Thick zona pellucida</li> 
+          </ul>
+          <h2 className='text-2xl my-4'>Procedure Overview</h2>
+          <ul className='list-disc'>
+            <li>Embryo Culture: The embryo is cultured for 3-5 days.</li>
+            <li>Laser Application: A laser creates a small opening in the shell.</li>
+            <li>Embryo Transfer: The embryo is transferred to the uterus.</li>
+          </ul>
+          <h2 className='text-2xl my-4'>Advantages:</h2>
+          <ul className='list-disc'>
+            <li>Enhances implantation chances.</li>
+            <li>Beneficial for patients with previous IVF failures.</li>
+            <li>Safe and precise.</li>
+          </ul>
+          <h2 className='text-2xl my-4'>Disadvantages:</h2>
+          <ul className='list-disc'>
+            <li>Slight risk of embryo damage.</li>
+            <li>May not be beneficial for all patients.</li>
+            <li>Additional cost.</li>
+          </ul>
+          <h3 className='text-2xl font-semibold my-4'>Success Rate:</h3>
+          <p>Laser-assisted hatching can improve implantation rates by 10-20% in specific cases.</p>
+        </div>
+        <div>
+          <img
+            src={lab0}
+            alt="Mountain"
+            className="w-full  object-cover border-8 border-white rounded-2xl"
+          />
+        </div>
+      </div>
+    </>
   );
 };
 

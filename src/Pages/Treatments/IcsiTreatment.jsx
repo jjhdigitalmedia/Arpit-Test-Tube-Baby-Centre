@@ -1,86 +1,62 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
+import lab0 from '../../assets/lab0.png'
 const IcsiTreatment = () => {
   return (
-    <div className="w-11/12 md:w-4/5 m-auto pt-40 pb-24">
-      <h1 className="font-bold text-3xl my-3">
-        ICSI Treatment for Male Infertility
-      </h1>
-      <p className="my-3">
-        ICSI is indicated when few sperms are available or no sperms are
-        available or IVF is not possible or unexplained fertilization failure or
-        low fertilization in previous IVF cycles. Total azoospermia (total
-        absence of sperm in the ejaculate) can be due either to a blockage,
-        absence of the vas deferens or to a failure of the testes to produce
-        spermatozoa. The degree of this failure can be variable. 90% of patients
-        with azoospermia can be benefited by ICSI after confirming the presence
-        of sperms in the testicular biopsy. However, the sperm that is collected
-        is not able to fertilize the egg in the natural way and ICSI is always
-        necessary. This leads to a fertilization rate of around 85% Sperm can be
-        recovered either by open surgery needle or aspiration. During
-        Microepididymal Sperm Aspiration (MESA) - the scrotum is opened and
-        under microscope sperm is aspirated from the epididymis. Percutaneous
-        Sperm Aspiration (PESA) is a less invasive technique whereby a small
-        needle is inserted through the skin directly into the epididymis to
-        aspirate sperm.
-      </p>
-      <ul>
-        <li>
-          1. Ovarian Stimulation: Similar to traditional in vitro fertilization
-          (IVF), the woman undergoes hormonal therapy to stimulate the ovaries
-          to produce multiple eggs. This is typically achieved through the use
-          of injectable fertility medications.
-        </li>
-        <li>
-          2. Egg Retrieval: Once the eggs have matured, they are retrieved from
-          the woman's ovaries using transvaginal ultrasound aspiration, a minor
-          surgical procedure.
-        </li>
-        <li>
-          3. Sperm Collection: On the same day as the egg retrieval, the male
-          partner provides a sperm sample, or sperm may be obtained via other
-          means such as testicular biopsy or from a sperm donor.
-        </li>
-        <li>
-          4. Sperm Injection: Using a specialized microscope and
-          micromanipulation equipment, a single healthy sperm is selected and
-          injected directly into the cytoplasm (interior) of each mature egg.
-          This is done using a thin glass needle, which is carefully inserted
-          through the egg's outer membrane.
-        </li>
-        <li>
-          5. Embryo Culture: After the eggs have been fertilized via ICSI, they
-          are cultured in the laboratory for several days to allow the embryos
-          to develop and grow.
-        </li>
-        <li>
-          6. Embryo Transfer: Typically, one or more of the healthiest embryos
-          are selected for transfer into the woman's uterus. This is done using
-          a thin catheter, guided by ultrasound, which is inserted through the
-          cervix and into the uterus to place the embryos in the optimal
-          location.
-        </li>
-        <li>
-          7. Luteal Phase Support: Following embryo transfer, the woman may be
-          prescribed medications such as progesterone to support the uterine
-          lining and improve the chances of successful implantation.
-        </li>
-        <li>
-          8. Pregnancy Test: About two weeks after the embryo transfer, a
-          pregnancy test is performed to determine if implantation has occurred
-          and if the ICSI cycle was successful.
-        </li>
-      </ul>
-      <p className="my-3">
-        ICSI is particularly beneficial for couples dealing with male factor
-        infertility, such as low sperm count, poor sperm motility, or abnormal
-        sperm morphology. It can also be used in cases where traditional IVF has
-        failed to achieve fertilization or when there are concerns about the
-        ability of the sperm to penetrate the egg's outer membrane. Overall,
-        ICSI has helped many couples achieve successful pregnancies and overcome
-        fertility challenges.
-      </p>
-    </div>
+    <>
+        <Helmet>
+          <title>ICSI (Micromanipulation with spindle view): Arpit Test Tube Baby Centre Prayagraj</title>
+          <meta name="description" content="ICSI (Intracytoplasmic Sperm Injection with Spindle View) – ICSI is an advanced micromanipulation technique used in IVF, where a single, healthy sperm is directly injected into an egg to facilitate fertilization. At Arpit Test Tube Baby Centre, Prayagraj, Dr. Vandna Bansal specializes in ICSI with Spindle View, improving egg selection and increasing successful embryo formation. This technique is highly effective for couples dealing with severe male infertility, low sperm count, or previous failed IVF cycles. Experience world-class fertility treatment with expert care and high success rates." />
+          <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+          <meta property="og:title" content="Best Gynecology Services" />
+          <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+        </Helmet>
+        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between w-11/12 items-cente'>
+        <div className='w-1/2'>
+          <h1 className='text-4xl my-4 font-medium'>ICSI (Micromanipulation with spindle view)</h1>
+          <p>ICSI is an advanced assisted reproductive technology (ART) used in conjunction with IVF. It involves injecting a single sperm directly into an egg to facilitate fertilization. Using spindle view technology enhances the accuracy of the procedure by visualizing the egg's spindle apparatus.</p>
+          <h2 className='text-2xl my-6'>Who Can Benefit from Embryo Donation?</h2>
+          <ul className='list-disc'>
+            <li>Couples with severe male factor infertility</li>
+            <li>Men with low sperm count, poor motility, or abnormal morphology</li>
+            <li>Couples with previous failed fertilization attempts in IVF</li>
+            <li>Individuals with unexplained infertility</li>
+          </ul>
+          <h2 className='text-2xl my-4'>Procedure Overview</h2>
+          <ul className='list-disc'>
+            <li>Ovarian Stimulation: The female partner undergoes controlled ovarian stimulation to produce multiple eggs.</li>
+            <li>Egg Retrieval: Mature eggs are retrieved through a minor surgical procedure.</li>
+            <li>Sperm Collection: A semen sample is obtained from the male partner or through procedures like TESA or MESA if needed.</li>
+            <li>Spindle View Technology: This technology provides a clear view of the egg’s spindle, ensuring proper alignment during sperm injection.</li>
+            <li>ICSI Process: A single sperm is injected directly into the egg using a fine needle.</li>
+            <li>Embryo Culturing: Fertilized embryos are cultured for a few days before transfer to the uterus.</li>
+          </ul>
+          <h2 className='text-2xl my-4'>Advantages:</h2>
+          <ul className='list-disc'>
+            <li>Enhances fertilization chances in cases of male infertility</li>
+            <li>Enables fertilization with a limited number of viable sperm</li>
+            <li>Reducing the risk of abnormal fertilization</li>
+            <li>Spindle view technology increases precision and success rates</li>
+          </ul>
+          <h2 className='text-2xl my-4'>Disadvantages:</h2>
+          <ul className='list-disc'>
+            <li>Requires specialized equipment and expertise</li>
+            <li>Slightly higher cost compared to conventional IVF</li>
+            <li>Risk of egg damage during the injection process</li>
+            <li>Not guaranteed to result in successful fertilization or pregnancy</li>
+          </ul>
+          <h3 className='text-2xl font-semibold my-4'>Success Rate:</h3>
+          <p>The success rate of ICSI with spindle view ranges between 60-80% per cycle, depending on factors like maternal age, sperm quality, and embryo health.</p>
+        </div>
+        <div>
+          <img
+            src={lab0}
+            alt="Mountain"
+            className="w-full  object-cover border-8 border-white rounded-2xl"
+          />
+        </div>
+      </div>
+    </>
   );
 };
 

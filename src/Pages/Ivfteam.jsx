@@ -22,6 +22,7 @@ import gallery01 from '../assets/Gallery/gallery01.jpg';
 // import DoctorsBG1 from "../assets/DoctorsBG1.jpg";
 import qqq1 from '../assets/Banners/qqq1.jpg';
 import BgBanner1 from '../assets/BgBanner1.jpg';
+import { Helmet } from "react-helmet";
 
 
 const pics = [
@@ -92,9 +93,18 @@ const pics = [
 
 const IVFteam = () => {
     return (
-        <section class="text-gray-600 body-font">
-            <CardDemo />
-        </section>
+        <>
+            <Helmet>
+                <title>Gallery: Arpit Test Tube Baby Centre Prayagraj</title>
+                <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+                <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
+                <meta property="og:title" content="Best Gynecology Services" />
+                <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+            </Helmet>
+            <section class="text-gray-600 body-font">
+                <CardDemo />
+            </section>
+        </>
     )
 }
 
@@ -173,7 +183,7 @@ const CardDemo = () => {
                                 <div className="mt-20 text-center">
                                     <h3 className="text-lg font-bold text-gray-800">{card.title}</h3>
                                     <p className="text-gray-600 mt-2">
-                                        {card.description}<br/>
+                                        {card.description}<br />
                                         {card.Knowmore}
                                     </p>
                                     <button className="mt-4 px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-600 transition">
