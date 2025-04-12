@@ -176,13 +176,13 @@ const Footer = () => {
                   <span>MESA (Microedpididymal Sperm Aspiration)</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/tesa-testicular-sperm-aspiration-cryopreservation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>TESA (Testicular Sperm Aspiration and Cryopreservation)</span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
@@ -233,27 +233,27 @@ const Footer = () => {
                   <span>Hormonal Analysis</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/3d-4d-ultrasound-colour-doppler">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>3D & 4D Ultrasound & Colour Doppler</span>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/hsg-sono">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span> Hysterosalpingography (HSG) & Sono Salpingography (SSG)</span>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ovulation-induction">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Ovulation Induction wiht Follicle Monitoring</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ai-semen-analysis">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
@@ -261,21 +261,20 @@ const Footer = () => {
                   <span>AI Assisted Semen Analysis</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/fertility-enhancing-laparoscopic-hysteroscopic-surgeries">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Fertility Enhancing Laparoscopic & Hysteroscopic Surgeries</span>
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link class="flex items-centre hover:text-primary gap-1 hover:ml-1 duration-200" to="/diagnostic-video-laparoscopic-hysteroscopic">
-                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
+                 
                     <FaArrowRight />
                   <span>Diagnostic Video Laparoscopic/Hysteroscopic</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/surgery-for-male-infertility">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">

@@ -286,6 +286,7 @@ import StemCellTherapy from './Pages/TestsAndEvaluation/StemCellTherapy.jsx'
 import Treatements from './Component/Treatements.jsx'
 import EmbryoBanking from './Pages/Treatments/EmbryoBanking.jsx'
 import HSGSSG from './Pages/TestsAndEvaluation/HSGSSG.jsx'
+import NotFound from './Pages/NotFound.jsx'
 
 
 const router = createBrowserRouter([
@@ -455,7 +456,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'test-evaluation/hsgssg',
+        path: 'test-evaluation/hsg-ssg',
         element: <HSGSSG />,
         children: []
       },
@@ -507,6 +508,11 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />,
+      },
+      {
+        path: '*',
+        element: <NotFound />,
+        children: []
       },
     ]
   }
