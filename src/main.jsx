@@ -355,7 +355,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'ourp-rofile',
+        path: 'our-profile',
         element: <OurProfiles />,
         children: []
       },
@@ -509,13 +509,13 @@ const router = createBrowserRouter([
         path: 'about',
         element: <About />,
       },
-      {
-        path: '*',
-        element: <NotFound />,
-        children: []
-      },
     ]
-  }
+  },
+  {
+    path: '*',
+    element: <NotFound />,
+    children: []
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

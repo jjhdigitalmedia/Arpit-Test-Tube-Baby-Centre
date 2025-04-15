@@ -22,7 +22,7 @@ const OurFounders = () => {
   return (
     <>
       <Helmet>
-        <title>Treatments: Arpit Test Tube Baby Centre Prayagraj</title>
+        <title>About | Arpit Test Tube Baby Centre Prayagraj</title>
         <meta name="description" content="Know more about Arpit Test Tube Baby Centre, Prayagraj – a trusted name in fertility and IVF, known for ethical care, advanced technology, and compassionate team." />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best Gynecology Services" />

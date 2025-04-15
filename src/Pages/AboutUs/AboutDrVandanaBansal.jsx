@@ -664,272 +664,272 @@ const Visits = () => {
     return (
         <>
             <h1 className='text-2xl font-semibold my-3'>Visits vandana Bansal</h1>
-            
 
-<div class="relative overflow-x-auto">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-2">
-                    Country Name
-                </th>
-                <th scope="col" class="px-6 py-2">
-                    Year
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    USA
-                </th>
-                <td class="px-6 py-2">
-                    1998
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    UK
-                </th>
-                <td class="px-6 py-2">
-                    1999
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    USA
-                </th>
-                <td class="px-6 py-2">
-                    1999
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Singapore
-                </th>
-                <td class="px-6 py-2">
-                    2000
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Bangladesh
-                </th>
-                <td class="px-6 py-2">
-                    2000
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Thiland
-                </th>
-                <td class="px-6 py-2">
-                    2000
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Switzerland
-                </th>
-                <td class="px-6 py-2">
-                    2003
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Marutius
-                </th>
-                <td class="px-6 py-2">
-                    2004
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Malaysia
-                </th>
-                <td class="px-6 py-2">
-                    2004
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Thiland
-                </th>
-                <td class="px-6 py-2">
-                    2005
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    USA
-                </th>
-                <td class="px-6 py-2">
-            2005
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Germany
-                </th>
-                <td class="px-6 py-2">
-                    2006
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    UAE
-                </th>
-                <td class="px-6 py-2">
-                    2007
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    South Africa
-                </th>
-                <td class="px-6 py-2">
-                    2007
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Thiland
-                </th>
-                <td class="px-6 py-2">
-                    2008
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Switzerland
-                </th>
-                <td class="px-6 py-2">
-                    2008
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    France
-                </th>
-                <td class="px-6 py-2">
-                    2008
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray- dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Spain
-                </th>
-                <td class="px-6 py-2">
-                    2008
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Rome
-                </th>
-                <td class="px-6 py-2">
-                    2010
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    USA
-                </th>
-                <td class="px-6 py-2">
-                    2010
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    SINGAPORE
-                </th>
-                <td class="px-6 py-2">
-                    2011
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Thiland
-                </th>
-                <td class="px-6 py-2">
-                    2011
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Finland
-                </th>
-                <td class="px-6 py-2">
-                    2011
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Sweden
-                </th>
-                <td class="px-6 py-2">
-                    2011
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    USA
-                </th>
-                <td class="px-6 py-2">
-                    2011
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Istanbul
-                </th>
-                <td class="px-6 py-2">
-                    2012
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    LONDON
-                </th>
-                <td class="px-6 py-2">
-                    2013
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    GERMANY
-                </th>
-                <td class="px-6 py-2">
-                    2014
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    PORTGUL
-                </th>
-                <td class="px-6 py-2">
-                    2015
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    SPAIN
-                </th>
-                <td class="px-6 py-2">
-                    2015
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    SINGAPORE
-                </th>
-                <td class="px-6 py-2">
-                    2016
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-6 py-2">
+                                Country Name
+                            </th>
+                            <th scope="col" class="px-6 py-2">
+                                Year
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                USA
+                            </th>
+                            <td class="px-6 py-2">
+                                1998
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                UK
+                            </th>
+                            <td class="px-6 py-2">
+                                1999
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                USA
+                            </th>
+                            <td class="px-6 py-2">
+                                1999
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Singapore
+                            </th>
+                            <td class="px-6 py-2">
+                                2000
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Bangladesh
+                            </th>
+                            <td class="px-6 py-2">
+                                2000
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Thiland
+                            </th>
+                            <td class="px-6 py-2">
+                                2000
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Switzerland
+                            </th>
+                            <td class="px-6 py-2">
+                                2003
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Marutius
+                            </th>
+                            <td class="px-6 py-2">
+                                2004
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Malaysia
+                            </th>
+                            <td class="px-6 py-2">
+                                2004
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Thiland
+                            </th>
+                            <td class="px-6 py-2">
+                                2005
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                USA
+                            </th>
+                            <td class="px-6 py-2">
+                                2005
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Germany
+                            </th>
+                            <td class="px-6 py-2">
+                                2006
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                UAE
+                            </th>
+                            <td class="px-6 py-2">
+                                2007
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                South Africa
+                            </th>
+                            <td class="px-6 py-2">
+                                2007
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Thiland
+                            </th>
+                            <td class="px-6 py-2">
+                                2008
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Switzerland
+                            </th>
+                            <td class="px-6 py-2">
+                                2008
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                France
+                            </th>
+                            <td class="px-6 py-2">
+                                2008
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray- dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Spain
+                            </th>
+                            <td class="px-6 py-2">
+                                2008
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Rome
+                            </th>
+                            <td class="px-6 py-2">
+                                2010
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                USA
+                            </th>
+                            <td class="px-6 py-2">
+                                2010
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                SINGAPORE
+                            </th>
+                            <td class="px-6 py-2">
+                                2011
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Thiland
+                            </th>
+                            <td class="px-6 py-2">
+                                2011
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Finland
+                            </th>
+                            <td class="px-6 py-2">
+                                2011
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Sweden
+                            </th>
+                            <td class="px-6 py-2">
+                                2011
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                USA
+                            </th>
+                            <td class="px-6 py-2">
+                                2011
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Istanbul
+                            </th>
+                            <td class="px-6 py-2">
+                                2012
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                LONDON
+                            </th>
+                            <td class="px-6 py-2">
+                                2013
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                GERMANY
+                            </th>
+                            <td class="px-6 py-2">
+                                2014
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                PORTGUL
+                            </th>
+                            <td class="px-6 py-2">
+                                2015
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                SPAIN
+                            </th>
+                            <td class="px-6 py-2">
+                                2015
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                SINGAPORE
+                            </th>
+                            <td class="px-6 py-2">
+                                2016
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
         </>
     )
