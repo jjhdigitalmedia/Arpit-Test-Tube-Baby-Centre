@@ -6,7 +6,7 @@ const PatientsGuide = () => {
     <>
     <Helmet>
         <title>Patients Guide: Dr Vandana Bansal Arpit Test Tube Baby Centre Prayagraj</title>
-        <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+        <meta name="description" content="A complete IVF patient guide from Arpit Test Tube Baby Centre – step-by-step fertility journey, treatment options, FAQs, and support for hopeful parents." />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best Gynecology Services" />
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />

@@ -55,7 +55,7 @@ const SuccessRate = () => {
      <>
         <Helmet>
             <title>Success Rate: Arpit Test Tube Baby Centre Prayagraj</title>
-            <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+            <meta name="description" content="Discover the high IVF success rates at Arpit Test Tube Baby Centre, Prayagraj. We focus on personalized care and evidence-based fertility treatments." />
             <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
             <meta property="og:title" content="Best Gynecology Services" />
             <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />

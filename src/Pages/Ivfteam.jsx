@@ -96,9 +96,10 @@ const IVFteam = () => {
         <>
             <Helmet>
                 <title>Gallery: Arpit Test Tube Baby Centre Prayagraj</title>
-                <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+                <meta name="description" content="Meet the expert IVF team at Arpit Test Tube Baby Centre, Prayagraj – experienced fertility specialists, embryologists, and support staff dedicated to your success." />
                 <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
-                <meta property="og:title" content="Best Gynecology Services" />
+                <meta property="og:title" content=" Best Gynecology Services" />
+                <meta property="og:title" content="Best IVF and Gynecology Services" />
                 <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
             </Helmet>
             <section class="text-gray-600 body-font">

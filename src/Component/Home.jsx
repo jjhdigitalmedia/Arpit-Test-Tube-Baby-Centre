@@ -19,8 +19,8 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Gallery: Arpit Test Tube Baby Centre Prayagraj</title>
-        <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+        <title>Arpit Test Tube Baby Centre Prayagraj</title>
+        <meta name="description" content="Arpit Test Tube Baby Centre, Prayagraj – trusted IVF and fertility clinic with advanced technology, expert team, and high success rates. Book your consultation today!" />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best Gynecology Services" />
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
