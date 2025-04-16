@@ -6,7 +6,7 @@ const BookYourAppointment = () => {
         <>
             <Helmet>
                 <title>Book Appointment: Arpit Test Tube Baby Centre Prayagraj</title>
-                <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+                <meta name="description" content="Easily book an appointment with our expert doctors at Arpit Test Tube Baby Centre, Prayagraj. Choose your preferred date and time for consultations or IVF treatment today!" />
                 <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
                 <meta property="og:title" content="Best Gynecology Services" />
                 <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />

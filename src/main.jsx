@@ -340,7 +340,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'patient-sreview',
+        path: 'patients-review',
         element: <PatientReviewVideo />,
         children: []
       },
