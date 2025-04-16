@@ -261,7 +261,7 @@ function NavigationB() {
             {/* </div>
             )} */}
 
-            <Link to='news-images' className="text-black text-sm font-semibold">
+            <Link to='news-paper-images' className="text-black text-sm font-semibold">
               In News
             </Link>
             <Link to='patients-guide' className="text-black text-sm font-semibold">
@@ -510,6 +510,9 @@ function NavigationB() {
               </Link>
               <Link to='ivf-team' className="text-black py-3 border-b-2 font-semibold">
                 Our IVF Team
+              </Link>
+              <Link to='news-paper-images' className="text-black py-3 border-b-2 font-semibold">
+                In News
               </Link>
               <Link to='gallery' className="text-black py-3 border-b-2 font-semibold">
                 Gallery

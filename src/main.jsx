@@ -370,7 +370,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'news-images',
+        path: 'news-paper-images',
         element: <NewsPaperCutting />,
         children: []
       },
