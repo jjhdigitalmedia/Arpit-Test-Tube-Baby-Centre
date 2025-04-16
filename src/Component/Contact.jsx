@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               {/* <a className="text-rose-500 text-wrap">arpitivf@gmail.com</a> */}
               <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-rose-700' target="_blank">arpitivf@gmail.com</a>
-              <p className="leading-normal my-5">JEEVAN JYOTI HOSPITAL CAMPUS, 162, Himmat Ganj, Bai Ka Bagh, Prayagraj, Uttar Pradesh 211003
+              <p className="leading-normal my-5">162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
               </p>
               <div className='flex m-auto w-fit'>
                 <a href="https://www.instagram.com/dr.vandanabansal" target='_blank'>

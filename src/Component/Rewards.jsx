@@ -56,7 +56,7 @@ const Rewards = () => {
               Guest Speaker
             </h2>
             <p className="text-gray-700 text-base leading-normal mb-4">
-            Dr. Vandana Bansal is a distinguished guest speaker at various global conferences,  where she shares her expertise in [your area of expertise] and engaging conversations.
+            Dr. Vandana Bansal is a distinguished guest speaker at various global conferences,  where she shares her expertise in IVF, Laparoscopic & Hysteroscopic Surgeries, Cosmetic Gynaecologst and engaging conversations.
             </p>
           </div>
         </Link>
