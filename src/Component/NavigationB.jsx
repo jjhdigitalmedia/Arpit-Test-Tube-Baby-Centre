@@ -80,14 +80,11 @@ function NavigationB() {
       <nav className="bg-white py-3 px-4 shadow-sm sticky top-0 z-20">
         <div className="containe flex items-center justify-between">
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
-          <div className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
+          <Link to ='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              {/* <span className="text-rose-400 text-2xl font-bold ml-2">
-                Dr Vandana Bansal
-              </span> */}
               <img src={Logo} className="w-44 md:w-56" alt="" />
             </span>
-          </div>
+          </Link>
           <div className="hidden md:flex space-x-4 relative">
             <Link to='/' className="text-black text-sm font-semibold">Home</Link>
             <Link
