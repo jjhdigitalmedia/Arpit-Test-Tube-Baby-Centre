@@ -11,9 +11,9 @@ const IcsiTreatment = () => {
           <meta property="og:title" content="Best Gynecology Services" />
           <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
         </Helmet>
-        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between w-11/12 items-cente'>
-        <div className='w-1/2'>
-          <h1 className='text-4xl my-4 font-medium'>ICSI (Micromanipulation with spindle view)</h1>
+        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between md:w-11/12 items-cente'>
+        <div className='md:w-1/2'>
+          <h1 className='text-2xl md:text-4xl my-4 font-medium'>ICSI (Micromanipulation with spindle view)</h1>
           <p>ICSI is an advanced assisted reproductive technology (ART) used in conjunction with IVF. It involves injecting a single sperm directly into an egg to facilitate fertilization. Using spindle view technology enhances the accuracy of the procedure by visualizing the egg's spindle apparatus.</p>
           <h2 className='text-2xl my-6'>Who Can Benefit from Embryo Donation?</h2>
           <ul className='list-disc'>

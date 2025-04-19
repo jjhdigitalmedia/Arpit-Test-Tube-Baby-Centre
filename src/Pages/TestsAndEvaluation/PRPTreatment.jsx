@@ -12,9 +12,9 @@ const PRPTreatment = () => {
           <meta property="og:title" content="Best Gynecology Services" />
           <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
         </Helmet>
-   <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between w-11/12 items-cente'>
+   <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between md:w-11/12 items-cente'>
         <div>
-          <h1 className='text-4xl my-4 font-medium'>PRP Treatment of Endometrium & Ovar</h1>
+          <h1 className='text-2xl md:text-4xl my-4 font-medium'>PRP Treatment of Endometrium & Ovar</h1>
           <p>Platelet-rich plasma (PRP) therapy involves injecting a concentration of the patient’s own platelets into the uterus or ovaries to rejuvenate tissue and improve fertility.</p>
           <h2 className='text-2xl my-6'>Who Can Benefit from Embryo Donation?</h2>
           <ul className='list-disc'>

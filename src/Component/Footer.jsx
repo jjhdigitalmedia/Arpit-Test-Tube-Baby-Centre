@@ -92,7 +92,7 @@ const Footer = () => {
             </nav> */}
             <ul class="flex flex-col mt-4 space-y-2 text-base">
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/iui">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/iui">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <IoIosArrowForward className="inline" />   
@@ -100,77 +100,77 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ivfet">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/ivf-et">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>IVF-ET</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/icsi">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/icsi">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>ICSI</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/laser-assisted">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/laser-assisted">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Laser Assisted Hatching</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/imsi">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/imsi">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span> IMSI</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/embryo-donation">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/embryo-donation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Embryo Donation (ED)</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/oocyte-donation">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/oocyte-donation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Oocyte Donation (OD)</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/blastocyst">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/blastocyst-transfer">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Blastocyst Transfer</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/semen-cryopreservation">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/semen-cryopreservation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Semen Cryopreservation</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/oocyte-cryopreservation">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/oocyte-cryopreservation">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span> Oocyte Cryopreservation</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/embryo-bank">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/embryo-bank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Embryo Banking</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/mesa-microepididymal-sperm-aspiration">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/mesa-microepididymal-sperm-aspiration">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>MESA (Microedpididymal Sperm Aspiration)</span>
@@ -227,7 +227,7 @@ const Footer = () => {
             </nav> */}
             <ul class="flex flex-col mt-4 space-y-2 text-base">
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/hormonal-analysis">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/hormonal-analysis">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Hormonal Analysis</span>
@@ -255,7 +255,7 @@ const Footer = () => {
                 </Link>
               </li> */}
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ai-semen-analysis">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/ai-semen-analysis">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>AI Assisted Semen Analysis</span>
@@ -276,14 +276,14 @@ const Footer = () => {
                 </Link>
               </li> */}
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/surgery-for-male-infertility">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/surgery-for-male-infertility">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Surgery for Male Infertility</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/prp-treatment">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/prp-treatment">
                   {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
                     <FaArrowRight />
@@ -291,7 +291,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/stemcell-therapy">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/stemcell-therapy">
                   {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
                     <FaArrowRight />
@@ -335,33 +335,28 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/patients-guide">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Patients Guide</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span> Facilities</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/ivf-team">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Our IVF Team</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/achievements">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Our Success Rates</span>
                 </Link>
               </li>
               <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
+                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/gallery">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Gallery</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><span>Uterine Fibroid</span>
                 </Link>
               </li>
             </ul>

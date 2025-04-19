@@ -12,9 +12,9 @@ const IvfEtTreatment = () => {
           <meta property="og:title" content="Best Gynecology Services" />
           <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
         </Helmet>
-        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between w-11/12 items-cente'>
-        <div className='w-1/2'>
-          <h1 className='text-4xl my-4 font-medium'>IVF-ET (Embryo Transfer)</h1>
+        <div className='flex mx-auto shadow-xl flex-wrap p-10 pl-28 my-20 justify-between md:w-11/12 items-cente'>
+        <div className='md:w-1/2'>
+          <h1 className='text-2xl md:text-4xl my-4 font-medium'>IVF-ET (Embryo Transfer)</h1>
           <p>IVF involves fertilizing eggs with sperm outside the body in a lab. The resulting embryos are transferred to the uterus for implantation.</p>
           <h2 className='text-2xl my-6'>Who Can Benefit from Embryo Donation?</h2>
           <ul className='list-disc'>
