@@ -58,7 +58,7 @@ const Treatements = () => {
     },
     {
       img: lasehatching,
-      link: 'treatments/embryo-monitoring',
+      link: 'treatments/embryo-donation',
       heading: "Laser Assisted Hatching",
       more: 'view more'
 

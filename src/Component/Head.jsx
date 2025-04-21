@@ -12,7 +12,7 @@ import "../Style/Style.css";
 const Head = () => {
   const images = [
     BannerMain,
-    BannerFinal,
+    // BannerFinal,
     aa1112,
     // slide0411, 
     // Banner02Final,
@@ -80,7 +80,7 @@ const Head = () => {
           {images.map((_, index) => (
             <button
               key={index}
-              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' :  'bg-gray-200'}`}
+              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' :  'bg-gray-50'}`}
               onClick={() => setCurrentIndex(index)}
             />
           ))}

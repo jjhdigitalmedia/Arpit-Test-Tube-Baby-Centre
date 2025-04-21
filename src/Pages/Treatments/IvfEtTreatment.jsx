@@ -33,15 +33,15 @@ const IvfEtTreatment = () => {
           </ul>
           <h2 className='text-2xl my-4'>Advantages:</h2>
           <ul className='list-disc'>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Offers hope to couples with infertility due to various causes (tubal blockage, male factor, unexplained infertility, etc.).</li>
+            <li>IVF allows conception using donor sperm or eggs, helping single individuals or same-sex couples to become parents.</li>
+            <li>Egg or embryo freezing is an option for women delaying childbirth or undergoing treatments like chemotherapy.</li>
           </ul>
           <h2 className='text-2xl my-4'>Disadvantages:</h2>
           <ul className='list-disc'>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>IVF can be financially demanding, and multiple cycles may be needed for success.</li>
+            <li>Hormonal injections, frequent visits, and uncertainty can cause anxiety and emotional strain.</li>
+            <li>Transferring more than one embryo can lead to twins or triplets, increasing risks for both mother and babies.</li>
           </ul>
           <h3 className='text-2xl font-semibold my-4'>Success Rate:</h3>
           <p>The success rate of IVF is around 40-50% per cycle for women under 35 and declines with age.</p>

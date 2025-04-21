@@ -100,7 +100,7 @@ function NavigationB() {
               <div
                 onMouseEnter={() => setIsAboutDropdownOpen(true)}
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
-                className="absolute mt-4 pt-3 w-48 bg-white rounded-md shadow-lg z-10"
+                className="absolute mt-3 pt-3 w-48 bg-white rounded-md shadow-lg z-10"
               >
                 <Link to='our-founder' className="block px-4 py-2 text-gray-800 w-full text-left">
                   Our Founder

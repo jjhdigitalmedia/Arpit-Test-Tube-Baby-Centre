@@ -33,15 +33,15 @@ const IuiTreatment = () => {
           </ul>
           <h2 className='text-2xl my-4'>Advantages:</h2>
           <ul className='list-disc'>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Increases chances of pregnancy by placing sperm closer to the egg</li>
+            <li>Simple, non-surgical procedure done in OPD</li>
+            <li>More affordable than IVF</li>
           </ul>
           <h2 className='text-2xl my-4'>Disadvantages:</h2>
           <ul className='list-disc'>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Lower success rate compared to IVF</li>
+            <li>Not effective in severe infertility or blocked tubes</li>
+            <li>May require multiple attempts for success</li>
           </ul>
           <h3 className='text-2xl font-semibold my-4'>Success Rate:</h3>
           <p>The success rate of IUI ranges from 10-20% per cycle, depending on factors such as age, fertility diagnosis, and the use of fertility medications.</p>
