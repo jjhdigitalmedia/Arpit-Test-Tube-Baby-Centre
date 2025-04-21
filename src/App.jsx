@@ -6,11 +6,11 @@ import { Outlet }
 // import Contact from './Component/Contact.jsx'
 // import Treatements from './Component/Treatements.jsx'
 // import GoogleReview from './Component/GoogleReview.jsx'
-import { FAQ } from './Component/FAQ.jsx'
-import NavigationB from './Component/NavigationB.jsx'
+// import { FAQ } from './Component/FAQ.jsx'
 // import Home from './Component/Home.jsx'
-import Footer from './Component/Footer.jsx'
 // import Stats from './Component/Stats.jsx'
+import NavigationB from './Component/NavigationB.jsx'
+import Footer from './Component/Footer.jsx'
 
 
 function App() {
@@ -28,10 +28,7 @@ function App() {
           </button>
         </a>
       </div>
-      {/* <Stats/> */}
-      {/* <div className='bg-rose-50'> */}
       <Outlet />
-      {/* </div> */}
       <Footer />
     </>
   )
