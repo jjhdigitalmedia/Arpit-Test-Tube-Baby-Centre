@@ -17,8 +17,6 @@ const Footer = () => {
         <div className="container flex flex-wrap px-5 py-12 mx-auto ">
           {/* <div className="flex flex-wrap md:text-left order-first"> */}
 
-
-
           <div className="lg:w-1/4 md:w-1/2 w-full md:px-4">
             <h2 className="font-bold text-2xl my-10">
               Treatment

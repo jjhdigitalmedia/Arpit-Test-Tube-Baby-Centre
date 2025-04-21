@@ -72,7 +72,7 @@ const Treatements = () => {
   ]
 
   return (<>
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 bg-rose-50 body-font">
 
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
@@ -82,7 +82,7 @@ const Treatements = () => {
         <div className="flex flex-wrap text-center mx-auto m-0 md:m-4 lg:w-4/5 ">
           { TreatmentData && TreatmentData.map((treat) => (
             <Link to={treat.link} className="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <div className=" shadow-md order-gray-200 px-3 py-5 rounded-lg">
+              <div className="shadow-md bg-white order-gray-200 px-3 py-5 rounded-lg">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center p-4 w-full h-full block"

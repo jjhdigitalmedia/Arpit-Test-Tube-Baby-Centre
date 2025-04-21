@@ -95,7 +95,7 @@ const IVFteam = () => {
     return (
         <>
             <Helmet>
-                <title>Gallery: Arpit Test Tube Baby Centre Prayagraj</title>
+                <title>IVF Team: Arpit Test Tube Baby Centre Prayagraj</title>
                 <meta name="description" content="Meet the expert IVF team at Arpit Test Tube Baby Centre, Prayagraj – experienced fertility specialists, embryologists, and support staff dedicated to your success." />
                 <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
                 <meta property="og:title" content=" Best Gynecology Services" />
