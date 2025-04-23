@@ -3,15 +3,17 @@ import { Link } from 'react-router-dom'
 
 const Appointment = () => {
   return (
-    <div className="bg-rose-200 flex flex-wrap md:p-16 w-full m-auto ">
-      <div className=" text-lef md:w-1/2 w-full py-10 px-10">
-        <h1 className=' text-2xl text-centre md:text-4xl mb-2 text-gray-600 font-bold'>Request an Appointment</h1>
-        <span className='text-xl md:text-left text-white'>Don't Wait, Consult with Dr. Vandana Bansal Today!</span>
+    <div className="bg-gray-100 flex items-center flex-wrap md:px-16 py-12 w-full m-auto ">
+
+      <div className="text-center md:text-left md:w-1/2 w-full md:py-10 px-4 md:px-10">
+        <h1 className=' text-4xl text-centre md:text-left md:text-6xl mb-2 text-gray-600 font-bold font-asap md:mt-10'>Request an Appointment</h1>
+        <span className='text-2xl inline-block text-gray-500 font-asap mt-2'>Don't Wait, Consult with Dr. Vandana Bansal Today!</span>
       </div>
 
-      <div className="text-right items-center md:w-1/2 w-full px-4">
-        <button className='bg-white py-3 md:w-96 w-48 mx-auto rounded-3xl text-2xl px-10'><Link to='/book-appointment'> Book Now</Link></button>
+      <div className="text-center md:text-right md:w-1/2 w-full px-4">
+        <button className='bg-rose-400 text-white py-3 md:w-96 w-72 mx-auto rounded-xl md:text-2xl px-10'><Link to='/book-appointment'> Book Now</Link></button>
       </div>
+
     </div>
   )
 }

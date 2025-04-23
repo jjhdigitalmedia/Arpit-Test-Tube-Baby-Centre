@@ -86,12 +86,12 @@ function NavigationB() {
             </span>
           </Link>
           <div className="hidden md:flex space-x-4 relative">
-            <Link to='/' className="text-black text-sm font-semibold">Home</Link>
+            <Link to='/' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Home</Link>
             <Link
               onMouseEnter={() => setIsAboutDropdownOpen(true)}
               onMouseLeave={() => setIsAboutDropdownOpen(false)}
               onClick={toggleAboutDropdown}
-              className="text-black focus:outline-none font-semibold text-sm"
+              className="text-black focus:outline-none font-semibold text-sm relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 "
             >
               About Us
               {/* <ChevronDownIcon className="h-5 w-5 inline" /> */}
@@ -100,7 +100,7 @@ function NavigationB() {
               <div
                 onMouseEnter={() => setIsAboutDropdownOpen(true)}
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
-                className="absolute mt-3 pt-3 w-48 bg-white rounded-md shadow-lg z-10"
+                className="absolute mt-4 pt-3 w-48 bg-white rounded-md shadow-lg z-10"
               >
                 <Link to='our-founder' className="block px-4 py-2 text-gray-800 w-full text-left">
                   Our Founder
@@ -127,11 +127,11 @@ function NavigationB() {
             {/* {isServicesDropdownOpen && (
               <div> */}
             <div
-              className={`dropdown block mt-0 hover:underline transition duration-300 font-semibold text-sm lg:inline-block lg:mt-0 hover:text-red-600 text-black md:text-white  ${isOpen ? "py-3" : ""
+              className={`dropdown mt-0 font-semibold text-sm lg:inline-block lg:mt-0 hover:text-red-600 text-black md:text-white focus:outline-none relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""
                 }`}
             >
               Services
-              <div className="dropdown-content font-thin">
+              <div className="dropdown-content font-thin mt-1">
                 <a className="dropdownn">
                   <Link to='treatments' className="dropbtnn">Treatments</Link>
                   <div className="dropdown-contentt font-medium bg-rose-100">
@@ -185,7 +185,7 @@ function NavigationB() {
                     <Link to="test-evaluation/3d-4d-ultrasound-colour-doppler" onClick={navClose} className=" px-6 bg-rose-100">
                       3D & 4D Ultrasound & Colour Doppler
                     </Link>
-                    <Link to="test-evaluation/hsgssg" onClick={navClose} className=" px-6 bg-rose-100">
+                    <Link to="test-evaluation/hsg-ssg" onClick={navClose} className=" px-6 bg-rose-100">
                       Hysterosalpinography (HSG) & Sono Salpinography
                     </Link>
                     <Link to="test-evaluation/ovulation-induction" onClick={navClose} className=" px-6 bg-rose-100">
@@ -258,19 +258,19 @@ function NavigationB() {
             {/* </div>
             )} */}
 
-            <Link to='news-paper-images' className="text-black text-sm font-semibold">
+            <Link to='news-paper-images' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               In News
             </Link>
-            <Link to='patients-guide' className="text-black text-sm font-semibold">
+            <Link to='patients-guide' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Patients Guide
             </Link>
-            <Link to='achievements' className="text-black text-sm font-semibold">
+            <Link to='achievements' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Success Rate
             </Link>
-            <Link to='ivf-team' className="text-black text-sm font-semibold">
+            <Link to='ivf-team' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Our IVF Team
             </Link>
-            <Link to='gallery' className="text-black text-sm font-semibold">
+            <Link to='gallery' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Gallery
             </Link>
           </div>

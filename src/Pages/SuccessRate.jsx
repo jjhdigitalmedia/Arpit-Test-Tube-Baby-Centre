@@ -61,7 +61,7 @@ const SuccessRate = () => {
             <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
         </Helmet>
     <section className="text-gray-600 z-1 mt-14 body-font">
-      <div className="container mx-auto  flex px-5 py-10 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
         {/* <div className="lg:max-w-lg lg:w-full align-top md:w-1/2 w-5/6 mb-10 md:mb-0 ">
           <img
             className="object-cover object-center rounded"

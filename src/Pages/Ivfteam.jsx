@@ -149,8 +149,6 @@ const CardDemo = () => {
         return () => clearInterval(interval);
     }, []); // Empty dependency array ensures this runs only once when the component mounts
 
-
-
     return (
         <>
             <img

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        asap: ['"Asap Condensed"', 'sans-serif'],
+      },
+    },
     // colors:{
     //   salman:'#e8cccc'
     // }

@@ -4,17 +4,18 @@ import "aos/dist/aos.css";
 // import banner06 from "../assets/banner06.png";
 // import Banner02Final from "../assets/Banner02Final.png";
 import BannerMain from "../assets/Banners/BannerMain.jpg";
-import BannerFinal from "../assets/BannerFinal.png";
-import slide0411 from "../assets/Banners/slide041.jpg";
+// import BannerFinal from "../assets/";
+import qwq from "../assets/Banners/qwq.jpg";
 import aa1112 from "../assets/Banners/aa1112.jpg";
+import qqwq from "../assets/Banners/qqwq.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
+    qqwq,
+    qwq, 
     BannerMain,
-    // BannerFinal,
     aa1112,
-    // slide0411, 
     // Banner02Final,
   ];
   
