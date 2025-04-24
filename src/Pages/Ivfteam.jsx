@@ -113,7 +113,7 @@ const IVFteam = () => {
             </Helmet>
             <section class="text-gray-600 body-font">
                 <CardDemo />
-                <CardSlider/>
+                {/* <CardSlider/> */}
             </section>
         </>
     )
@@ -222,10 +222,6 @@ const CardDemo = () => {
     );
 }
 // export default CardDemo;
-
-
-
-
 
 
 
