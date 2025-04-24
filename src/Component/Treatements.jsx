@@ -23,49 +23,49 @@ const Treatements = () => {
   const TreatmentData = [
     {
       img: iui,
-      link: 'treatments/iui',
+      link: '/treatments/iui',
       heading: "IUI Treatment",
       more: 'view more'
 
     },
     {
       img: IVFet,
-      link: 'treatments/ivf-et',
+      link: '/treatments/ivf-et',
       heading: "IVF-ET",
       more: 'view more'
 
     },
     {
       img: icsi,
-      link: 'treatments/icsi',
+      link: '/treatments/icsi',
       heading: "ICSI Treatment",
       more: 'view more'
 
     },
     {
       img: IMSI,
-      link: 'treatments/imsi',
+      link: '/treatments/imsi',
       heading: "IMSI Treatment",
       more: 'view more'
 
     },
     {
       img: embryo,
-      link: 'treatments/laser-assisted',
+      link: '/treatments/embryo-donation',
       heading: "Embryo Monitoring",
       more: 'view more'
       
     },
     {
       img: lasehatching,
-      link: 'treatments/embryo-donation',
+      link: '/treatments/laser-assisted',
       heading: "Laser Assisted Hatching",
       more: 'view more'
 
     },
     {
       img: Sonography,
-      link: 'treatments/laparoscopy',
+      link: '/treatments/laparoscopy',
       heading: "Sonography",
       more: 'view more'
     }
