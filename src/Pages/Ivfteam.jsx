@@ -25,6 +25,15 @@ import BgBanner1 from '../assets/BgBanner1.jpg';
 import { Helmet } from "react-helmet";
 
 
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
+
+
+
+
 const pics = [
     {
         photo: DrBANSAL,
@@ -104,6 +113,7 @@ const IVFteam = () => {
             </Helmet>
             <section class="text-gray-600 body-font">
                 <CardDemo />
+                <CardSlider/>
             </section>
         </>
     )
@@ -212,3 +222,63 @@ const CardDemo = () => {
     );
 }
 // export default CardDemo;
+
+
+
+
+
+
+
+
+
+const cards = [
+  {
+    title: 'Card 1',
+    image: DrArpitPic ,
+    description: 'यह पहला कार्ड है।',
+  },
+  {
+    title: 'Card 2',
+    image: DrVandanaPic,
+    description: 'यह दूसरा कार्ड है।',
+  },
+  {
+    title: 'Card 3',
+    image: DrAnjulaPic,
+    description: 'यह तीसरा कार्ड है।',
+  },
+  // और कार्ड्स जोड़ें
+];
+
+const CardSlider = () => {
+  return (
+    <div className="w-full max-w-4xl mx-auto py-10">
+      <Swiper
+        modules={[Navigation]}
+        navigation
+        spaceBetween={30}
+        slidesPerView={1}
+        breakpoints={{
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        className="mySwiper"
+      >
+        {cards.map((card, index) => (
+          <SwiperSlide key={index}>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <img src={card.image} alt={card.title} className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h3 className="text-lg font-semibold">{card.title}</h3>
+                <p className="text-gray-600">{card.description}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
+};
+
+// export default CardSlider;

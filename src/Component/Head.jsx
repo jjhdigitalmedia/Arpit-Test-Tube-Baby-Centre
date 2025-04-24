@@ -30,7 +30,7 @@ const Head = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextImage(); // Call the nextImage function to move to the next slide
-    }, 6000); // 2 seconds interval
+    }, 40000); // 2 seconds interval
 
     // Clean up interval on component unmount
     return () => clearInterval(interval);
