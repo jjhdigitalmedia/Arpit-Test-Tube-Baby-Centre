@@ -19,6 +19,8 @@ import IVFet from "../../assets/icons/Treatment/IVFet.jpg";
 import icsi from "../../assets/icons/Treatment/icsi.png";
 import IMSI from "../../assets/icons/Treatment/IMSI.png";
 import lasehatching from "../../assets/icons/Treatment/lasehatching.png";
+import Blastocyst from "../../assets/icons/Treatment/Blastocyst.png";
+import SemenCryo from "../../assets/icons/Treatment/SemenCryo.jpeg";
 import OocyteDonationIcon from "../../assets/icons/Treatment/OocyteDonationIcon.jpg";
 import ED from "../../assets/icons/Treatment/ED.png";
 
@@ -81,7 +83,7 @@ const treatmentsData = [
     },
     {
         id: 8,
-        icon: <FaCapsules className="text-3xl text-green-500" />,
+        icon: Blastocyst,
         title: "Blastocyst Transfer",
         shortDescription: "Proper medication usage and review.",
         fullDescription:
@@ -89,7 +91,7 @@ const treatmentsData = [
     },
     {
         id: 9,
-        icon: <FaCapsules className="text-3xl text-green-500" />,
+        icon: SemenCryo,
         title: "Semen Cryopreservation",
         shortDescription: "Proper medication usage and review.",
         fullDescription:
@@ -200,7 +202,7 @@ function AllTreatments() {
     const [selectedTreatment, setSelectedTreatment] = useState(treatmentsData[0]);
 
     return (
-        <div className="grid mx-auto grid-cols-1 flex-wrap-reverse md:grid-cols-3 gap-6 p-6 ">
+        <div className="grid mx-auto bg-gray-100 grid-cols-1 flex-wrap-reverse md:grid-cols-3 gap-6 p-6 ">
             {/* Details Section
             <div className="col-span-1 md:col-span-2 bg-white p-6 rounded-2xl shadow-md">
                 <h2 className="text-2xl font-bold mb-4">{selectedTreatment.title}</h2>
@@ -210,7 +212,7 @@ function AllTreatments() {
             {TreatmentComponent.map((treatment) => (
                 treatment.title === selectedTreatment.title ? (
                     <div
-                        className="col-span-1 md:col-span-2 p-6 rounded-2xl">
+                        className="col-span-1 bg-white md:col-span-2 p-6 rounded-2xl">
                         {treatment.Comp}
                     </div>
                 )
@@ -218,7 +220,7 @@ function AllTreatments() {
             ))}
 
             {/* Treatments List Section */}
-            <div className="p-1 rounded-2xl shadow-md space-y-4">
+            <div className="p-1 rounded-2xl h-fit bg-white shadow-md space-y-4">
                 {treatmentsData.map((treatment) => (
                     <div
                         key={treatment.id}
