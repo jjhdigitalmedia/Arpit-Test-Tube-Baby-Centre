@@ -11,7 +11,7 @@ const Appointment = () => {
       </div>
 
       <div className="md:text-right md:w-1/2 w-full px-4">
-        <button className='bg-rose-500 text-white py-3 md:w-96 w-72 mx-auto rounded-xl md:text-2xl px-10'><Link to='/book-appointment'> Book Now</Link></button>
+        <button className='bg-rose-500 text-white py-3 md:w-96 w-40 mx-auto rounded-xl md:text-2xl px-10'><Link to='/book-appointment'> Book Now</Link></button>
       </div>
 
     </div>

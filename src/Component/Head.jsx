@@ -7,15 +7,15 @@ import BannerMain from "../assets/Banners/BannerMain.jpg";
 // import BannerFinal from "../assets/";
 import qwq from "../assets/Banners/qwq.jpg";
 import aa1112 from "../assets/Banners/aa1112.jpg";
-import qqwq from "../assets/Banners/qqwq.jpg";
+import qqwqq from "../assets/Banners/qqwqq.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    qqwq,
+    qqwqq,
     qwq, 
     BannerMain,
-    aa1112,
+    // aa1112,
     // Banner02Final,
   ];
   

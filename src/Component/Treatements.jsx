@@ -2,18 +2,18 @@ import React, { useEffect } from "react";
 import IVFet from "../assets/icons/Treatment/IVFet.jpg";
 import iui from "../assets/icons/Treatment/iui.png";
 import icsi from "../assets/icons/Treatment/icsi.png";
-import ivm from "../assets/icons/Treatment/ivm.png";
 import IMSI from "../assets/icons/Treatment/IMSI.png";
 import embryo from "../assets/icons/Treatment/embryo.png";
 import lasehatching from "../assets/icons/Treatment/lasehatching.png";
 import Sonography from "../assets/icons/Treatment/Sonography.png";
 // import laproo from "../assets/icons/Treatment/laproo.png";
-import IVFvideo from '../assets/videos/IVFvideo.mp4';
+// import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import '../Style/Style.css'
 import { Link } from "react-router-dom";
 import VideoOfCentre from "./VideoOfCentre";
+import { PiDotsNineLight } from "react-icons/pi";
 
 const Treatements = () => {
   useEffect(() => {
@@ -68,11 +68,17 @@ const Treatements = () => {
       link: '/treatments/laparoscopy',
       heading: "Sonography",
       more: 'view more'
+    },
+    {
+      img: Sonography,
+      link: '/treatments',
+      heading: "View All Treatments",
+      more: 'view more'
     }
   ]
 
   return (<>
-    <section className="text-gray-600 bg-rose-50 body-font">
+    <section className="text-gray-600 bg-gray-50 my-10 body-font">
 
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">

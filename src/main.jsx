@@ -287,6 +287,7 @@ import Treatements from './Component/Treatements.jsx'
 import EmbryoBanking from './Pages/Treatments/EmbryoBanking.jsx'
 import HSGSSG from './Pages/TestsAndEvaluation/HSGSSG.jsx'
 import NotFound from './Pages/NotFound.jsx'
+import AllTreatments from './Pages/Treatments/AllTreatments.jsx'
 
 
 const router = createBrowserRouter([
@@ -376,7 +377,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'treatments',
-        element: <Treatements />,
+        element: <AllTreatments />,
+        // element: <Treatements />,
         children: []
       },
 

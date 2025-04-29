@@ -1,5 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
+import BackCover from '../assets/BackCover.png'
 const CurrentRoute = () => {
   const location = useLocation();
   const pathnames = location.pathname.split("/").filter(Boolean); // removes empty string from split
@@ -7,10 +8,11 @@ const CurrentRoute = () => {
     return null;
   }
   return (
-    <div className="text-sm text-gray-500 bg-blue-300 pt-20 pb-10 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto">
+    <div className="text-sm bg- text-white pt-20 pb-10 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto bg-cover bg-center h-64 w-full"
+    style={{ backgroundImage: `url(${BackCover})` }}>
       <nav className="flex flex-wrap items-center space-x-1">
         <IoMdHome className="md:text-2xl text-white" />
-        <Link to="/" className="text-rose-400 md:text-2xl hover:underline font-medium">
+        <Link to="/" className="text-white md:text-2xl hover:underline font-medium">
          Home
         </Link>
 
