@@ -7,7 +7,7 @@ import "../Style/neonStyle.css";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import Logo from '../assets/Logo.jpg'
+import ATTBCLogo from '../assets/ATTBCLogo.jpg'
 import {
   ChevronDownIcon,
   PlusIcon,
@@ -82,7 +82,7 @@ function NavigationB() {
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
           <Link to ='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <img src={Logo} className="w-44 md:w-56" alt="" />
+              <img src={ATTBCLogo} className="w-44 md:w-56" alt="" />
             </span>
           </Link>
           <div className="hidden md:flex space-x-4 relative">

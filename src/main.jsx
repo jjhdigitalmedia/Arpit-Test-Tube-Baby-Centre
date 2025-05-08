@@ -336,7 +336,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'guests-peaker',
+        path: 'guest-speaker',
         element: <GuestSpeaker />,
         children: []
       },
