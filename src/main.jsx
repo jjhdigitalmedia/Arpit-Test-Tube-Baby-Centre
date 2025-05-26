@@ -288,6 +288,7 @@ import EmbryoBanking from './Pages/Treatments/EmbryoBanking.jsx'
 import HSGSSG from './Pages/TestsAndEvaluation/HSGSSG.jsx'
 import NotFound from './Pages/NotFound.jsx'
 import AllTreatments from './Pages/Treatments/AllTreatments.jsx'
+import LandingPage from './Compaign/LandingPage.jsx'
 
 
 const router = createBrowserRouter([
@@ -515,11 +516,17 @@ const router = createBrowserRouter([
     ]
   },
   {
+   path: '/ivf-treatment-offer',
+   element: <> <LandingPage /></>,
+  
+ },
+  {
     path: '*',
     element: <NotFound />,
     children: []
   },
 ])
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

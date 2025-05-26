@@ -5,8 +5,8 @@ const OurProfiles = () => {
   return (
     <>
     <Helmet>
-      <title>Treatments: Arpit Test Tube Baby Centre Prayagraj</title>
-      <meta name="description" content="Get expert gynecology consultations and women's health care services." />
+      <title>Our Profile | Arpit Test Tube Baby Centre</title>
+      <meta name="description" content="Get to know the expert team and compassionate care philosophy of Arpit Test Tube Baby Centre. Learn about our IVF journey, mission, and commitment to helping couples achieve parenthood." />
       <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
       <meta property="og:title" content="Best Gynecology Services" />
       <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />

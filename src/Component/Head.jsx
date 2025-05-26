@@ -1,25 +1,21 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
-import "aos/dist/aos.css";
 // import banner06 from "../assets/banner06.png";
 // import Banner02Final from "../assets/Banner02Final.png";
-import BannerMain from "../assets/Banners/BannerMain.jpg";
 // import BannerFinal from "../assets/";
+// import qqwqq from "../assets/Banners/qqwqq.jpg";
+import "aos/dist/aos.css";
+import BannerMain from "../assets/Banners/BannerMain.jpg";
 import qwq from "../assets/Banners/qwq.jpg";
-import aa1112 from "../assets/Banners/aa1112.jpg";
-import qqwqq from "../assets/Banners/qqwqq.jpg";
+import Firstbanner from "../assets/Banners/Firstbanner.png";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    qqwqq,
+    Firstbanner,
     qwq, 
     BannerMain,
-    // aa1112,
-    // Banner02Final,
   ];
-  
-  // banner06,
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Function to go to the next image

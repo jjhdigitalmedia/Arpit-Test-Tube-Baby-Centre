@@ -26,7 +26,7 @@ const Home = () => {
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
       </Helmet>
       <Arrow />
-      <ContactButton/>
+      <ContactButton />
       <Head />
       <Rewards />
       <Treatements />
