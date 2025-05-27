@@ -7,12 +7,12 @@ import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
 import BannerMain from "../assets/Banners/BannerMain.jpg";
 import qwq from "../assets/Banners/qwq.jpg";
-import Firstbanner from "../assets/Banners/Firstbanner.png";
+import FirstBanner from "../assets/Banners/FirstBanner.png";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    Firstbanner,
+    FirstBanner,
     qwq, 
     BannerMain,
   ];
