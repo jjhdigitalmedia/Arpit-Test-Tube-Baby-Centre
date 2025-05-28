@@ -9,6 +9,7 @@ import PromoAdF2 from "../assets/PromoAdF2.png";
 import PromoAd from "../assets/PromoAd.jpg";
 import LogoAB from '../assets/LogoAB.png'
 import DrVandana from '../assets/DrVandana.jpg'
+import FirstBanner from "../assets/Banners/FirstBanner.png";
 import "../Style/Style.css";
 
 const LandingPage = () => {
@@ -78,9 +79,9 @@ const LandingPage = () => {
         <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
           <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
           <li className="invisibl py-3">
-            <IoCallOutline className="md:inline hidden mr-2 text-3xl" />
-            <a className="hidden" href="tel:9151037784"> +91 9151037784 </a></li>
-          <li className="hidden py-3">
+            <IoCallOutline className="hidden md:inline mr-2 text-3xl" />
+            <a className="hidden md:block" href="tel:9151037784"> +91 9151037784 </a></li>
+          <li className="hidden md:block py-3">
             <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
               <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
             </button>
@@ -92,48 +93,10 @@ const LandingPage = () => {
       {/* Introduction Section........................................... */}
 
       <div>
-        <img src={PromoAdF2} alt="" />
+        <img className="hidden md:block" src={PromoAdF2} alt="" />
+        <img className="md:hidden" src={FirstBanner} alt="" />
       </div>
-      {/* <div className="relative h-auto mx-auto overflow-hidden">
-        <button
-          className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-black z-10 bg-opacity-50 p-2 rounded-full text-xl"
-          onClick={prevImage}
-        >
-          ‹
-        </button>
-        <div
-          className="flex transition-transform  duration-500 ease-in-out"
-          style={{
-            transform: `translateX(-${currentIndex * 100}%)`,
-          }}
-        >
-          {images.map((image, index) => (
-            <div key={index} className="flex-shrink-0 w-full h-96">
-              <img
-                src={image}
-                alt={`Slide ${index}`}
-                className="w-full h-4/"
-              />
-            </div>
-          ))}
-        </div>
-        <button
-          className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full text-xl"
-          onClick={nextImage}
-        >
-          ›
-        </button>
-
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-          {images.map((_, index) => (
-            <button
-              key={index}
-              className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' : 'bg-gray-50'}`}
-              onClick={() => setCurrentIndex(index)}
-            />
-          ))}
-        </div>
-      </div> */}
+     
 
       <div className="flex flex-wrap mb-20 bg-gray-200">
         <div className="px-6 py-3 md:py-10 mx-auto text-center">
@@ -236,7 +199,7 @@ const LandingPage = () => {
 
       <div className="flex flex-wrap my-28">
         <section className="px-6 py-10 mx-auto ">
-          <h2 className="text-2xl font-semibold mb-4">Why Choose Indira US?</h2>
+          <h2 className="text-2xl font-semibold mb-4">Why Choose US?</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
             <li>Advanced technology & 38+ Years of Experience</li>
