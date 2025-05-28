@@ -49,7 +49,7 @@ const Head = () => {
         </button>
         {/* Image Container with Sliding Effect */}
         <div
-          className="flex transition-transform duration-500 ease-in-out"
+          className="flex transition-transform duration-1000 ease-in-out"
           style={{
             transform: `translateX(-${currentIndex * 100}%)`,
           }}

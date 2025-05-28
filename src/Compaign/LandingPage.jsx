@@ -5,8 +5,9 @@ import { useLocation } from "react-router-dom";
 // import "aos/dist/aos.css";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
-import PromoAd2 from "../assets/PromoAd2.png";
+import PromoAdF2 from "../assets/PromoAdF2.png";
 import PromoAd from "../assets/PromoAd.jpg";
+import LogoAB from '../assets/LogoAB.png'
 import "../Style/Style.css";
 
 const LandingPage = () => {
@@ -19,8 +20,8 @@ const LandingPage = () => {
   const utm_term = queryParams.get("utm_term");
 
   const images = [
-    PromoAd,
-    PromoAd2,
+    // PromoAd,
+    PromoAdF2,
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -48,7 +49,7 @@ const LandingPage = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "f5a98577-08b5-4cd3-ae37-3bb1137a0e35");
+    formData.append("access_key", "a0183251-d93e-4764-b723-39a525ccfa78");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -72,15 +73,15 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Header */}
-      <header className="bg-rose-800 text-white p-4 text-center text-xl font-bold">
+      <header className="bg-rose-100 shadow-md text-black sticky top-0 z-20 py-2 px-4 text-center text-xl font-bold">
 
-        <ul className="flex justify-between mx-72">
-          <li>Arpit Test Tube Baby Centre IVF - Affordable IVF Treatment</li>
-          <li>
+        <ul className="flex flex-wrap md:justify-between md:mx-72">
+          <li className="text-rose-700"><img src={LogoAB} className="w-60" alt="" /></li>
+          <li className="invisibl py-3">
             <IoCallOutline className="inline mr-2 text-3xl" />
             <a href="tel:9151037784"> +91 9151037784 </a></li>
-          <li>
-            <button className="bg-green-500 text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
+          <li className="py-3">
+            <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
               <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
             </button>
             Whatsapp
@@ -136,25 +137,20 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <section className="px-6 py-8 text-center bg-gray-100">
-        <h1 className="text-3xl font-bold mb-2">IVF That Fits Your Budget</h1>
-        <p className="text-lg">Every month broke my heart. Every test felt like failure. I was tired… but not ready to give up. IVF gave me a reason to hope again.</p>
+      <section className="w-full px-40 mx-auto items-center justify-between flex flex-wrap py-8 text-center bg-gray-100">
+        <div className="mx-20">
+          <h1 className="text-3xl font-bold mb-2">Happy Couples</h1>
+          <p className="text-lg">10,000+</p>
+        </div>
+        <div className="mx-20">
+          <h1 className="text-3xl font-bold mb-2">Success Rate</h1>
+          <p className="text-lg">70%+</p>
+        </div>
+        <div className="mx-20">
+          <h1 className="text-3xl w-fit font-bold mb-2">IVF Budget</h1>
+          <p className="text-lg">Every month broke my heart. failure.</p>
+        </div>
       </section>
-
-      {/* Details Section............................................... */}
-
-
-      <section className="px-6 py-10">
-        <h2 className="text-2xl font-semibold mb-4">Why Choose Indira US?</h2>
-        <ul className="list-disc list-inside space-y-2 text-lg">
-          <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
-          <li>Advanced technology & experienced doctors</li>
-          <li>Personalized fertility plans</li>
-          <li>Transparent pricing</li>
-        </ul>
-      </section>
-
-      {/* Appointment .......................................... */}
 
       <section id='contact' className="text-gray-600 body-font relative">
         <div className="container px-5 py-12 mx-auto">
@@ -197,6 +193,23 @@ const LandingPage = () => {
         <div>
         </div>
       </section>
+
+      {/* Details Section............................................... */}
+
+
+      <section className="px-6 py-10 w-4/5 mx-auto ">
+        <h2 className="text-2xl font-semibold mb-4">Why Choose Indira US?</h2>
+        <ul className="list-disc list-inside space-y-2 text-lg">
+          <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
+          <li>Advanced technology & experienced doctors</li>
+          <li>Personalized fertility plans</li>
+          <li>Transparent pricing</li>
+        </ul>
+      </section>
+
+      {/* Appointment .......................................... */}
+
+
       {/* .............................................. */}
 
       {/* Footer */}
