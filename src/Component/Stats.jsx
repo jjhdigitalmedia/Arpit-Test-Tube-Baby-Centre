@@ -62,7 +62,7 @@ const Stats = () => {
       </div>
     <div className="bg-rose-200 flex flex-wrap p-16 w-full m-auto ">
       <div ref={elementRef} className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-10">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Patients</h1>
+        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Couples</h1>
         <span className='text-3xl text-white font-extrabold'>{patients}+</span>
       </div>
 

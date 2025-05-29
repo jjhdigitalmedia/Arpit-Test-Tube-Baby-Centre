@@ -194,32 +194,31 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-
       {/* ................................... */}
 
       <div className="flex flex-wrap my-28">
-        <section className="px-6 py-10 mx-auto ">
-          <h2 className="text-2xl font-semibold mb-4">Why Choose US?</h2>
+        <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
+          <h2 className="text-4xl text-rose-800 font-semibold mb-4">How IVF Benifits Aspiring Couples?</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
-            <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
-            <li>Advanced technology & 38+ Years of Experience</li>
-            <li>Personalized fertility plans</li>
+            <li>IVF work where other fertility treatment fails!</li>
+            <li>Improve the chances of success</li>
+            <li>Has a higher success rate when compare to other fertility treatment</li>
           </ul>
         </section>
-        <section className="px-6 py-10 mx-auto ">
-          <h2 className="text-2xl font-semibold mb-4">Compassionate Care That Matters</h2>
-          <ul className="list-disc list-inside space-y-2 text-lg">
-            <li>Dedicated fertility counsellors for emotional support</li>
-            <li>Listening actively and understanding patients' emotional and physical experiences.</li>
-            <li>Women-led clinical team focused on comfort & privacy</li>
-          </ul>
-        </section>
-        <section className="px-6 py-10 mx-auto ">
-          <h2 className="text-2xl font-semibold mb-4">Our Commitment to You</h2>
+        <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
+          <h2 className="text-4xl font-semibold text-rose-800 mb-4">Our Commitment to You</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li>We walk with you — every step, every emotion</li>
             <li>No shortcuts. No false hopes. Just honest care</li>
             <li>24x7 patient support that listens and understands</li>
+          </ul>
+        </section>
+        <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
+          <h2 className="text-4xl font-semibold text-rose-800 mb-4">Why Choose US?</h2>
+          <ul className="list-disc list-inside space-y-2 text-lg">
+            <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
+            <li>Advanced technology & 38+ Years of Experience</li>
+            <li>Personalized fertility plans</li>
           </ul>
         </section>
       </div>
