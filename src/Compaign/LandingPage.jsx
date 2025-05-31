@@ -96,7 +96,7 @@ const LandingPage = () => {
         <img className="hidden md:block" src={PromoAdF2} alt="" />
         <img className="md:hidden" src={FirstBanner} alt="" />
       </div>
-     
+
 
       <div className="flex flex-wrap mb-20 bg-gray-200">
         <div className="px-6 py-3 md:py-10 mx-auto text-center">
@@ -225,7 +225,22 @@ const LandingPage = () => {
 
       {/* Appointment .......................................... */}
 
-
+      <div className="sticky md:hidden bottom-0 w-full bg-rose-800 px-2 py-4 text-white">
+        <ul className="flex justify-between">
+          <li className=" border-gray-300">
+            <a className="mx-3 text-lg flex" href="tel:9151037784" target="_blank">
+              <IoCallOutline className="text-xl mr-2" />
+              +91 9151037784
+            </a>
+          </li>
+          <li>
+            <a className="mx-3 text-lg flex" href="https://wa.me/message/JG2WQ7ZXYWU6B1" target="_blank">
+              <FaWhatsapp className="text-xl mr-2" size={25} />
+              Call Us
+            </a>
+          </li>
+        </ul>
+      </div>
       {/* .............................................. */}
 
       {/* Footer */}
