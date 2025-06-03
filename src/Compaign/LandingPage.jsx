@@ -75,12 +75,12 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Header */}
-      <header className="bg-rose-100 shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
+      <header className="bg-rose-50 shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
         <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
           <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
           <li className="invisibl py-3">
             <IoCallOutline className="hidden md:inline mr-2 text-3xl" />
-            <a className="hidden md:block" href="tel:9151037784"> +91 9151037784 </a></li>
+            <a className="hidden md:inline" href="tel:9151037784"> +91 9151037784 </a></li>
           <li className="hidden md:block py-3">
             <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
               <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
@@ -98,7 +98,7 @@ const LandingPage = () => {
       </div>
 
 
-      <div className="flex flex-wrap mb-20 bg-gray-200">
+      <div className="flex flex-wrap mb-10 bg-gray-200">
         <div className="px-6 py-3 md:py-10 mx-auto text-center">
           <h1 className="md:text-3xl font-bold mb-2">Happy Couples</h1>
           <p className="md:text-lg">20,000+</p>
@@ -196,17 +196,17 @@ const LandingPage = () => {
       </section>
       {/* ................................... */}
 
-      <div className="flex flex-wrap my-28">
+      <div className="flex flex-wrap mt-28 mb-8">
         <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-          <h2 className="text-4xl text-rose-800 font-semibold mb-4">How IVF Benifits Aspiring Couples?</h2>
+          <h2 className="text-2xl md:text-4xl text-rose-800 font-semibold mb-4">How IVF Benifits Aspiring Couples?</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li>IVF work where other fertility treatment fails!</li>
-            <li>Improve the chances of success</li>
+            <li>Advanced techniques increase chances of pregnancy.</li>
             <li>Has a higher success rate when compare to other fertility treatment</li>
           </ul>
         </section>
         <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-          <h2 className="text-4xl font-semibold text-rose-800 mb-4">Our Commitment to You</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold text-rose-800 mb-4">Our Commitment to You</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li>We walk with you — every step, every emotion</li>
             <li>No shortcuts. No false hopes. Just honest care</li>
@@ -214,7 +214,7 @@ const LandingPage = () => {
           </ul>
         </section>
         <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-          <h2 className="text-4xl font-semibold text-rose-800 mb-4">Why Choose US?</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold text-rose-800 mb-4">Why Choose US?</h2>
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
             <li>Advanced technology & 38+ Years of Experience</li>
@@ -233,6 +233,7 @@ const LandingPage = () => {
               +91 9151037784
             </a>
           </li>
+           <span>|</span>
           <li>
             <a className="mx-3 text-lg flex" href="https://wa.me/message/JG2WQ7ZXYWU6B1" target="_blank">
               <FaWhatsapp className="text-xl mr-2" size={25} />
@@ -243,10 +244,23 @@ const LandingPage = () => {
       </div>
       {/* .............................................. */}
 
-      {/* Footer */}
-      <footer className="bg-gray-200 text-center text-sm text-gray-700 py-4">
+      {/* <footer className="bg-gray-200 text-center text-sm text-gray-700 py-4">
         &copy; {new Date().getFullYear()} Arpit Test Tube Baby Centre, All rights reserved.
+      </footer> */}
+
+      <footer className="text-center text-sm text-gray-600 py-4 border-t">
+        <p>© 2025 Arpit Test Tube Baby Centre, All rights reserved.</p>
+        {/* <div className="mt-2 space-x-4">
+          <a href="/privacy-policy" className="text-gray-600 underline hover:text-blue-600 transition">
+            Privacy Policy
+          </a>
+          <span>|</span>
+          <a href="/terms-and-conditions" className="text-gray-600 underline hover:text-blue-600 transition">
+            Terms & Conditions
+          </a>
+        </div> */}
       </footer>
+
     </div>
   );
 };

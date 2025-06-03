@@ -22,6 +22,7 @@
     "aos": "^2.3.4",
     "carousel": "^0.0.3",
     "font-awesome": "^4.7.0",
+    "framer-motion": "^12.15.0",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",

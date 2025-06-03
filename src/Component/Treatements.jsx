@@ -6,6 +6,7 @@ import IMSI from "../assets/icons/Treatment/IMSI.png";
 import embryo from "../assets/icons/Treatment/embryo.png";
 import lasehatching from "../assets/icons/Treatment/lasehatching.png";
 import Sonography from "../assets/icons/Treatment/Sonography.png";
+import MoreIcon from "../assets/icons/Treatment/MoreIcon.png";
 // import laproo from "../assets/icons/Treatment/laproo.png";
 // import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import Aos from "aos";
@@ -54,7 +55,7 @@ const Treatements = () => {
       link: '/treatments/embryo-donation',
       heading: "Embryo Monitoring",
       more: 'view more'
-      
+
     },
     {
       img: lasehatching,
@@ -70,7 +71,7 @@ const Treatements = () => {
       more: 'view more'
     },
     {
-      img: Sonography,
+      img: MoreIcon,
       link: '/treatments',
       heading: "View All Treatments",
       more: 'view more'
@@ -83,10 +84,10 @@ const Treatements = () => {
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h1 className="sm:text-5xl text-2xl font-medium title-font font-asap mb-4 text-gray-600">Specialized Fertility Services</h1>
-          <p className="lg:w-2/3 mx-auto text-sm leading-relaxed">Dr. Vandana Bansal is a highly regarded medical professional known for expertise and compassionate care. With extensive experience, Dr. Bansal specializes in advanced treatments, combining cutting-edge technology with personalized care. Her commitment to excellence and patient well-being has earned him a reputation as a trusted figure in the medical community.</p>
+          <p className="lg:w-2/3 mx-auto text-sm leading-relaxed">We offer personalized fertility treatments tailored to each patient’s unique journey. From advanced IVF and IUI procedures to fertility preservation and hormonal therapies, our team combines cutting-edge technology with compassionate care to maximize your chances of success. Your dream of parenthood starts here.</p>
         </div>
         <div className="flex flex-wrap text-center mx-auto m-0 md:m-4 lg:w-4/5 ">
-          { TreatmentData && TreatmentData.map((treat) => (
+          {TreatmentData && TreatmentData.map((treat) => (
             <Link to={treat.link} className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="shadow-md bg-white order-gray-200 px-3 py-5 rounded-lg">
                 <img
@@ -111,7 +112,7 @@ const Treatements = () => {
         />
         Your browser does not support the video tag.
       </video> */}
-      <VideoOfCentre/>
+      <VideoOfCentre />
     </div>
   </>
   );

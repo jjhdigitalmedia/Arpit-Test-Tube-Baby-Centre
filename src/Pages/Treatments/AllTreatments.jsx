@@ -203,22 +203,6 @@ function AllTreatments() {
 
     return (
         <div className="grid mx-auto bg-gray-100 grid-cols-1 flex-wrap-reverse md:grid-cols-3 gap-6 p-6 ">
-            {/* Details Section
-            <div className="col-span-1 md:col-span-2 bg-white p-6 rounded-2xl shadow-md">
-                <h2 className="text-2xl font-bold mb-4">{selectedTreatment.title}</h2>
-                <p className="text-gray-700">{selectedTreatment.fullDescription}</p>
-            </div> */}
-
-            {TreatmentComponent.map((treatment) => (
-                treatment.title === selectedTreatment.title ? (
-                    <div
-                        className="col-span-1 bg-white md:col-span-2 p-6 rounded-2xl">
-                        {treatment.Comp}
-                    </div>
-                )
-                    : null
-            ))}
-
             {/* Treatments List Section */}
             <div className="p-1 rounded-2xl h-fit bg-white shadow-md space-y-4">
                 {treatmentsData.map((treatment) => (
@@ -237,6 +221,22 @@ function AllTreatments() {
                     </div>
                 ))}
             </div>
+            {/* Details Section
+            <div className="col-span-1 md:col-span-2 bg-white p-6 rounded-2xl shadow-md">
+                <h2 className="text-2xl font-bold mb-4">{selectedTreatment.title}</h2>
+                <p className="text-gray-700">{selectedTreatment.fullDescription}</p>
+            </div> */}
+
+            {TreatmentComponent.map((treatment) => (
+                treatment.title === selectedTreatment.title ? (
+                    <div
+                        className="col-span-1 bg-white md:col-span-2 p-6 rounded-2xl">
+                        {treatment.Comp}
+                    </div>
+                )
+                    : null
+            ))}
+
         </div>
     );
 }

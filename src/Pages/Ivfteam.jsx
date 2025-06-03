@@ -8,21 +8,14 @@ import DrArpitPic from '../assets/IVFTeamPic/DrArpitPic.png';
 import DrAnjulaPic from '../assets/IVFTeamPic/DrAnjulaPic.png';
 import DrHarshitPic from '../assets/IVFTeamPic/DrHarshitPic.jpg';
 import DrSakshiPic from '../assets/IVFTeamPic/DrSakshiPic.jpg';
-// import DrMoolNarayanPic from '../assets/IVFTeamPic/DrMoolNarayanPic.jpg';
 import BosePic from '../assets/IVFTeamPic/BosePic.png';
 import DrShipraPic from '../assets/IVFTeamPic/DrShipraPic.jpg';
 import MrsMamtaPic from '../assets/IVFTeamPic/MrsMamtaPic.jpg';
-// import Anjula from '../assets/Anjula.jpg';
-// import SaugatBose from '../assets//SaugatBose.png';
 import gallery01 from '../assets/Gallery/gallery01.jpg';
-// import gallery02 from '../assets/Gallery/gallery02.jpg';
-// import gallery04 from '../assets/Gallery/gallery04.jpg';
-// import embryo from "../assets/icons/Treatment/embryo.png";
-// import lasehatching from "../assets/icons/Treatment/lasehatching.png";
-// import DoctorsBG1 from "../assets/DoctorsBG1.jpg";
 import qqq1 from '../assets/Banners/qqq1.jpg';
-import BgBanner1 from '../assets/BgBanner1.jpg';
 import { Helmet } from "react-helmet";
+
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 
@@ -112,8 +105,8 @@ const IVFteam = () => {
                 <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
             </Helmet>
             <section class="text-gray-600 body-font">
-                <CardDemo />
-                {/* <CardSlider/> */}
+                {/* <CardDemo /> */}
+                <CardSlider />
             </section>
         </>
     )
@@ -136,8 +129,6 @@ const CardDemo = () => {
         { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: 'MBBS NAMC | MD Radio Diagnosis (UCMS)', Knowmore: 'Know more...' },
         { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: 'MBBS MD (Paediatrics)', Knowmore: 'Know more...' },
         { id: 6, photo: DrShipraPic, title: 'Dr Shipra', description: '.........', Knowmore: 'Know more...' },
-        // { id: 6, photo: DrArpitPic, title: 'Dr Zainab', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
-        // { id: 6, photo: DrArpitPic, title: 'Ms. Jyoti', description: 'This is card 6This lorem is card 1This lorem is card 1This lorem is card 1This lorem isThis lorem is card 1This lorem is card 1Th card 1', Knowmore: 'Know more...' },
     ];
 
     // State to control the current index of the cards
@@ -178,7 +169,7 @@ const CardDemo = () => {
                         }}
                     >
                         {cardData.map((card) => (
-                            <div className="relative w-80 bg-rose-50 mx-2 shadow-md rounded-2xl p-6 flex justify-center items-center z-50 min-h-fit mt-28">
+                            <div className="relative w-80 bg-rose-50 mx-2 shadow-md rounded-2xl p-6 flex justify-center items-center z-0 min-h-fit mt-28">
                                 {/* Circle Image */}
                                 <div className="absolute -top-28 left-1/2 transform -translate-x-1/2">
                                     <div className="w-48 h-48 rounded-full border-4 border-white overflow-hidden shadow-md">
@@ -227,54 +218,162 @@ const CardDemo = () => {
 
 
 
-const cards = [
-  {
-    title: 'Card 1',
-    image: DrArpitPic ,
-    description: 'यह पहला कार्ड है।',
-  },
-  {
-    title: 'Card 2',
-    image: DrVandanaPic,
-    description: 'यह दूसरा कार्ड है।',
-  },
-  {
-    title: 'Card 3',
-    image: DrAnjulaPic,
-    description: 'यह तीसरा कार्ड है।',
-  },
-  // और कार्ड्स जोड़ें
-];
+
+
+
+
+
+
+
+
+
+
+
+// const cards = [
+//     { id: 1, title: "Cardrrrrrrrrrrrrrrrr 1", desc: "Description 1", photo: DrBANSAL  },
+//     { id: 2, title: "Carrrrrrrrd 2", desc: "Description 2", photo: DrBANSAL  },
+//     { id: 3, title: "Carrrrrrrrrd 3", desc: "Description 3", photo: DrBANSAL },
+//     { id: 4, title: "Carrrrrrrrrrrrd 4", desc: "Description 4", photo: DrBANSAL },
+//     { id: 5, title: "Carrrrrrrd 5", desc: "Description 5", photo: DrBANSAL },
+//     { id: 6, title: "Card 6", desc: "Description 6", photo: DrBANSAL },
+//     { id: 7, title: "Card 7", desc: "Description 7", photo: DrBANSAL },
+//     { id: 8, title: "Card 8", desc: "Description 8", photo: DrBANSAL },
+// ];
+
+ const cards = [
+        { id: 6, photo: DrBansalPic, title: 'Late Dr. Ashwini Kumar Bansal', description: 'M.B.B.S., MS, FAIS, FCGP, FIAGES', Knowmore: 'Founder' },
+        { id: 1, photo: DrVandanaPic, title: 'Dr. Vandana Bansal', description: 'MS, D.Phil (Gold Medalist), DGO, FCGP', Knowmore: 'Director' },
+        { id: 3, photo: DrArpitPic, title: 'Dr. Arpit Bansal', description: 'MBBS, MS, FMAS, FCS', Knowmore: 'Director' },
+        { id: 2, photo: MrsMamtaPic, title: 'Mrs. Mamta Tiwari', description: 'M.Sc. (Medical Micro Biology)', Knowmore: 'IVF Counselor' },
+        { id: 4, photo: DrAnjulaPic, title: 'Dr. Anjula Sahay', description: 'MBBS, DGO, FCPS', Knowmore: 'IVF Counselor' },
+        { id: 5, photo: BosePic, title: 'Mr. Saugat Bose', description: 'M.Sc. (Biochemistry)', Knowmore: 'Embryologist' },
+        { id: 6, photo: DrHarshitPic, title: 'Dr Harshit Bansal', description: 'MBBS NAMC | MD Radio Diagnosis (UCMS)', Knowmore: 'Know more...' },
+        { id: 6, photo: DrSakshiPic, title: 'Dr Sakshi Bansal', description: 'MBBS MD (Paediatrics)', Knowmore: 'Know more...' },
+        { id: 6, photo: DrShipraPic, title: 'Dr Shipra', description: '.........', Knowmore: 'Know more...' },
+    ];
 
 const CardSlider = () => {
-  return (
-    <div className="w-full max-w-4xl mx-auto py-10">
-      <Swiper
-        modules={[Navigation]}
-        navigation
-        spaceBetween={30}
-        slidesPerView={1}
-        breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        className="mySwiper"
-      >
-        {cards.map((card, index) => (
-          <SwiperSlide key={index}>
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src={card.image} alt={card.title} className="w-full h-48 object-cover" />
-              <div className="p-4">
-                <h3 className="text-lg font-semibold">{card.title}</h3>
-                <p className="text-gray-600">{card.description}</p>
-              </div>
+    const [index, setIndex] = useState(0);
+    const [cardsPerPage, setCardsPerPage] = useState(4);
+    const [direction, setDirection] = useState(0);
+
+    useEffect(() => {
+        const updateCardsPerPage = () => {
+            const width = window.innerWidth;
+            if (width < 640) {
+                setCardsPerPage(1); // small screens
+            } else if (width < 1150) {
+                setCardsPerPage(2); // medium screens
+            } else {
+                setCardsPerPage(4); // large screens
+            }
+            setIndex(0); // Reset index on resize
+        };
+
+        updateCardsPerPage();
+        window.addEventListener('resize', updateCardsPerPage);
+        return () => window.removeEventListener('resize', updateCardsPerPage);
+    }, []);
+
+    const next = () => {
+        if (index + cardsPerPage < cards.length) {
+            setDirection(1);
+            setIndex(index + cardsPerPage);
+        }
+    };
+
+    const prev = () => {
+        if (index - cardsPerPage >= 0) {
+            setDirection(-1);
+            setIndex(index - cardsPerPage);
+        }
+    };
+
+    const visibleCards = cards.slice(index, index + cardsPerPage);
+
+    return (
+        <div className="h-screen flex flex-col items-center justify-center bg-gray-100 px-4">
+            <h1 className="text-3xl font-bold mb-12">Our Dedicated Team</h1>
+
+            <div className="relative w-full max-w-6xl overflow-hidden flex justify-center">
+                <AnimatePresence mode="wait" initial={false}>
+                    <motion.div
+                        key={index}
+                        className="flex space-x-4 mt-4"
+                        drag="x"
+                        dragConstraints={{ left: 0, right: 0 }}
+                        onDragEnd={(event, info) => {
+                            const swipeThreshold = 100;
+                            if (info.offset.x < -swipeThreshold && index + cardsPerPage < cards.length) {
+                                setDirection(1);
+                                setIndex(index + cardsPerPage);
+                            } else if (info.offset.x > swipeThreshold && index - cardsPerPage >= 0) {
+                                setDirection(-1);
+                                setIndex(index - cardsPerPage);
+                            }
+                        }}
+                        initial={{ x: direction > 0 ? 300 : -300, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        exit={{ x: direction > 0 ? -300 : 300, opacity: 0 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        {visibleCards.map((card) => (
+                            <div
+                                key={card.id}
+                                className="bg-white w-96 sm:w-[300px] z-0 border-2 p-8 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
+                            >
+                                {/* <div className="absolute -top-0 left-1/2 transform -translate-x-1/2">
+                                    <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-md">
+                                        <img
+                                            src={card.photo}
+                                            alt="Profile"
+                                            className="object-cover w-full h-full"
+                                        />
+                                    </div>
+                                </div> */}
+                                <div className="-mt-28 text-center">
+                                     <div className="w-40 h-40 rounded-full mx-auto border-4 border-white overflow-hidden shadow-md">
+                                        <img
+                                            src={card.photo}
+                                            alt="Profile"
+                                            className="object-cover w-full h-full"
+                                        />
+                                    </div>
+                                    <h3 className="text-lg mt-10 font-bold text-gray-800">{card.title}</h3>
+                                    <p className=" mt-2">
+                                        {card.description}<br />
+                                        {card.Knowmore}
+                                    </p>
+                                    <button className="mt-4 px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-600 transition">
+                                        Learn More
+                                    </button>
+                                </div>
+                                {/* <h2 className="text-xl font-bold">{card.title}</h2>
+                <p className="text-gray-600">{card.desc}</p> */}
+                            </div>
+                        ))}
+                    </motion.div>
+                </AnimatePresence>
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
-  );
+
+            <div className="mt-6 flex gap-4">
+                <button
+                    onClick={prev}
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    disabled={index === 0}
+                >
+                    Prev
+                </button>
+                <button
+                    onClick={next}
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    disabled={index + cardsPerPage >= cards.length}
+                >
+                    Next
+                </button>
+            </div>
+        </div>
+    );
 };
 
 // export default CardSlider;
