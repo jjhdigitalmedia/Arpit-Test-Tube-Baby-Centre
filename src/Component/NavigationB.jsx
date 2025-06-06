@@ -135,79 +135,79 @@ function NavigationB() {
               <div className="dropdown-content font-thin mt-1">
                 <a className="dropdownn">
                   <Link to='treatments' className="dropbtnn">Treatments</Link>
-                  <div className="dropdown-contentt w-72 py-2 font-medium bg-rose-100">
-                    <Link to="treatments/iui" onClick={navClose} className=" px-6 bg-rose-100">
+                  <div className="dropdown-contentt w-72 py-2 font-medium bg-rose-50">
+                    <Link to="treatments/iui" onClick={navClose} className=" px-6 bg-rose-50">
                       IUI
                     </Link>
-                    <Link to="treatments/ivf-et" onClick={navClose} className="px-6 my-2 bg-rose-100">
+                    <Link to="treatments/ivf-et" onClick={navClose} className="px-6 my-2 bg-rose-50">
                       IVF ET
                     </Link>
-                    <Link to="treatments/icsi" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/icsi" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       ICSI
                     </Link>
-                    <Link to="treatments/laser-assisted" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/laser-assisted" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Laser Assisted Hatching (LAH)
                     </Link>
-                    <Link to="treatments/imsi" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/imsi" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       IMSI
                     </Link>
-                    <Link to="treatments/embryo-donation" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/embryo-donation" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Embryo Donation (ED)
                     </Link>
-                    <Link to="treatments/oocyte-donation" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/oocyte-donation" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Occyte Donation (OD)
                     </Link>
-                    <Link to="treatments/blastocyst-transfer" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/blastocyst-transfer" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Blastocyst Transfer
                     </Link>
-                    <Link to="treatments/semen-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/semen-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Semen Cryopreservation
                     </Link>
-                    <Link to="treatments/oocyte-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/oocyte-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Oocyte Cryopreservation
                     </Link>
-                    <Link to="treatments/embryo-bank" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/embryo-bank" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Embryo Banking (Cryopreservation)
                     </Link>
-                    <Link to="treatments/mesa-microepididymal-sperm-aspiration" onClick={navClose} className="my-2 px-6 border-zinc-300 bg-rose-100">
+                    <Link to="treatments/mesa-microepididymal-sperm-aspiration" onClick={navClose} className="my-2 px-6 border-zinc-300 bg-rose-50">
                       MESA (Microepididymal Sperm Aspiration)
                     </Link>
-                    <Link to="treatments/tesa-testicular-sperm-aspiration-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="treatments/tesa-testicular-sperm-aspiration-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       TESA (Testicular Sperm Aspiration and Cryopreservation)
                     </Link>
                   </div>
                 </a>
                 <a className="dropdownn">
                   <button className="dropbtnn">Test & Evaluation</button>
-                  <div className="dropdown-contentt w-72 font-medium bg-rose-100">
-                    <Link to="test-evaluation/hormonal-analysis" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                  <div className="dropdown-contentt w-72 font-medium bg-rose-50">
+                    <Link to="test-evaluation/hormonal-analysis" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Hormonal Analysis
                     </Link>
-                    <Link to="test-evaluation/3d-4d-ultrasound-colour-doppler" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/3d-4d-ultrasound-colour-doppler" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       3D & 4D Ultrasound & Colour Doppler
                     </Link>
-                    <Link to="test-evaluation/hsg-ssg" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/hsg-ssg" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Hysterosalpinography (HSG) & Sono Salpinography
                     </Link>
-                    <Link to="test-evaluation/ovulation-induction" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/ovulation-induction" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Ovulation Induction with Follicle Monitoring
                     </Link>
-                    <Link to="test-evaluation/ai-semen-analysis" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/ai-semen-analysis" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       AI Assisted Semen Analysis
                     </Link>
-                    <Link to="test-evaluation/fertility-enhancing-laparoscopic-hysteroscopic-surgeries" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/fertility-enhancing-laparoscopic-hysteroscopic-surgeries" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Fertility Enhancing Laparoscopic and Hysteroscopic Surgeries
                     </Link>
-                    <Link to="test-evaluation/diagnostic-video-laparoscopic-hysteroscopic" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/diagnostic-video-laparoscopic-hysteroscopic" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Dignostic Video Laparoscopy / Hysterosocpy
                     </Link>
-                    <Link to="test-evaluation/surgery-for-male-infertility" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/surgery-for-male-infertility" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Surgery for Male Infertility
                     </Link>
-                    <Link to="test-evaluation/prp-treatment" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/prp-treatment" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       PRP treatment for Endometrium & Ovary
                     </Link>
-                    <Link to="test-evaluation/stemcell-therapy" onClick={navClose} className="my-2 px-6 bg-rose-100">
+                    <Link to="test-evaluation/stemcell-therapy" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Stem Cell Therapy
                     </Link>
                     {/* <Link to="sonography" onClick={navClose}>

@@ -295,7 +295,7 @@ const CardSlider = () => {
         <div className="h-screen flex flex-col items-center justify-center bg-gray-100 px-4">
             <h1 className="text-3xl font-bold mb-12">Our Dedicated Team</h1>
 
-            <div className="relative w-full max-w-6xl overflow-hidden flex justify-center">
+            <div className="relative w-full max-w-8xl overflow-hidden flex justify-center">
                 <AnimatePresence mode="wait" initial={false}>
                     <motion.div
                         key={index}
@@ -320,7 +320,7 @@ const CardSlider = () => {
                         {visibleCards.map((card) => (
                             <div
                                 key={card.id}
-                                className="bg-white w-96 sm:w-[300px] z-0 border-2 p-8 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
+                                className="bg-white w-96 sm:w-[300px] z-0 border-2 p-6 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
                             >
                                 {/* <div className="absolute -top-0 left-1/2 transform -translate-x-1/2">
                                     <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-md">
@@ -332,7 +332,7 @@ const CardSlider = () => {
                                     </div>
                                 </div> */}
                                 <div className="-mt-28 text-center">
-                                     <div className="w-40 h-40 rounded-full mx-auto border-4 border-white overflow-hidden shadow-md">
+                                     <div className="w-40 h-40 rounded-full mx-auto border-8 border-white overflow-hidden">
                                         <img
                                             src={card.photo}
                                             alt="Profile"

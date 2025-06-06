@@ -54,7 +54,7 @@ const SuccessRate = () => {
   return (
      <>
         <Helmet>
-            <title>Success Rate: Arpit Test Tube Baby Centre Prayagraj</title>
+            <title >Success Rate: Arpit Test Tube Baby Centre Prayagraj</title>
             <meta name="description" content="Discover the high IVF success rates at Arpit Test Tube Baby Centre, Prayagraj. We focus on personalized care and evidence-based fertility treatments." />
             <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
             <meta property="og:title" content="Best Gynecology Services" />
@@ -69,8 +69,8 @@ const SuccessRate = () => {
             src={newlab2}
           />
         </div> */}
-        <div className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:item zs-start md:text-left items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:item text-center md:text-left items-center ">
+          <h1 className="title-font sm:text-5xl font-asap font-bold text-3xl mb-4 text-rose-800">
             Arpit Test Tube Baby Centre
           </h1>
           <div className="p-2 text-justify">
@@ -94,14 +94,18 @@ const SuccessRate = () => {
             Several factors influence the success rate of in vitro fertilization
             (IVF) treatment. These factors include:
           </div>
+
+          <div className="text-justify mt-16">
           {
             successes.map((index) => (
-              <div className='text-justify' >
-                <span className="font-semibold">{index.ind} </span>{index.data}
+              <div className='py-2' >
+                <span className="font-semibold">{index.ind} </span>
+                <span className="text-left"> {index.data}</span>
               </div>
             ))
           }
-          <div className="flex justify-center">
+          </div>
+          <div className="flex justify-center my-10">
             <Link to="/book-appointment">
               <button className="inline-flex text-white bg-rose-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">
                 Book Appoinment
