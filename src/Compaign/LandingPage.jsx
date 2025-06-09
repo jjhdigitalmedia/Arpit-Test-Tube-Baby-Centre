@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 // import "aos/dist/aos.css";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
-import PromoAdF2 from "../assets/PromoAdF2.png";
+import PromoAdF2 from "../assets/PromoAdF2.webp";
 import PromoAd from "../assets/PromoAd.jpg";
 import LogoAB from '../assets/LogoAB.png'
 import DrVandana from '../assets/DrVandana.jpg'
