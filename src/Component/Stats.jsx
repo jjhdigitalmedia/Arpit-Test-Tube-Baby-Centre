@@ -60,24 +60,24 @@ const Stats = () => {
       <div>
         <img className='md:w-4/5 -mt-10 mx-auto' src={familyDoctors1} alt="" />
       </div>
-    <div className="bg-rose-200 flex flex-wrap p-16 w-full m-auto ">
+    <div className="bg-rose-800 flex flex-wrap p-16 w-full m-auto ">
       <div ref={elementRef} className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-10">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Couples</h1>
+        <h1 className='mb-8 text-4xl font-bold font-asap text-white '>Happy Couples</h1>
         <span className='text-3xl text-white font-extrabold'>{patients}+</span>
       </div>
 
       <div className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-4">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Year of Experience</h1>
+        <h1 className='mb-8 text-4xl font-bold font-asap text-white'>Year of Experience</h1>
         <span className='text-3xl text-white font-extrabold'>38+</span>
       </div>
 
       <div className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-4">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Success Rate</h1>
-        <span className='text-3xl text-white font-extrabold'>70%+</span>
+        <h1 className='mb-8 text-3xl font-bold font-asap text-white'>Success Rate</h1>
+        <span className='text-4xl text-white font-extrabold'>70%+</span>
       </div>
 
       <div className="lg:w-1/4 text-center md:w-1/2 w-full px-1">
-        <h1 className='mb-8 text-2xl font-bold text-gray-600'>Happy Patients</h1>
+        <h1 className='mb-8 text-4xl font-bold font-asap text-white'>Happy Patients</h1>
         <span className='text-3xl text-white font-extrabold'>99+</span>
       </div>
 

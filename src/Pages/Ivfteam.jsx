@@ -293,7 +293,7 @@ const CardSlider = () => {
 
     return (
         <div className="h-screen flex flex-col items-center justify-center bg-gray-100 px-4">
-            <h1 className="text-3xl font-bold mb-12">Our Dedicated Team</h1>
+            <h1 className="text-5xl font-bold mb-12 font-asap text-rose-700">Our Dedicated Team</h1>
 
             <div className="relative w-full max-w-8xl overflow-hidden flex justify-center">
                 <AnimatePresence mode="wait" initial={false}>
@@ -344,8 +344,8 @@ const CardSlider = () => {
                                         {card.description}<br />
                                         {card.Knowmore}
                                     </p>
-                                    <button className="mt-4 px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-600 transition">
-                                        Learn More
+                                    <button className="mt-4 px-4 py-2 bg-rose-00 font-semibold text-rose-800 rounded-lg hover:bg-pink-600 transition">
+                                        Know More
                                     </button>
                                 </div>
                                 {/* <h2 className="text-xl font-bold">{card.title}</h2>
@@ -359,14 +359,14 @@ const CardSlider = () => {
             <div className="mt-6 flex gap-4">
                 <button
                     onClick={prev}
-                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    className="bg-rose-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
                     disabled={index === 0}
                 >
                     Prev
                 </button>
                 <button
                     onClick={next}
-                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    className="bg-rose-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
                     disabled={index + cardsPerPage >= cards.length}
                 >
                     Next

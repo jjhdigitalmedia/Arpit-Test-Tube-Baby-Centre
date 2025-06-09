@@ -31,7 +31,7 @@ const Contact = () => {
     <section id='contact' className="text-gray-600 body-font relative">
       <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-600 font-asap">Book Your Appointment</h1>
+          <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-rose-700 font-asap">Book Your Appointment</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-bold">If you're seeking treatment or have any queries, feel free to submit this form. I'll get back to you as soon as possible.</p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">

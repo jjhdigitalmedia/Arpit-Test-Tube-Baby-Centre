@@ -26,7 +26,7 @@ const Gallery = () => {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto flex flex-wrap">
                     <div class="flex w-full mb-20 flex-wrap">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Our Media Gallery</h1>
+                        <h1 class="sm:text-5xl text-2xl title-font font-bold lg:w-1/3 lg:mb-0 mb-4 font-asap text-rose-700">Our Media Gallery</h1>
                         <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
                             Welcome to our hospital and labs, where advanced technology meets compassionate care. Our modern facilities are designed for patient comfort and efficiency, ensuring the highest standards of healthcare. Explore our website to learn more about our dedicated team and services!</p>
                     </div>

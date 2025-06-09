@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import speaker1 from "../assets/speaker1.jpg";
-import IVFvideo from '../assets/videos/IVFvideo.mp4';
+import qqq1 from '../assets/Banners/qqq1.jpg';
 import lab0 from "../assets/lab0.png";
 import patientweb from "../assets/patientweb.png";
-import qqq1 from '../assets/Banners/qqq1.jpg';
+import speaker1 from "../assets/speaker1.jpg";
+// import IVFvideo from '../assets/videos/IVFvideo.mp4';
 
 const Rewards = () => {
   return (
@@ -21,10 +21,10 @@ const Rewards = () => {
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-xl font-bold text-gray-800 mb-2">
+            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
               IVF Lab
             </h2>
-            <p className="text-gray-700 text-base leading-normal mb-4">
+            <p className="text-gray-700 text-justify text-base leading-normal mb-4">
               Dr. Vandana Bansal In simple terms IVF means fertilisation outside the body. After ovarian stimulation, eggs are
             </p>
           </div>
@@ -37,10 +37,10 @@ const Rewards = () => {
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-xl font-bold text-gray-800 mb-2">
+            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
               Testimonials
             </h2>
-            <p className="text-gray-700 text-base leading-normal mb-4">
+            <p className="text-gray-700 text-justify text-base leading-normal mb-4">
               At our healthcare facility, patient satisfaction is at the core of everything we do. We believe that providing high-quality 
             </p>
           </div>
@@ -52,11 +52,11 @@ const Rewards = () => {
             className="w-full object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-xl font-bold text-gray-800 mb-2">
+            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
               Guest Speaker
             </h2>
-            <p className="text-gray-700 text-base leading-normal mb-4">
-            Dr. Vandana Bansal is a distinguished guest speaker at various global conferences,  where she shares her expertise in IVF, Laparoscopic & Hysteroscopic Surgeries, Cosmetic Gynaecologst and engaging conversations.
+            <p className="text-gray-700 text-base text-justify leading-normal mb-4">
+            Dr. Vandana Bansal is a distinguished guest speaker at various global conferences, where she shares her expertise in IVF, Laparoscopic & Hysteroscopic Surgeries.
             </p>
           </div>
         </Link>

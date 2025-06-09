@@ -275,7 +275,7 @@ function NavigationB() {
               Gallery
             </Link>
           </div>
-          <Link to='book-appointment' className="hidden md:block text-white bg-rose-400 px-3 py-1 text-sm rounded-xl">
+          <Link to='book-appointment' className="hidden md:block text-white bg-rose-700 px-3 py-1 text-sm rounded-xl">
             Contact Us
           </Link>
           <button

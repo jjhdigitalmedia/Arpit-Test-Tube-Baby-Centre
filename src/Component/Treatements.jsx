@@ -7,14 +7,14 @@ import embryo from "../assets/icons/Treatment/embryo.png";
 import lasehatching from "../assets/icons/Treatment/lasehatching.png";
 import Sonography from "../assets/icons/Treatment/Sonography.png";
 import MoreIcon from "../assets/icons/Treatment/MoreIcon.png";
-// import laproo from "../assets/icons/Treatment/laproo.png";
-// import IVFvideo from '../assets/videos/IVFvideo.mp4';
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import '../Style/Style.css'
 import { Link } from "react-router-dom";
 import VideoOfCentre from "./VideoOfCentre";
-import { PiDotsNineLight } from "react-icons/pi";
+// import laproo from "../assets/icons/Treatment/laproo.png";
+// import IVFvideo from '../assets/videos/IVFvideo.mp4';
+// import { PiDotsNineLight } from "react-icons/pi";
 
 const Treatements = () => {
   useEffect(() => {
@@ -79,11 +79,11 @@ const Treatements = () => {
   ]
 
   return (<>
-    <section className="text-gray-600 bg-gray-50 my-10 body-font">
+    <section className="text-gray-600 bg-ros-50 my-10 body-font">
 
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-          <h1 className="sm:text-5xl text-2xl font-medium title-font font-asap mb-4 text-gray-600">Specialized Fertility Services</h1>
+          <h1 className="sm:text-5xl text-2xl font-medium title-font font-asap mb-4 text-rose-700">Specialized Fertility Services</h1>
           <p className="lg:w-2/3 mx-auto text-sm leading-relaxed">We offer personalized fertility treatments tailored to each patient’s unique journey. From advanced IVF and IUI procedures to fertility preservation and hormonal therapies, our team combines cutting-edge technology with compassionate care to maximize your chances of success. Your dream of parenthood starts here.</p>
         </div>
         <div className="flex flex-wrap text-center mx-auto m-0 md:m-4 lg:w-4/5 ">
@@ -104,14 +104,7 @@ const Treatements = () => {
         </div>
       </div>
     </section>
-    <div className="w-full md:px-52 py-10 bg-red-200 my-5">
-      {/* <video className="h-11/12 m-auto w-screen border-rose-50 " controls>
-        <source
-          src={IVFvideo}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video> */}
+    <div className="w-full md:px-52 py-28 bg-rose-800">
       <VideoOfCentre />
     </div>
   </>
