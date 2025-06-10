@@ -79,7 +79,7 @@ const Treatements = () => {
   ]
 
   return (<>
-    <section className="text-gray-600 bg-ros-50 my-10 body-font">
+    <section className="text-gray-600 bg-ros-800  my-10 body-font">
 
       <div className="container px-1 md:px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
@@ -104,7 +104,7 @@ const Treatements = () => {
         </div>
       </div>
     </section>
-    <div className="w-full md:px-52 py-28 bg-rose-800">
+    <div className="w-full md:px-2 py-28 bg-rose-800">
       <VideoOfCentre />
     </div>
   </>

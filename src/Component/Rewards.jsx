@@ -14,7 +14,7 @@ const Rewards = () => {
       </div>
       <div className="flex text-xs justify-center flex-wrap bg-transparent lg:w-11/12 mx-auto lg:mt-10">
 
-        <Link to="ivf-lab" className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
+        <Link to="ivf-lab" className="bg-white m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={lab0}
             alt="Mountain"
@@ -25,12 +25,12 @@ const Rewards = () => {
               IVF Lab
             </h2>
             <p className="text-gray-700 text-justify text-base leading-normal mb-4">
-              Dr. Vandana Bansal In simple terms IVF means fertilisation outside the body. After ovarian stimulation, eggs are
+              Our advanced IVF lab at Arpit Test Tube Baby Centre ensures high success rates with cutting-edge technology and expert care.
             </p>
           </div>
         </Link >
 
-        <Link to='patients-review' className="bg-white m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden  max-w-72">
+        <Link to='patients-review' className="bg-white m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden  max-w-72">
           <img
             src={patientweb}
             alt="Mountain"
@@ -41,11 +41,11 @@ const Rewards = () => {
               Testimonials
             </h2>
             <p className="text-gray-700 text-justify text-base leading-normal mb-4">
-              At our healthcare facility, patient satisfaction is at the core of everything we do. We believe that providing high-quality 
+             At our healthcare facility, patient satisfaction is our top priority. We are committed to delivering high-quality care in everything we do.
             </p>
           </div>
         </Link>
-        <Link to="guest-speaker" className="bg-whie m-2 h-auto rounded-2xl shadow-xl shadow-slate-300 overflow-hidden max-w-72">
+        <Link to="guest-speaker" className="bg-whie m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={speaker1}
             alt="Mountain"
@@ -56,7 +56,7 @@ const Rewards = () => {
               Guest Speaker
             </h2>
             <p className="text-gray-700 text-base text-justify leading-normal mb-4">
-            Dr. Vandana Bansal is a distinguished guest speaker at various global conferences, where she shares her expertise in IVF, Laparoscopic & Hysteroscopic Surgeries.
+           Dr. Vandana Bansal is a renowned guest speaker at international conferences, sharing her expertise in IVF and many other advanced fertility and surgical treatments.
             </p>
           </div>
         </Link>
