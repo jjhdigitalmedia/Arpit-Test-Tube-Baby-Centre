@@ -270,7 +270,7 @@ const Footer = () => {
               (Allahabad) UTTAR PRADESH, INDIA
             </a>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0597529168485!2d81.84401430943906!3d25.43626577746421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb4375248d9b%3A0x385a6afccbc59834!2sDr.%20Vandana%20Bansal%20-%20Best%7CGynaecologist%20Doctors%7CHigh%20Risk%20Pregnancy%20Doctor%7CLaproscopy%20Doctor%7CInfertility%20Doctor%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1720863709269!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <button className="bg-rose-500 text-white py-2 px-6 mt-4 rounded-xl">
+              <button className="bg-white text-black py-2 px-6 mt-4 rounded-md">
             <Link to="/book-appointment">
                 Book Appointment
             </Link>

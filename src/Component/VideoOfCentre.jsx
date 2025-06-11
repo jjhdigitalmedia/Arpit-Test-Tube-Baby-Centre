@@ -50,7 +50,7 @@ const VideoOfCentre = () => {
       <h3 className='px-10 hidden xl:block text-8xl font-asap font-semibold text-white'>Arpit Test Tube Baby Centre</h3>
       <video
         ref={videoRef} // Correct usage of useRef
-        className="w-fll rounded-xl max-w-5xl"
+        className="w-full rounded-xl max-w-5xl"
         loop
         muted
         playsInline
