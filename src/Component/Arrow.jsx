@@ -29,7 +29,7 @@ const Arrow = () => {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-24 right-6 bg-rose-700 text-white p-3 rounded-full shadow-lg hover:bg-rose-800 transition-all"
+          className="fixed bottom-24 z-50 right-6 bg-rose-700 text-white p-3 rounded-full shadow-lg hover:bg-rose-800 transition-all"
         >
           <FaArrowUp size={20} />
         </button>
