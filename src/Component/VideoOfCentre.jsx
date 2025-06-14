@@ -47,7 +47,7 @@ const VideoOfCentre = () => {
 
   return (
     <div className="flex justify-center">
-      <h3 className='px-10 hidden xl:block text-8xl font-asap font-semibold text-white'>Arpit Test Tube Baby Centre</h3>
+      <h3 className='px-10 hidden 2xl:block text-8xl font-asap font-semibold text-white'>Arpit Test Tube Baby Centre</h3>
       <video
         ref={videoRef} // Correct usage of useRef
         className="w-full rounded-xl max-w-5xl"
@@ -59,7 +59,7 @@ const VideoOfCentre = () => {
         <source src={IVFvideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <h3 className='px-10 hidden xl:block font-asap text-8xl font-semibold text-rose-200'>Advanced Care with Cutting-Edge Equipment</h3>
+      <h3 className='px-10 hidden 2xl:block font-asap text-8xl font-semibold text-rose-200'>Advanced Care with Cutting-Edge Equipment</h3>
     </div>
   );
 };
