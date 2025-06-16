@@ -320,6 +320,15 @@ const Footer = () => {
             <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
               © 2025 Arpit Test Tube Baby Centre | All rights reserved
             </p>
+            <div className="text-center">
+              <Link to='terms-and-condition'>
+                Term & Condition
+              </Link>
+              |
+              <Link to="privacy-policy">
+                 Privacy Policy
+              </Link>
+            </div>
           </div>
         </div>
       </footer>

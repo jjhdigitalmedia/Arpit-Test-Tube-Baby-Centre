@@ -289,6 +289,8 @@ import HSGSSG from './Pages/TestsAndEvaluation/HSGSSG.jsx'
 import NotFound from './Pages/NotFound.jsx'
 import AllTreatments from './Pages/Treatments/AllTreatments.jsx'
 import LandingPage from './Compaign/LandingPage.jsx'
+import TermsAndConditions from './Pages/TermsAndCondition.jsx'
+import PrivacyPolicy from './Pages/PrivacyPolicy.jsx'
 
 
 const router = createBrowserRouter([
@@ -374,6 +376,16 @@ const router = createBrowserRouter([
       {
         path: 'news-paper-images',
         element: <NewsPaperCutting />,
+        children: []
+      },
+      {
+        path: 'terms-and-condition',
+        element: <TermsAndConditions />,
+        children: []
+      },
+      {
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />,
         children: []
       },
       {
@@ -516,7 +528,7 @@ const router = createBrowserRouter([
     ]
   },
   {
-   path: '/ivf-treatment-offer',
+   path: '/ivf-treatment',
    element: <> <LandingPage /></>,
   
  },
