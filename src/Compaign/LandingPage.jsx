@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useLocation } from "react-router-dom";
 // import Head from "../Component/Head";
 // import BookYourAppointment from "../Pages/BookYourAppointment";
@@ -71,6 +71,9 @@ const LandingPage = () => {
       const formData = new FormData('');
     }
   };
+
+
+  
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
@@ -184,16 +187,96 @@ const LandingPage = () => {
                   world-class technology, a compassionate team, and
                   decades of experience, we offer personalized fer lity
                   care for every hopeful parent.</p>
-                {/* <a class="text-indigo-500 inline-flex items-center">Learn More
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a> */}
+
               </div>
+
+
             </div>
           </div>
         </div>
       </section>
+      <div className="container px-5 py-24 mx-auto flex flex-col">
+
+        <h1 className="text-3xl font-bold text-center text-rose-800 mb-10">Arpit Test Tube Baby Centre</h1>
+        <p className="text-justify">
+          At Arpit Test Tube Baby Centre, we understand that the journey to parenthood can be filled with both hope and uncertainty. That’s why we are committed to offering compassionate, ethical, and cutting-edge fertility care tailored to each couple’s unique needs. With years of expertise in IVF, ICSI, IUI, and other assisted reproductive technologies, our center has helped hundreds of families realize their dream of having a child. Our state-of-the-art laboratory, world-class embryology setup, and experienced medical team ensure the highest standards of treatment and transparency. We believe in combining advanced science with emotional support—because fertility is not just about medicine, it's about trust, guidance, and walking together through one of the most important chapters of your life. Whether you are facing unexplained infertility, male or female factor issues, or seeking second opinions, Arpit IVF provides personalized care plans with high success rates and affordable options. Your journey starts with a conversation, and at Arpit IVF, we are here to listen, support, and deliver hope—one healthy baby at a time.
+        </p>
+      </div>
+
+      <div className="bg-white py-12 px-6 md:px-20">
+        <h2 className="text-3xl font-bold text-center text-rose-800 mb-10">Steps of IVF Treatment</h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4 text-gray-700">
+          <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">1. Ovarian Stimulation</h3>
+            <p>Fertility medications are given to stimulate the ovaries to produce multiple eggs.</p>
+          </div>
+
+          <div className="p-6 rounded-full shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">2. Egg Retrieval</h3>
+            <p>Eggs are collected from the ovaries using a minor surgical procedure under ultrasound guidance.</p>
+          </div>
+
+          <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">3. Sperm Collection</h3>
+            <p>A semen sample is collected from the male partner to fertilize the eggs.</p>
+          </div>
+
+          <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">4. Fertilization</h3>
+            <p>Eggs and sperm are combined in the lab to allow fertilization, forming embryos.</p>
+          </div>
+
+          <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">5. Embryo Culture</h3>
+            <p>Fertilized embryos are monitored and grown in the lab for a few days.</p>
+          </div>
+
+          <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <h3 className="text-xl font-semibold mb-2">6. Embryo Transfer</h3>
+            <p>A healthy embryo is transferred into the uterus, and pregnancy is awaited.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="bg-rose-800 py-16 px-6 md:px-20">
+        <h2 className="text-3xl font-bold text-center text-white mb-10">IVF Treatment Cost Breakdown</h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto text-gray-800">
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold mb-4 text-rose-700">🧬 Basic IVF Package</h3>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>Doctor Consultation</li>
+              <li>Ultrasound Monitoring</li>
+              <li>Hormonal Injections</li>
+              <li>Egg Retrieval Procedure</li>
+              <li>Fertilization & Embryo Transfer</li>
+              <li>Basic Medications</li>
+            </ul>
+            <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,50,000</p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold mb-4 text-rose-700">🔬 Add-On Services (If Needed)</h3>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>ICSI (Intracytoplasmic Sperm Injection)</li>
+              <li>Embryo Freezing</li>
+              <li>Donor Eggs or Donor Sperm</li>
+              <li>PGT (Genetic Testing)</li>
+              <li>Blastocyst Culture</li>
+              <li>Laser Hatching</li>
+            </ul>
+            <p className="mt-4 font-semibold text-rose-700">💰 ₹30,000 – ₹1,00,000+</p>
+          </div>
+        </div>
+
+        <div className="text-center mt-10 text-white">
+          <p className="text-lg">💡 <span className="font-medium">Transparent pricing you can rely on, </span> from consultation to conception.</p>
+        </div>
+      </div>
+
       {/* ................................... */}
 
       <div className="flex flex-wrap mt-28 mb-8">
@@ -233,7 +316,7 @@ const LandingPage = () => {
               +91 9151037784
             </a>
           </li>
-           <span>|</span>
+          <span>|</span>
           <li>
             <a className="mx-3 text-lg flex" href="https://wa.me/message/JG2WQ7ZXYWU6B1" target="_blank">
               <FaWhatsapp className="text-xl mr-2" size={25} />

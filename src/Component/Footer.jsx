@@ -279,7 +279,7 @@ const Footer = () => {
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
             <h1 className="text-white font-bold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Arpi Test Tube Baby Centre</h1>
-            <p className="text-white text-justify">Arpit Test Tube Baby Centre is situated in Prayagraj, also known as the City of God in Persian, and Sangam city in the North Indian state of Uttar Pradesh. The ancient name of the city was Prayag, believed to be the spot where Brahma offered his first sacrifice after creating the world. It is one of four sites of the mass Hindu pilgrimage, Kumbh Mela. It holds a position of importance in Hindu scriptures as it is situated at the confluence of the 'Triveni Sangam' of the holy rivers Ganges and Yamuna, and the mythical Saraswati River. The Purna (complete) Kumbh or Maha Kumbh, the biggest and most auspicious fair, which falls once every 12 years, is always held in Prayagraj. An entire sea of humanity descends upon the riverside town during this time. Ardha Kumbh Mela is held every 6th year, and the Magh Mela is the annual version of the Kumbh. The Maha Kumbh Mela will be held in Prayagraj in 2025. On important bathing dates, lakhs of pilgrims take baths on the banks of the holy Sangam.</p>
+            <p className="text-white text-justify">Arpit Test Tube Baby Centre is a trusted name in fertility and reproductive healthcare, known for delivering hope to countless couples through advanced fertility treatments and personalized care. With a strong focus on ethical practices, high success rates, and patient well-being, we offer a full range of services including IVF, ICSI, IUI, and fertility preservation. Backed by a dedicated team of fertility specialists and a state-of-the-art embryology lab, our center ensures the highest standards of care and comfort. Having completed 25 successful years in the field of fertility treatment, we take pride in being a part of thousands of beautiful parenthood journeys. At Arpit IVF, we believe every couple deserves a chance to build a family—and we are here to make that journey possible with compassion, expertise, and unwavering support.</p>
             <div className="flex m-auto my-4">
               <a
                 href="https://www.instagram.com/dr.vandanabansal"
@@ -325,7 +325,7 @@ const Footer = () => {
                 Term & Condition
               </Link>
               |
-              <Link to="privacy-policy">
+              <Link to="privacy-policy texy">
                  Privacy Policy
               </Link>
             </div>
