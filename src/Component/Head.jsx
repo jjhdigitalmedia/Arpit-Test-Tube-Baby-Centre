@@ -5,9 +5,9 @@ import React, { useEffect, useState } from "react";
 // import BannerFinal from "../assets/";
 // import qqwqq from "../assets/Banners/qqwqq.jpg";
 import "aos/dist/aos.css";
-import BannerMain from "../assets/Banners/BannerMain.jpg";
-import qwq from "../assets/Banners/qwq.jpg";
-import FirstBanner from "../assets/Banners/FirstBanner.png";
+import BannerMain from "../assets/Heros/BannerMain.webp";
+import qwq from "../assets/Heros/qwq.webp";
+import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
 
 const Head = () => {
