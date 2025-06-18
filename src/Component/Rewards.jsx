@@ -21,7 +21,7 @@ const Rewards = () => {
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
+            <h2 className="text-3xl font-semibold font-asap text-rose-800 mb-3">
               IVF Lab
             </h2>
             <p className="text-gray-700 text-justify text-base leading-normal mb-4">
@@ -37,7 +37,7 @@ const Rewards = () => {
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
+            <h2 className="text-3xl font-semibold font-asap text-rose-800 mb-3">
               Testimonials
             </h2>
             <p className="text-gray-700 text-justify text-base leading-normal mb-4">
@@ -52,7 +52,7 @@ const Rewards = () => {
             className="w-full object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
-            <h2 className="text-3xl font-semibold font-asap text-rose-700 mb-3">
+            <h2 className="text-3xl font-semibold font-asap text-rose-800 mb-3">
               Guest Speaker
             </h2>
             <p className="text-gray-700 text-base text-justify leading-normal mb-4">
