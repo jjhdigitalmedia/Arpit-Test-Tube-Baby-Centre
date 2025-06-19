@@ -6,10 +6,10 @@ import { useLocation } from "react-router-dom";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import PromoAdF2 from "../assets/PromoAdF2.webp";
-import PromoAd from "../assets/PromoAd.jpg";
-import LogoAB from '../assets/LogoAB.png'
-import DrVandana from '../assets/DrVandana.jpg'
-import FirstBanner from "../assets/Banners/FirstBanner.png";
+// import PromoAd from "../assets/PromoAd.jpg";
+import LogoAB from '../assets/LogoAB.webp'
+import DrVandana from '../assets/DrVandana.webp'
+import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
 
 const LandingPage = () => {
