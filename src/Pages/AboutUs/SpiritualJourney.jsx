@@ -12,7 +12,7 @@ const SpiritualJourney = () => {
       <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
     </Helmet>
     <div className="w-11/12 md:w-4/5 m-auto pt-10 pb-24">
-      <h1 className="font-bold text-3xl my-3">
+      <h1 className="font-bold my-10 md:text-5xl text-3xl font-asap text-rose-800">
         A Spiritual Journey Towards Parenthood{" "}
       </h1>
       <h3>Embarking on a Spiritual Journey Toward Parenthood</h3>

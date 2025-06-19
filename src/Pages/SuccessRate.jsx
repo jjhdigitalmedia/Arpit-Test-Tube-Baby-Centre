@@ -1,5 +1,3 @@
-import React from "react";
-import newlab2 from "../assets/newlab2.jpg";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -62,13 +60,7 @@ const SuccessRate = () => {
         </Helmet>
     <section className="text-gray-600 z-1 mt-14 body-font">
       <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-        {/* <div className="lg:max-w-lg lg:w-full align-top md:w-1/2 w-5/6 mb-10 md:mb-0 ">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src={newlab2}
-          />
-        </div> */}
+
         <div className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:item text-center md:text-left items-center ">
           <h1 className="title-font sm:text-5xl font-asap font-bold text-3xl mb-4 text-rose-800">
             Arpit Test Tube Baby Centre

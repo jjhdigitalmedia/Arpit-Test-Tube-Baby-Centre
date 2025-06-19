@@ -1,5 +1,3 @@
-// src/pages/TermsAndConditions.jsx
-
 const TermsAndConditions = () => {
   return (
     <div className="max-w-6xl mx-auto p-6">

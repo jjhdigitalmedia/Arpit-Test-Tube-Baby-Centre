@@ -1,11 +1,7 @@
-import React, { useState } from 'react'
-// import About from '../../Component/About';
-import { Outlet } from 'react-router-dom';
+import { useState } from 'react'
 import AboutDrVandanaBansal from './AboutDrVandanaBansal';
-import aboutvandana from '../../assets/aboutvandana.jpg'
 import DrVandana from '../../assets/DrVandana.jpg'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-// import About from './About'
 import { GiVideoConference } from "react-icons/gi";
 import { GrWorkshop } from "react-icons/gr";
 import { GiPodiumWinner } from "react-icons/gi";
@@ -54,11 +50,6 @@ const OurFounders = () => {
             </div>
 
             <p className="mb-8 md:text-left text-sm leading-relaxed text-black font-semibold text-justify"> DR. VANDANA BANSAL – MBBS, DGO, MS, D.Phil (Gold Medalist) FCGP is one of the renowned and Senior Gynaecologists and Obstetricians of the state of Uttar Pradesh. She is specialized in Laparoscopy and Hysteroscopic Surgery – since 18 years. Besided, she is Director of 500-bedded, multi-speciality Jeevan Jyoti Hospital, Arpit Test Tube Baby Centre & Vandana Women’s Hospital Allahabad. Jeevan Jyoti Hospital has completed 25th years in Oct-2013 Silver Jubilee celebration. <span className='text-rose-700'> know more </span></p>
-            {/* <div className="flex justify-center">
-                                  <Link to='bookappointment'>
-                                      <button className="inline-flex text-white bg-rose-700 border-0 py-2 px-6 focus:outline-none hover:bg-rose-800 rounded text-sm">Book Appoinment</button>
-                                  </Link>
-                              </div> */}
           </div>
         </div>
         <div className='flex flex-wrap mx-auto w-4/6 gap-2'>
@@ -125,7 +116,6 @@ const OurFounders = () => {
             <AboutDrVandanaBansal data={data} />
           </div>
         </div>
-        {/* <Outlet /> */}
       </div>
     </>
   )

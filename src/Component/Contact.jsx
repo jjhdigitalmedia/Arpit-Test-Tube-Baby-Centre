@@ -38,19 +38,19 @@ const Contact = () => {
           <form onSubmit={onSubmit} className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
-                <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                <label htmlFor="name" className="leading-7 text-sm">Name</label>
+                <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
             </div>
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="mobile" className="leading-7 text-sm text-gray-600">Mobile</label>
+                <label htmlFor="mobile" className="leading-7 text-sm">Mobile</label>
                 <input type="tel" id="mobile" name="mobile" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+                <label htmlFor="email" className="leading-7 text-sm">Email</label>
                 <input type="tel" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
             </div>
@@ -88,7 +88,6 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0597529168485!2d81.84401430943906!3d25.43626577746421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb4375248d9b%3A0x385a6afccbc59834!2sDr.%20Vandana%20Bansal%20-%20Best%7CGynaecologist%20Doctors%7CHigh%20Risk%20Pregnancy%20Doctor%7CLaproscopy%20Doctor%7CInfertility%20Doctor%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1720863709269!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
       </div>
     </section>
   )

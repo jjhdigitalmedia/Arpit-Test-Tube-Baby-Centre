@@ -11,7 +11,7 @@ const OurVisionMissions = () => {
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
       </Helmet>
       <div className='w-11/12 md:w-4/5 m-auto pt-10 pb-24'>
-        <h1 className='font-bold text-3xl my-3'> Our Vision and Mission </h1>
+        <h1 className='font-bold md:text-5xl text-3xl my-10 font-asap text-rose-800'> Our Vision and Mission </h1>
 
         <p>The vision and mission of an IVF (In Vitro Fertilization) centre revolve around their commitment to helping individuals and couples achieve their dreams of starting a family. Here's an example:</p>
 

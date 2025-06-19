@@ -11,8 +11,8 @@ const OurProfiles = () => {
       <meta property="og:title" content="Best Gynecology Services" />
       <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
     </Helmet>
-    <div className='w-11/12 md:w-4/5 m-auto pt-10 pb-24'>
-      <h1 className='font-bold text-3xl my-3'>ARPIT IVF - Best IVF Centre in Prayagraj</h1>
+    <div className='w-11/12 md:w-4/5 m-auto text-justify pt-10 pb-24'>
+      <h1 className='font-bold md:text-5xl text-3xl my-10 font-asap text-rose-800'>ARPIT IVF - Best IVF Centre in Prayagraj</h1>
 
       <p>Arpit Test Tube Baby Centre is situated in Prayagraj, also known as the City of God in Persian, and Sangam city in the North Indian state of Uttar Pradesh. The ancient name of the city was Prayag, believed to be the spot where Brahma offered his first sacrifice after creating the world. It is one of four sites of the mass Hindu pilgrimage, Kumbh Mela. It holds a position of importance in Hindu scriptures as it is situated at the confluence of the 'Triveni Sangam' of the holy rivers Ganges and Yamuna, and the mythical Saraswati River. The Purna (complete) Kumbh or Maha Kumbh, the biggest and most auspicious fair, which falls once every 12 years, is always held in Prayagraj. An entire sea of humanity descends upon the riverside town during this time. Ardha Kumbh Mela is held every 6th year, and the Magh Mela is the annual version of the Kumbh. The Maha Kumbh Mela will be held in Prayagraj in 2025. On important bathing dates, lakhs of pilgrims take baths on the banks of the holy Sangam.</p>
 
