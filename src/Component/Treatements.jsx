@@ -66,7 +66,7 @@ const Treatements = () => {
     },
     {
       img: Sonography,
-      link: '/treatments/laparoscopy',
+      link: '/treatments/sonography',
       heading: "Sonography",
       more: 'view more'
     },

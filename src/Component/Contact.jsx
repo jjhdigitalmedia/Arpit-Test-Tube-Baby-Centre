@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa'
 
 const Contact = () => {
@@ -19,6 +18,15 @@ const Contact = () => {
       },
       body: json
     }).then((res) => res.json());
+
+    // Step 2: Submit to Pabbly Webhook (NEW)
+    await fetch("https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZiMDYzMTA0MzA1MjY4NTUzMzUxMzQi_pc", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: json
+    });
 
     if (res.success) {
       console.log("Success", res);

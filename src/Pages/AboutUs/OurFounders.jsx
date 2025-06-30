@@ -26,7 +26,7 @@ const OurFounders = () => {
       </Helmet>
       <div>
         {/* <About /> */}
-        <div className="container mx-auto flex px-3 py- md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-3 md:flex-row flex-col items-center">
           <div className="pt-5 pb-0 md:w-96 w-5/6 ">
             <img className=" object-cover object-center roundedxl w-96" alt="hero" src={DrVandana} />
           </div>
@@ -52,7 +52,11 @@ const OurFounders = () => {
             <p className="mb-8 md:text-left text-sm leading-relaxed text-black font-semibold text-justify"> DR. VANDANA BANSAL – MBBS, DGO, MS, D.Phil (Gold Medalist) FCGP is one of the renowned and Senior Gynaecologists and Obstetricians of the state of Uttar Pradesh. She is specialized in Laparoscopy and Hysteroscopic Surgery – since 18 years. Besided, she is Director of 500-bedded, multi-speciality Jeevan Jyoti Hospital, Arpit Test Tube Baby Centre & Vandana Women’s Hospital Allahabad. Jeevan Jyoti Hospital has completed 25th years in Oct-2013 Silver Jubilee celebration. <span className='text-rose-700'> know more </span></p>
           </div>
         </div>
-        <div className='flex flex-wrap mx-auto w-4/6 gap-2'>
+
+{/* ................................. */}
+
+
+        <div className='flex flex-wrap mx-auto w-11/12 gap-2'>
 
           <div className="md:w-72 m-10 h-fit text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
             {/* {                    details.map((index, key) => ( */}

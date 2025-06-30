@@ -452,6 +452,11 @@ const router = createBrowserRouter([
         children: []
       },
       {
+        path: 'treatments/sonography',
+        element: <EmbryoBanking/>,
+        children: []
+      },
+      {
         path: 'treatments/mesa-microepididymal-sperm-aspiration',
         element: <MESA />,
         children: []
