@@ -255,7 +255,7 @@ const LandingPage = () => {
               <li>Fertilization & Embryo Transfer</li>
               <li>Basic Medications</li>
             </ul>
-            <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,50,000</p>
+            <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,50,000 per cycle</p>
           </div>
 
           <div className="bg-white rounded-xl shadow-md p-6">
