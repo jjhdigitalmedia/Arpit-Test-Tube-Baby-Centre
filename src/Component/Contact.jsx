@@ -32,6 +32,14 @@ const Contact = () => {
       console.log("Success", res);
       alert('Form has bees successfully submitted, Thanks for contact me')
       const formData = new FormData('');
+      
+ if (typeof gtag === "function") {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17183522494' // <-- Replace with your own conversion ID
+      });
+    }
+      
+      
     }
   };
 
