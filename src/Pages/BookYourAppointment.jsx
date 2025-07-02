@@ -25,7 +25,7 @@ const BookYourAppointment = () => {
                             type="button">
                             {/* +91 6390103002 | +91 9151037783 */}
                             <a className="pr-3 text-sm text-white" href="tel:6390103002">Book Now: +91 6390103002,</a>
-                            <a className="pr-6 text-sm text-white" href="tel:9151037783">+91 9151037783</a>
+                            <a className="pr-6 text-sm text-white" href="tel:9151037783">+91 77059 10037</a>
                             </button>
                         <span
                             className="absolute min-w-[25px] min-h-[25px] rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[2%] translate-x-2/4 -translate-y-2/4 bg-rose-700 text-white">
