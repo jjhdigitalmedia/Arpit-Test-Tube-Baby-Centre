@@ -92,7 +92,7 @@ const LandingPage = () => {
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
             <li className="invisibl py-3">
               <IoCallOutline className="hidden md:inline mr-2 text-3xl" />
-              <a className="hidden md:inline" href="tel:9151037784"> +91 7705910037 </a></li>
+              <a className="hidden md:inline" href="tel:7705910037"> +91 7705910037 </a></li>
             <li className="hidden md:block py-3">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
                 <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
@@ -320,9 +320,9 @@ const LandingPage = () => {
         <div className="sticky md:hidden bottom-0 w-full bg-rose-800 px-2 py-4 text-white">
           <ul className="flex justify-between">
             <li className=" border-gray-300">
-              <a className="mx-3 text-lg flex" href="tel:9151037784" target="_blank">
+              <a className="mx-3 text-lg flex" href="tel:7705910037" target="_blank">
                 <IoCallOutline className="text-xl mr-2" />
-                +91 9151037784
+                +91 7705910037
               </a>
             </li>
             <span>|</span>
