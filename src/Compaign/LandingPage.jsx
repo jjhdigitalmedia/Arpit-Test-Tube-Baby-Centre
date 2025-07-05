@@ -188,14 +188,8 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                  <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a leading name in the field of infer lity treatment and women's health. With over
-                    38+ years of experience, she has helped thousands of couples fulfil their dream of parenthood. Known for her empathe c counselling, me culous approach, and high IVF success rates, she is deeply commi ed to ethical and pa ent-centric care</p>
-                  <p class="leading-relaxed text-justify text-lg mb-4">Welcome to Advanced Fer lity & IVF Centre
-                    We are a state-of-the-art facility dedicated to helping
-                    couples achieve their dream of parenthood. With
-                    world-class technology, a compassionate team, and
-                    decades of experience, we offer personalized fer lity
-                    care for every hopeful parent.</p>
+                  <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a renowned expert in infertility treatment and women’s health, with over 38 years of experience. She has helped thousands of couples achieve their dream of parenthood through her compassionate counseling, meticulous approach, and consistently high IVF success rates. Deeply committed to ethical, patient-centric care, Dr. Bansal continues to be a trusted name in reproductive medicine.</p>
+                  <p class="leading-relaxed text-justify text-lg mb-4">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
 
                 </div>
 

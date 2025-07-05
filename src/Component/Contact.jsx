@@ -34,7 +34,7 @@ const Contact = () => {
       const formData = new FormData('');
       
  if (typeof gtag === "function") {
-      gtag('event', 'conversion', {
+      windows.gtag('event', 'conversion', {
         'send_to': 'AW-17183522494' // <-- Replace with your own conversion ID
       });
     }
