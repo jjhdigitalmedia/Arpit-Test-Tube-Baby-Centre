@@ -1,26 +1,15 @@
 import React, { useEffect, useState, useRef } from "react";
-import { useLocation } from "react-router-dom";
-// import Head from "../Component/Head";
-// import BookYourAppointment from "../Pages/BookYourAppointment";
-// import "aos/dist/aos.css";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import PromoAdF2 from "../assets/PromoAdF2.webp";
-// import PromoAd from "../assets/PromoAd.jpg";
 import LogoAB from '../assets/LogoAB.webp'
 import DrVandana from '../assets/DrVandana.webp'
 import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
 import { Helmet } from "react-helmet";
+// import PromoAd from "../assets/PromoAd.jpg";
 
 const LandingPage = () => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-
-  const gclid = queryParams.get("gclid");
-  const utm_source = queryParams.get("utm_source");
-  const utm_campaign = queryParams.get("utm_campaign");
-  const utm_term = queryParams.get("utm_term");
 
   const images = [
     // PromoAd,
@@ -52,7 +41,7 @@ const LandingPage = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "a0183251-d93e-4764-b723-39a525ccfa78");
+    formData.append("access_key", "f5a98577-08b5-4cd3-ae37-3bb1137a0e35");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -66,14 +55,27 @@ const LandingPage = () => {
       body: json
     }).then((res) => res.json());
 
+    // Step 2: Submit to Pabbly Webhook (NEW)
+    await fetch("https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZiMDYzMTA0MzA1MjY4NTUzMzUxMzQi_pc", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: json
+    });
+
     if (res.success) {
       console.log("Success", res);
       alert('Form has bees successfully submitted, Thanks for contact me')
       const formData = new FormData('');
+
+      if (typeof gtag === "function") {
+        windows.gtag('event', 'conversion', {
+          'send_to': 'AW-17183522494' // <-- Replace with your own conversion ID
+        });
+      }
     }
   };
-
-
 
 
   return (
@@ -81,7 +83,7 @@ const LandingPage = () => {
       <Helmet>
         <title>Best IVF Treatment in Prayagraj | Arpit Test Tube Baby Centre</title>
         <meta name="description" content="Book expert IVF consultation in Prayagraj. Affordable fertility treatment with high success rate. Call now at Arpit Test Tube Baby Centre." />
-        <meta name="keywords" content="IVF in Prayagraj, Fertility treatment, Test tube baby, IUI, IVF specialist, gynecologist, women's health, pregnancy care, PCOS treatment" />
+        <meta name="keywords" content="IVF in Prayagraj, Fertility treatment, Infertility treatment in allahabad, Infertilit treatment in prayagraj, IVF treatment in prayagraj, Dr Vandana Bansal, jeevan Jyoti Hospital, Dr Arpit Bansal, Hysteroscopic surgery, Gynaecologist in prayagraj Test tube baby, IUI, IVF specialist, gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best Gynecology Services" />
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
       </Helmet>
