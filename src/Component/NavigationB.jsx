@@ -88,12 +88,12 @@ function NavigationB() {
             </span>
           </Link>
           <div className="hidden md:flex space-x-4 relative">
-            <Link to='/' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Home</Link>
+            <Link to='/' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Home</Link>
             <Link
               onMouseEnter={() => setIsAboutDropdownOpen(true)}
               onMouseLeave={() => setIsAboutDropdownOpen(false)}
               onClick={toggleAboutDropdown}
-              className="text-black focus:outline-none font-semibold text-sm relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 "
+              className="text-black focus:outline-none font-semibold text-md relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 "
             >
               About Us
               {/* <ChevronDownIcon className="h-5 w-5 inline" /> */}
@@ -129,7 +129,7 @@ function NavigationB() {
             {/* {isServicesDropdownOpen && (
               <div> */}
             <div
-              className={`dropdown mt-0 font-semibold text-sm lg:inline-block lg:mt-0 hover:text-red-600 text-black md:text-white focus:outline-none relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""
+              className={`dropdown mt-0 font-semibold text-md lg:inline-block lg:mt-0 hover:text-red-600 text-black md:text-white focus:outline-none relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""
                 }`}
             >
               Services
@@ -260,23 +260,23 @@ function NavigationB() {
             {/* </div>
             )} */}
 
-            <Link to='news-paper-images' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='news-paper-images' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               In News
             </Link>
-            <Link to='patients-guide' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='patients-guide' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Patients Guide
             </Link>
-            <Link to='achievements' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='achievements' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Success Rate
             </Link>
-            <Link to='ivf-team' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='ivf-team' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Our IVF Team
             </Link>
-            <Link to='gallery' className="text-black text-sm font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='gallery' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Gallery
             </Link>
           </div>
-          <Link to='book-appointment' className="hidden md:block text-white bg-rose-700 px-3 py-1 text-sm rounded-xl">
+          <Link to='book-appointment' className="hidden md:block text-white bg-rose-800 font-bold px-4 py-2 text-lg rounded-3xl">
             Contact Us
           </Link>
           <button
@@ -516,7 +516,7 @@ function NavigationB() {
               <Link to='gallery' className="text-black py-3 border-b-2 font-semibold">
                 Gallery
               </Link>
-              <Link to='book-appointment' className="text-white text-center border-b-2 bg-red-700 px-2 py-2 my-5 rounded">
+              <Link to='book-appointment' className="text-white bg-rose-800 font-bold px-4 py-2 text-lg rounded-3xl">
                 Contact Us
               </Link>
             </div>
