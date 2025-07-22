@@ -27,7 +27,7 @@ function App() {
       </div>
       <div className=" fixed top-56 -rotate-90 -ml-20 z-50">
         <a href="/book-appointment">
-          <button className="bg-rose-400 hover:bg-red-800 shadow-md text-white py-2 px-8 rounded-br-2xl rounded-bl-2xl">
+          <button className="bg-rose-800 hover:shadow-lg shadow-md text-white py-2 px-8 rounded-br-2xl rounded-bl-2xl">
             Book Appointment
           </button>
         </a>

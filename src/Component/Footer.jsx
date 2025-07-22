@@ -282,7 +282,7 @@ const Footer = () => {
                 Book Appointment
               </Link>
             </button>
-            <button className="bg-white text-black py-2 px-6 mt-4 mx-20 hidden lg:inline rounded-md">
+            <button className="bg-white text-black py-2 px-6 mt-4 ml-44 hidden lg:inline rounded-md">
               <a href="tel:6390103002" className="hover:text-rose-800">
                 Call Now
               </a>

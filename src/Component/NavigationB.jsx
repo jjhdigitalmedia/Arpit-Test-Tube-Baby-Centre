@@ -46,7 +46,7 @@ function NavigationB() {
   };
   return (
     <>
-      <div className=" hidden md:flex flex-wrap z-50 justify-between py-2 px-3 bg-rose-400">
+      <div className=" hidden md:flex flex-wrap z-50 justify-between py-2 px-3 bg-rose-800">
         <div>
           <span className="pr-8 text-sm text-white">
             <IoCallOutline className="inline mr-2" />  
