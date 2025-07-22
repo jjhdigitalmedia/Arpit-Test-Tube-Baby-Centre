@@ -82,8 +82,8 @@ const Contact = () => {
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               {/* <a className="text-rose-500 text-wrap">arpitivf@gmail.com</a> */}
               <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-rose-700' target="_blank">arpitivf@gmail.com</a>
-              <p className="leading-normal my-5">162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
-              </p>
+              <a href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
+              </a>
               <div className='flex m-auto w-fit'>
                 <a href="https://www.instagram.com/dr.vandanabansal" target='_blank'>
                   <FaInstagram className='mx-2 text-rose-600 text-xl' />

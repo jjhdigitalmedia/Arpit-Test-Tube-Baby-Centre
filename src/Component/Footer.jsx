@@ -9,6 +9,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import { IoCallOutline } from "react-icons/io5";
 const Footer = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const Footer = () => {
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/treatments/iui">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <IoIosArrowForward className="inline" />   
+                  <IoIosArrowForward className="inline" />
                   <span className="">IUI</span>
                 </Link>
               </li>
@@ -181,7 +182,7 @@ const Footer = () => {
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/prp-treatment">
                   {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
-                    <FaArrowRight />
+                  <FaArrowRight />
                   <span>PRP Treatment of Endometrium & Ovary</span>
                 </Link>
               </li>
@@ -189,7 +190,7 @@ const Footer = () => {
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/stemcell-therapy">
                   {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> */}
-                    <FaArrowRight />
+                  <FaArrowRight />
                   <span>Stem Cell Therapy</span>
                 </Link>
               </li>
@@ -269,12 +270,23 @@ const Footer = () => {
               <IoLocationOutline className="inline text-white text-xl" />162 Bai Ka Bagh, Lowther Road, Pincode - 211003, Prayagraj
               (Allahabad) UTTAR PRADESH, INDIA
             </a>
+            <a className="my-3 text-white block" target="_blank" href="tel:6390103002">
+              <IoCallOutline className="inline mr-2" />
+              +91 6390103002</a>
+            <a className="my-3 text-white block" target="_blank" href="tel:9151037784">
+              <IoCallOutline className="inline mr-2" />
+              +91 9151037784</a>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0597529168485!2d81.84401430943906!3d25.43626577746421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb4375248d9b%3A0x385a6afccbc59834!2sDr.%20Vandana%20Bansal%20-%20Best%7CGynaecologist%20Doctors%7CHigh%20Risk%20Pregnancy%20Doctor%7CLaproscopy%20Doctor%7CInfertility%20Doctor%20in%20Allahabad!5e0!3m2!1sen!2sin!4v1720863709269!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <button className="bg-white text-black py-2 px-6 mt-4 rounded-md">
-            <Link to="/book-appointment">
+            <button className="bg-white text-black py-2 px-6 mt-4 rounded-md">
+              <Link to="/book-appointment" className="hover:text-rose-800">
                 Book Appointment
-            </Link>
-              </button>
+              </Link>
+            </button>
+            <button className="bg-white text-black py-2 px-6 mt-4 mx-20 hidden lg:inline rounded-md">
+              <a href="tel:6390103002" className="hover:text-rose-800">
+                Call Now
+              </a>
+            </button>
           </div>
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
@@ -326,7 +338,7 @@ const Footer = () => {
               </Link>
               |
               <Link to="privacy-policy texy">
-                 Privacy Policy
+                Privacy Policy
               </Link>
             </div>
           </div>
