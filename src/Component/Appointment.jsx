@@ -10,7 +10,7 @@ const Appointment = () => {
       </div>
 
       <div className=" md:w-1/2 w-full items-center md:items-end lg:text-right my-8 px-4">
-        <button className='bg-rose-700 text-white py-3 md:w-96 w-60 mx-auto rounded-xl md:text-2xl px-10'><Link to='/book-appointment'>Book Now</Link></button>
+        <button className='bg-rose-700 text-white py-3 md:w-96 w-60 mx-auto rounded-xl font-bold md:text-2xl px-10'><Link to='/book-appointment'>Book Now</Link></button>
       </div>
 
     </div>

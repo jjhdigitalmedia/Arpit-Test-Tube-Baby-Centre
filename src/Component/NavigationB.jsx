@@ -49,14 +49,14 @@ function NavigationB() {
       <div className=" hidden md:flex flex-wrap z-50 justify-between py-2 px-3 bg-rose-800">
         <div>
           <span className="pr-8 text-sm text-white">
-            <IoCallOutline className="inline mr-2" />  
+            <IoCallOutline className="inline mr-2" />
             {/* Phone: +91 6390103002, +91 9151037783 */}
             <a className="pr-3 text-sm text-white" href="tel:9151037784">Phone: +91 9151037784,</a>
             <a className="pr-6 text-sm text-white" href="tel:9151037783">+91 7705910037</a>
             <a className="pr-6 text-sm text-white" href="tel:6390103002">+91 6390103002</a>
           </span>
           <span className="pr-8 text-sm text-white">
-            <MdOutlineMail className="inline mr-2" /> 
+            <MdOutlineMail className="inline mr-2" />
             {/* Email: arpitivf@gmail.com */}
             <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='' target="_blank">arpitivf@gmail.com</a>
           </span>
@@ -81,10 +81,10 @@ function NavigationB() {
       <nav className="bg-white py-3 px-4 shadow-sm sticky top-0 z-20">
         <div className="containe flex items-center justify-between">
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
-          <Link to ='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
+          <Link to='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
               <img src={LogoAB} className="w-44 md:w-56" alt="" />
-  
+
             </span>
           </Link>
           <div className="hidden md:flex space-x-4 relative">
@@ -211,55 +211,12 @@ function NavigationB() {
                     <Link to="test-evaluation/stemcell-therapy" onClick={navClose} className="my-2 px-6 bg-rose-50">
                       Stem Cell Therapy
                     </Link>
-                    {/* <Link to="sonography" onClick={navClose}>
-                      Sonography
-                    </Link>
-                    <Link to="hsgsono" onClick={navClose}>
-                      HSG / SONO
-                    </Link>
-                    <Link to="semenbank" onClick={navClose}>
-                      Semen Bank
-                    </Link> */}
+
                   </div>
                 </a>
-                {/* <a className="dropdownn">
-                  <button className="dropbtnn">Other Services</button>
-                  <div className="dropdown-contentt font-thin">
-                    <Link to="eggdonation" onClick={navClose}>
-                      Egg Donation
-                    </Link>
-                    <Link to="cryopreservation" onClick={navClose}>
-                      Cryopreservation
-                    </Link>
-                  </div>
-                </a> */}
+
               </div>
             </div>
-            {/* <div
-                  onMouseEnter={() => setIsServicesDropdownOpen(true)}
-                  onMouseLeave={() => setIsServicesDropdownOpen(false)}
-                  className="absolute mt-5 w-48 bg-white rounded-md shadow-lg z-10">
-                  <button
-                    onClick={() => toggleNestedDropdown('ivf')}
-                    className="flex justify-between items-center px-4 py-2 text-gray-800 w-full text-left">
-                    Treatments
-                    <PlusIcon className="h-5 w-5 text-gray-600" />
-                  </button>
-                  {isNestedDropdownOpen.ivf && (
-                    <div className="ml-4">
-                      <button className="block px-4 py-2 text-gray-500">IUI</button>
-                      <button className="block px-4 py-2 text-gray-500">IVF ET</button>
-                      <button className="block px-4 py-2 text-gray-500">ICSI</button>
-                      <button className="block px-4 py-2 text-gray-500">IVM</button>
-                      <button className="block px-4 py-2 text-gray-500">IMSI</button>
-                      <button className="block px-4 py-2 text-gray-500">Embryo Monitoring</button>
-                      <button className="block px-4 py-2 text-gray-500">Laser Assisted Hatching</button>
-                    </div>
-                  )}
-                </div> */}
-            {/* </div>
-            )} */}
-
             <Link to='news-paper-images' className="text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               In News
             </Link>
@@ -441,28 +398,6 @@ function NavigationB() {
                       <Link to="test-evaluation/stemcell-therapy" onClick={navClose} className="block px-4 py-2 text-gray-500">
                         Stem Cell Therapy
                       </Link>
-                      {/* <Link to="sonography" onClick={navClose}>
-                      Sonography
-                    </Link>
-                    <Link to="hsgsono" onClick={navClose}>
-                      HSG / SONO
-                    </Link>
-                    <Link to="semenbank" onClick={navClose}>
-                      Semen Bank
-                    </Link> */}
-
-                      {/* <Link to='endocrineprofile' className="block px-4 py-2 text-gray-500">
-                        Endocrine Profile
-                      </Link>
-                      <Link to='sonography' className="block px-4 py-2 text-gray-500">
-                        Sonography
-                      </Link>
-                      <Link to='hsgsno' className="block px-4 py-2 text-gray-500">
-                        HSG/SNO
-                      </Link>
-                      <Link to='semenbank' className="block px-4 py-2 text-gray-500">
-                        Semen Bank
-                      </Link> */}
                     </div>
                   )}
                 </div>
