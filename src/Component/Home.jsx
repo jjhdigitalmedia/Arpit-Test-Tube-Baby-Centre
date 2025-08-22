@@ -33,7 +33,7 @@ const Home = () => {
       {/* <VideoOfCentre/> */}
       <About />
       {/* <Ivfteam /> */}
-      <GoogleReview />
+      {/* <GoogleReview /> */}
       <Stats />
       {/* <NewsImages/> */}
       <Contact />
