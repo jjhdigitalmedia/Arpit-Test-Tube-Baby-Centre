@@ -94,7 +94,7 @@ const LandingPage = () => {
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
             <li className="invisibl py-3">
               <IoCallOutline className="hidden md:inline mr-2 text-3xl" />
-              <a className="hidden md:inline" href="tel:7705910037"> +91 7705910037 </a></li>
+              <a className="hidden md:inline" href="tel:6390103012"> +91 6390103012 </a></li>
             <li className="hidden md:block py-3">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
                 <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
@@ -119,7 +119,7 @@ const LandingPage = () => {
           </div>
           <div className="px-6 py-3 md:py-10 mx-auto text-center">
             <h1 className="md:text-3xl font-bold mb-2">Success Rate</h1>
-            <p className="text-lg">70%+</p>
+            <p className="text-lg">65%+</p>
           </div>
           <div className="px-6 py-3 md:py-10 mx-auto text-center">
             <h1 className="md:text-3xl font-bold mb-2">Years of Experience</h1>
@@ -185,6 +185,8 @@ const LandingPage = () => {
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Dr Vandana Bansal</h2>
                     <div class="w-12 h-1 bg-rose-500 rounded mt-2 mb-4"></div>
+                    <p>Director - Jeevan Jyoti Hospital</p>
+                    <p>Chief Infertility & IVF Consultant</p>
                     <p class="text-base font-bold"> MBBS, MS (Obstetrics & Gynaecology) |
                       Director & Chief Fertility Consultant | Laparoscopic & Hysteroscopic Surgeon</p>
                   </div>
