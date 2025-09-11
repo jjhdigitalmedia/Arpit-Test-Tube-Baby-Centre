@@ -93,9 +93,9 @@ const LandingPage = () => {
           <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
             <li className="invisibl py-3">
-              <IoCallOutline className="hidden md:inline mr-2 text-3xl" />
-              <a className="hidden md:inline" href="tel:6390103012"> +91 6390103012 </a></li>
-            <li className="hidden md:block py-3">
+              <IoCallOutline className="hidden md:inline text- mr-2 text-3xl" />
+              <a className="hidden md:inline text-whit" href="tel:6390103012"> +91 6390103012 </a></li>
+            <li className="hidden md:block py-3 text-whit">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
                 <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
               </button>
@@ -138,13 +138,13 @@ const LandingPage = () => {
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
-                    <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                    <input required type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="mobile" className="leading-7 text-sm text-gray-600">Mobile</label>
-                    <input type="tel" id="mobile" name="mobile" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                    <input required type="tel" id="mobile" name="mobile" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-rose-700 focus:bg-white focus:ring-2 focus:ring-rose-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                   </div>
                 </div>
                 <div className="p-2 w-full">
@@ -255,12 +255,11 @@ const LandingPage = () => {
             <div className="bg-white rounded-xl shadow-md p-6">
               <h3 className="text-xl font-semibold mb-4 text-rose-700">🧬 Basic IVF Package</h3>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Doctor Consultation</li>
+                <li>Clinician Fees</li>
                 <li>Ultrasound Monitoring</li>
                 <li>Hormonal Injections</li>
                 <li>Egg Retrieval Procedure</li>
                 <li>Fertilization & Embryo Transfer</li>
-                <li>Basic Medications</li>
               </ul>
               <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,50,000 per cycle</p>
             </div>
@@ -275,7 +274,7 @@ const LandingPage = () => {
                 <li>Blastocyst Culture</li>
                 <li>Laser Hatching</li>
               </ul>
-              <p className="mt-4 font-semibold text-rose-700">💰 ₹30,000 – ₹1,00,000+</p>
+              <p className="mt-4 font-semibold text-rose-700">💰 ₹35,000 – ₹1,00,000+</p>
             </div>
           </div>
 
@@ -306,7 +305,7 @@ const LandingPage = () => {
           <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
             <h2 className="text-2xl md:text-4xl font-semibold text-rose-800 mb-4">Why Choose US?</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
-              <li>India’s Top IVF centre with 70%+ Success Rate centers</li>
+              <li>India’s Top IVF centre with 65%+ Success Rate centers</li>
               <li>Advanced technology & 38+ Years of Experience</li>
               <li>Personalized fertility plans</li>
             </ul>

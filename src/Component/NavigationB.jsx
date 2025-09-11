@@ -118,16 +118,7 @@ function NavigationB() {
                 </Link>
               </div>
             )}
-            {/* <button
-              onMouseEnter={() => setIsServicesDropdownOpen(true)}
-              onMouseLeave={() => setIsServicesDropdownOpen(false)}
-              onClick={toggleServicesDropdown}
-              className="text-black focus:outline-none">
-              Services
-              <ChevronDownIcon className="h-5 w-5 inline" />
-            </button> */}
-            {/* {isServicesDropdownOpen && (
-              <div> */}
+         
             <div
               className={`dropdown mt-0 font-semibold text-md lg:inline-block lg:mt-0 hover:text-red-600 text-black md:text-white focus:outline-none relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""
                 }`}
