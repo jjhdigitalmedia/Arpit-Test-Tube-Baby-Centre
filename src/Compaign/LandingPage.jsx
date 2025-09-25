@@ -4,6 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import PromoAdF2 from "../assets/PromoAdF2.webp";
 import LogoAB from '../assets/LogoAB.webp'
 import DrVandana from '../assets/DrVandana.webp'
+import About from '../assets/About.jpg'
 import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
 import { Helmet } from "react-helmet";
@@ -112,17 +113,17 @@ const LandingPage = () => {
         </div>
 
 
-        <div className="flex flex-wrap mb-10 bg-gray-200">
+        <div className="flex flex-wrap mb-10 bg-sky-100">
           <div className="px-6 py-3 md:py-10 mx-auto text-center">
-            <h1 className="md:text-3xl font-bold mb-2">Happy Couples</h1>
+            <h1 className="md:text-3xl font-asap font-bold mb-2">Happy Couples</h1>
             <p className="md:text-lg">20,000+</p>
           </div>
           <div className="px-6 py-3 md:py-10 mx-auto text-center">
-            <h1 className="md:text-3xl font-bold mb-2">Success Rate</h1>
+            <h1 className="md:text-3xl font-asap font-bold mb-2">Success Rate</h1>
             <p className="text-lg">65%+</p>
           </div>
           <div className="px-6 py-3 md:py-10 mx-auto text-center">
-            <h1 className="md:text-3xl font-bold mb-2">Years of Experience</h1>
+            <h1 className="md:text-3xl font-asap font-bold mb-2">Years of Experience</h1>
             <p className="text-lg">38+</p>
           </div>
         </div>
@@ -130,7 +131,7 @@ const LandingPage = () => {
         <section id='contact' className="text-gray-600 body-font relative">
           <div className="container md:px-5 py-12 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
-              <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-600 font-asap">Book Your Appointment</h1>
+              <h1 className="sm:text-5xl text-2xl font-medium title-font mb-4 text-rose-700 font-asap">Book Your Appointment</h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-bold">If you'd like to book an appointment, please fill out this form. I’ll get back to you as soon as possible to confirm your booking</p>
             </div>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -179,19 +180,19 @@ const LandingPage = () => {
         </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                  <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                    <img src={DrVandana} alt="" />
+                  <div class="w-72 h-72 rounded-full inline-flex items-center border-2 border-rose-500 p-3 justify-center bg-gray-200 text-gray-400">
+                    <img src={About} alt="" className="rounded-full" />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
-                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Dr Vandana Bansal</h2>
-                    <div class="w-12 h-1 bg-rose-500 rounded mt-2 mb-4"></div>
+                    <h2 class="font-medium title-font mt-4 text-gray-800 font-asap text-3xl">Dr Vandana Bansal</h2>
+                    <div class="w-12 h-1 bg-rose-600 rounded mt-2 mb-4"></div>
                     <p>Director - Jeevan Jyoti Hospital</p>
                     <p>Chief Infertility & IVF Consultant</p>
                     <p class="text-base font-bold"> MBBS, MS (Obstetrics & Gynaecology) |
-                      Director & Chief Fertility Consultant | Laparoscopic & Hysteroscopic Surgeon</p>
+                      Laparoscopic & Hysteroscopic Surgeon</p>
                   </div>
                 </div>
-                <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-rose-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a renowned expert in infertility treatment and women’s health, with over 38 years of experience. She has helped thousands of couples achieve their dream of parenthood through her compassionate counseling, meticulous approach, and consistently high IVF success rates. Deeply committed to ethical, patient-centric care, Dr. Bansal continues to be a trusted name in reproductive medicine.</p>
                   <p class="leading-relaxed text-justify text-lg mb-4">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
 
@@ -204,14 +205,14 @@ const LandingPage = () => {
         </section>
         <div className="container px-5 py-24 mx-auto flex flex-col">
 
-          <h1 className="text-3xl font-bold text-center text-rose-800 mb-10">Arpit Test Tube Baby Centre</h1>
-          <p className="text-justify">
+          <h1 className="text-4xl font-bold text-center text-rose-800 font-asap forn-bold  mb-10">Arpit Test Tube Baby Centre</h1>
+          <p className="text-justify bg-rose-700 p-5 rounded-3xl text-white">
             At Arpit Test Tube Baby Centre, we understand that the journey to parenthood can be filled with both hope and uncertainty. That’s why we are committed to offering compassionate, ethical, and cutting-edge fertility care tailored to each couple’s unique needs. With years of expertise in IVF, ICSI, IUI, and other assisted reproductive technologies, our center has helped hundreds of families realize their dream of having a child. Our state-of-the-art laboratory, world-class embryology setup, and experienced medical team ensure the highest standards of treatment and transparency. We believe in combining advanced science with emotional support—because fertility is not just about medicine, it's about trust, guidance, and walking together through one of the most important chapters of your life. Whether you are facing unexplained infertility, male or female factor issues, or seeking second opinions, Arpit IVF provides personalized care plans with high success rates and affordable options. Your journey starts with a conversation, and at Arpit IVF, we are here to listen, support, and deliver hope—one healthy baby at a time.
           </p>
         </div>
 
         <div className="bg-white py-12 px-6 md:px-20">
-          <h2 className="text-3xl font-bold text-center text-rose-800 mb-10">Steps of IVF Treatment</h2>
+          <h2 className="text-4xl font-bold text-center text-rose-800 font-asap mb-10">Steps of IVF Treatment</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-4 text-gray-700">
             <div className="p-6 rounded-xl shadow-md bg-pink-50">
@@ -248,12 +249,12 @@ const LandingPage = () => {
 
 
         <div className="bg-rose-800 py-16 px-6 md:px-20">
-          <h2 className="text-3xl font-bold text-center text-white mb-10">IVF Treatment Cost Breakdown</h2>
+          <h2 className="text-4xl font-bold text-center font-asap text-white mb-10">IVF Treatment Cost Breakdown</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto text-gray-800">
 
             <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-4 text-rose-700">🧬 Basic IVF Package</h3>
+              <h3 className="text-xl font-semibold font-asap mb-4 text-rose-700">🧬 Basic IVF Package</h3>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Clinician Fees</li>
                 <li>Ultrasound Monitoring</li>
@@ -265,7 +266,7 @@ const LandingPage = () => {
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-4 text-rose-700">🔬 Add-On Services (If Needed)</h3>
+              <h3 className="text-xl font-semibold font-asap mb-4 text-rose-700">🔬 Add-On Services (If Needed)</h3>
               <ul className="list-disc pl-5 space-y-2">
                 <li>ICSI (Intracytoplasmic Sperm Injection)</li>
                 <li>Embryo Freezing</li>
@@ -287,7 +288,7 @@ const LandingPage = () => {
 
         <div className="flex flex-wrap mt-28 mb-8">
           <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-            <h2 className="text-2xl md:text-4xl text-rose-800 font-semibold mb-4">How IVF Benifits Aspiring Couples?</h2>
+            <h2 className="text-2xl md:text-4xl font-asap text-rose-800 font-semibold mb-4">How IVF Benifits Aspiring Couples?</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
               <li>IVF work where other fertility treatment fails!</li>
               <li>Advanced techniques increase chances of pregnancy.</li>
@@ -295,7 +296,7 @@ const LandingPage = () => {
             </ul>
           </section>
           <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-            <h2 className="text-2xl md:text-4xl font-semibold text-rose-800 mb-4">Our Commitment to You</h2>
+            <h2 className="text-2xl md:text-4xl font-asap font-semibold text-rose-800 mb-4">Our Commitment to You</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
               <li>We walk with you — every step, every emotion</li>
               <li>No shortcuts. No false hopes. Just honest care</li>
@@ -303,7 +304,7 @@ const LandingPage = () => {
             </ul>
           </section>
           <section className="px-6 py-10 bg-rose-50 rounded-lg mx-auto ">
-            <h2 className="text-2xl md:text-4xl font-semibold text-rose-800 mb-4">Why Choose US?</h2>
+            <h2 className="text-2xl md:text-4xl font-asap font-semibold text-rose-800 mb-4">Why Choose US?</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
               <li>India’s Top IVF centre with 65%+ Success Rate centers</li>
               <li>Advanced technology & 38+ Years of Experience</li>
