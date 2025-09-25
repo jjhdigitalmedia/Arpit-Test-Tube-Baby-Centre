@@ -102,9 +102,10 @@ const LandingPage = () => {
         <header className="bg-rose-50 shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
           <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
-            <li className="invisibl bg-rose-700 text-white px-3 rounded-2xl py-3">
-              <IoCallOutline className="hidden md:inline text- mr-2 text-2xl" />
-              <a className="hidden md:inline text-whit" href="tel:6390103012"> +91 6390103012 </a></li>
+            <li className={`invisible md:flex mx-auto text-white font-bold bg-rose-700 border-0 py-1 px-8 focus:outline-none hover:bg-rose-800 rounded-2xl text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-800"}`}>
+              <a className="hidden md:inline my-3" href="tel:6390103012">
+              <IoCallOutline className="hidden md:inline text-2xl" />
+                 +91 6390103012 </a></li>
             <li className="hidden md:block py-3 text-whit">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
                 <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
@@ -228,10 +229,10 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-        <div className="container px-5 py-24 mx-auto flex flex-col">
+        <div className="container px-0 md:px-5 py-24 mx-auto flex flex-col">
 
-          <h1 className="text-4xl font-bold text-center text-rose-800 font-asap forn-bold  mb-10">Arpit Test Tube Baby Centre</h1>
-          <p className="text-justify bg-rose-700 p-5 rounded-3xl text-white">
+          <h1 className="text-4xl font-bold text-center text-rose-800 font-asap forn-bold mb-10">Arpit Test Tube Baby Centre</h1>
+          <p className="text-justify bg-rose-700 p-3 md:p-5 rounded-3xl text-white">
             At Arpit Test Tube Baby Centre, we understand that the journey to parenthood can be filled with both hope and uncertainty. That’s why we are committed to offering compassionate, ethical, and cutting-edge fertility care tailored to each couple’s unique needs. With years of expertise in IVF, ICSI, IUI, and other assisted reproductive technologies, our center has helped hundreds of families realize their dream of having a child. Our state-of-the-art laboratory, world-class embryology setup, and experienced medical team ensure the highest standards of treatment and transparency. We believe in combining advanced science with emotional support—because fertility is not just about medicine, it's about trust, guidance, and walking together through one of the most important chapters of your life. Whether you are facing unexplained infertility, male or female factor issues, or seeking second opinions, Arpit IVF provides personalized care plans with high success rates and affordable options. Your journey starts with a conversation, and at Arpit IVF, we are here to listen, support, and deliver hope—one healthy baby at a time.
           </p>
         </div>
@@ -345,7 +346,7 @@ const LandingPage = () => {
             <li className=" border-gray-300">
               <a className="mx-3 text-lg flex" href="tel:7705910037" target="_blank">
                 <IoCallOutline className="text-xl mr-2" />
-                +91 7705910037
+                +91 6390103012
               </a>
             </li>
             <span>|</span>
