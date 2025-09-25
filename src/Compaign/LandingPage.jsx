@@ -12,6 +12,15 @@ import { Helmet } from "react-helmet";
 
 const LandingPage = () => {
 
+   const [isRed, setIsRed] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsRed((prev) => !prev);
+    }, 1000); // 1000ms = 1 second
+    return () => clearInterval(interval);
+  }, []);
+
   const images = [
     // PromoAd,
     PromoAdF2,
@@ -93,8 +102,8 @@ const LandingPage = () => {
         <header className="bg-rose-50 shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
           <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
-            <li className="invisibl py-3">
-              <IoCallOutline className="hidden md:inline text- mr-2 text-3xl" />
+            <li className="invisibl bg-rose-700 text-white px-3 rounded-2xl py-3">
+              <IoCallOutline className="hidden md:inline text- mr-2 text-2xl" />
               <a className="hidden md:inline text-whit" href="tel:6390103012"> +91 6390103012 </a></li>
             <li className="hidden md:block py-3 text-whit">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
@@ -163,6 +172,7 @@ const LandingPage = () => {
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg">Book Now</button>
                 </div>
+                  <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:9151037783">Quick Call</a></div>
               </form>
             </div>
           </div>
