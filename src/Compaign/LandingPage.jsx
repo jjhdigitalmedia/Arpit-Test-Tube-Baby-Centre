@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet";
 
 const LandingPage = () => {
 
-   const [isRed, setIsRed] = useState(true);
+  const [isRed, setIsRed] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -172,7 +172,7 @@ const LandingPage = () => {
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg">Book Now</button>
                 </div>
-                  <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:9151037783">Quick Call</a></div>
+                <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:9151037783">Quick Call</a></div>
               </form>
             </div>
           </div>
@@ -182,8 +182,23 @@ const LandingPage = () => {
 
         {/* Details Section............................................... */}
 
+        <div className="flex justify-center bg-rose-800 items-center py-10">
+          <div className="w-full max-w-2xl aspect-video">
+            <iframe
+              className="w-full h-full rounded-xl shadow-lg"
+              src="https://www.youtube.com/embed/Zi14Ih6TVSI"
+              title="YouTube video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
+
+
         <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto flex flex-col">
+          <div class="container px-5 py-16 mx-auto flex flex-col">
             <div class="lg:w-4/6 mx-auto">
               {/* <div class="rounded-lg h-64 overflow-hidden">
         <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
@@ -342,6 +357,9 @@ const LandingPage = () => {
             </li>
           </ul>
         </div>
+
+         <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-center text-white" href="tel:9151037783">Quick Call</a></div>
+
         {/* .............................................. */}
 
         {/* <footer className="bg-gray-200 text-center text-sm text-gray-700 py-4">
