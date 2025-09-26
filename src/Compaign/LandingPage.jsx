@@ -173,7 +173,7 @@ const LandingPage = () => {
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg">Book Now</button>
                 </div>
-                <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:9151037783">Quick Call</a></div>
+                <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:6390103012">Quick Call</a></div>
               </form>
             </div>
           </div>
@@ -198,7 +198,7 @@ const LandingPage = () => {
 
 
 
-        <section class="text-gray-600 body-font">
+        <section class="text-gray-600 bg-gray-200 body-font">
           <div class="container px-5 py-16 mx-auto flex flex-col">
             <div class="lg:w-4/6 mx-auto">
               {/* <div class="rounded-lg h-64 overflow-hidden">
@@ -220,7 +220,7 @@ const LandingPage = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-rose-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a renowned expert in infertility treatment and women’s health, with over 38 years of experience. She has helped thousands of couples achieve their dream of parenthood through her compassionate counseling, meticulous approach, and consistently high IVF success rates. Deeply committed to ethical, patient-centric care, Dr. Bansal continues to be a trusted name in reproductive medicine.</p>
-                  <p class="leading-relaxed text-justify text-lg mb-4">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
+                  <p class="leading-relaxed text-justify text-lg mb-4 bg-rose-50 p-5 rounded-full">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
 
                 </div>
 
@@ -237,36 +237,36 @@ const LandingPage = () => {
           </p>
         </div>
 
-        <div className="bg-white py-12 px-6 md:px-20">
+        <div className="bg-gray-200 py-12 px-6 md:px-20">
           <h2 className="text-4xl font-bold text-center text-rose-800 font-asap mb-10">Steps of IVF Treatment</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-4 text-gray-700">
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-2 text-gray-700">
+            <div className="p-4 rounded-xl bg-rose-50">
               <h3 className="text-xl font-semibold mb-2">1. Ovarian Stimulation</h3>
               <p>Fertility medications are given to stimulate the ovaries to produce multiple eggs.</p>
             </div>
 
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <div className="p-6 rounded-xl bg-pin-50 bg-white">
               <h3 className="text-xl font-semibold mb-2">2. Egg Retrieval</h3>
               <p>Eggs are collected from the ovaries using a minor surgical procedure under ultrasound guidance.</p>
             </div>
 
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <div className="p-6 rounded-xl bg-rose-50">
               <h3 className="text-xl font-semibold mb-2">3. Sperm Collection</h3>
               <p>A semen sample is collected from the male partner to fertilize the eggs.</p>
             </div>
 
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <div className="p-6 rounded-xl bg-white">
               <h3 className="text-xl font-semibold mb-2">4. Fertilization</h3>
               <p>Eggs and sperm are combined in the lab to allow fertilization, forming embryos.</p>
             </div>
 
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <div className="p-6 rounded-xl bg-rose-50">
               <h3 className="text-xl font-semibold mb-2">5. Embryo Culture</h3>
               <p>Fertilized embryos are monitored and grown in the lab for a few days.</p>
             </div>
 
-            <div className="p-6 rounded-xl shadow-md bg-pink-50">
+            <div className="p-6 rounded-xl bg-white">
               <h3 className="text-xl font-semibold mb-2">6. Embryo Transfer</h3>
               <p>A healthy embryo is transferred into the uterus, and pregnancy is awaited.</p>
             </div>
@@ -359,7 +359,7 @@ const LandingPage = () => {
           </ul>
         </div>
 
-         <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-center text-white" href="tel:9151037783">Quick Call</a></div>
+         <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
 
         {/* .............................................. */}
 
@@ -369,7 +369,7 @@ const LandingPage = () => {
 
         <footer className="text-center text-sm text-gray-600 py-4 border-t">
           <p>© 2025 Arpit Test Tube Baby Centre, All rights reserved.</p>
-          {/* <div className="mt-2 space-x-4">
+          <div className="mt-2 space-x-4">
           <a href="/privacy-policy" className="text-gray-600 underline hover:text-blue-600 transition">
           Privacy Policy
           </a>
@@ -377,7 +377,7 @@ const LandingPage = () => {
           <a href="/terms-and-conditions" className="text-gray-600 underline hover:text-blue-600 transition">
           Terms & Conditions
           </a>
-          </div> */}
+          </div>
         </footer>
 
       </div>
