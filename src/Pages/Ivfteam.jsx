@@ -14,7 +14,7 @@ import MrsMamtaPic from '../assets/IVFTeamPic/MrsMamtaPic.jpg';
 import gallery01 from '../assets/Gallery/gallery01.jpg';
 import qqq1 from '../assets/Banners/qqq1.jpg';
 import { Helmet } from "react-helmet";
-
+import Gallery from './Gallery.jsx'
 import { motion, AnimatePresence } from 'framer-motion';
 
 
@@ -104,9 +104,16 @@ const IVFteam = () => {
                 <meta property="og:title" content="Best IVF and Gynecology Services" />
                 <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
             </Helmet>
+            <div className='my-10 mx-auto w-4/5'>
+              <h1 className="font-bold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Arpi Test Tube Baby Centre</h1>
+                <p className="text-justify">Jeevan Jyoti Hospital is a 210-Beds, CGHS Approved, NABH Accredited, ISO 2015 and NABL Medical Lab approved multi-speciality hospital in Prayagraj. Jeevan Jyoti Hospital is Best Hospital in Prayagraj For Any Types of Health Treatment. Here You Get The Best Physician in Allahabad.
+              The hospital was founded in 1988 by renowned laparoscopic surgeon Late Dr A.K Bansal and eminent IVF expert Dr Vandana Bansal, with the vision and mission of providing top-of-the-line healthcare facilities under one roof.
+            </p>
+            </div>
             <section class="text-gray-600 body-font">
                 {/* <CardDemo /> */}
                 <CardSlider />
+                <Gallery />
             </section>
         </>
     )
@@ -292,8 +299,8 @@ const CardSlider = () => {
     const visibleCards = cards.slice(index, index + cardsPerPage);
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center bg-gray-100 px-4">
-            <h1 className="text-5xl font-bold mb-12 font-asap text-rose-700">Our Dedicated Team</h1>
+        <div className="h-screen flex flex-col items-center justify-center bg-rose-800 px-4">
+            <h1 className="text-5xl font-bold mb-12 font-asap text-white">Our Dedicated Team</h1>
 
             <div className="relative w-full max-w-8xl overflow-hidden flex justify-center">
                 <AnimatePresence mode="wait" initial={false}>
@@ -320,7 +327,7 @@ const CardSlider = () => {
                         {visibleCards.map((card) => (
                             <div
                                 key={card.id}
-                                className="bg-white w-96 sm:w-[300px] z-0 border-2 p-6 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
+                                className="bg-white w-96 sm:w-[300px] z-0 border-2 border-rose-700 p-6 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
                             >
                                 {/* <div className="absolute -top-0 left-1/2 transform -translate-x-1/2">
                                     <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-md">
@@ -332,11 +339,11 @@ const CardSlider = () => {
                                     </div>
                                 </div> */}
                                 <div className="-mt-28 text-center">
-                                     <div className="w-40 h-40 rounded-full mx-auto border-8 border-white overflow-hidden">
+                                     <div className="w-44 h-44 rounded-full p-2 shadow-md mx-auto border-2 overflow-hidden">
                                         <img
                                             src={card.photo}
                                             alt="Profile"
-                                            className="object-cover w-full h-full"
+                                            className="object-cover rounded-full w-full h-full border-rose-700"
                                         />
                                     </div>
                                     <h3 className="text-lg mt-10 font-bold text-gray-800">{card.title}</h3>
@@ -344,7 +351,7 @@ const CardSlider = () => {
                                         {card.description}<br />
                                         {card.Knowmore}
                                     </p>
-                                    <button className="mt-4 px-4 py-2 bg-rose-00 font-semibold text-rose-800 rounded-lg hover:bg-pink-600 transition">
+                                    <button className="mt-4 px-4 py-2 bg-rose-00 font-semibold text-rose-800 rounded-lg hover:bg--600 transition">
                                         Know More
                                     </button>
                                 </div>
@@ -359,14 +366,14 @@ const CardSlider = () => {
             <div className="mt-6 flex gap-4">
                 <button
                     onClick={prev}
-                    className="bg-rose-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    className="bg-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
                     disabled={index === 0}
                 >
                     Prev
                 </button>
                 <button
                     onClick={next}
-                    className="bg-rose-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+                    className="bg-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
                     disabled={index + cardsPerPage >= cards.length}
                 >
                     Next
