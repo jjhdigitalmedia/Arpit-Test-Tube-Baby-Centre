@@ -333,7 +333,7 @@ const LandingPage = () => {
                 <li>Egg Retrieval Procedure</li>
                 <li>Fertilization & Embryo Transfer</li>
               </ul>
-              <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,50,000 per cycle</p>
+              <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,0,000 per cycle</p>
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-6">
@@ -389,7 +389,7 @@ const LandingPage = () => {
         <div className="sticky md:hidden bottom-0 w-full bg-rose-800 px-2 py-4 text-white">
           <ul className="flex justify-between">
             <li className=" border-gray-300">
-              <a className="mx-3 text-lg flex" href="tel:7705910037" target="_blank">
+              <a className="mx-3 text-lg flex" href="tel:6390103012" target="_blank">
                 <IoCallOutline className="text-xl mr-2" />
                 +91 6390103012
               </a>
