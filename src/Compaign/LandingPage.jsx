@@ -120,10 +120,10 @@ const LandingPage = () => {
       </Helmet>
       <div className="min-h-screen bg-white text-gray-800">
         {/* Header */}
-        <header className="bg-rose-50 shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
+        <header className="bg-rose-50 bg-white shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
           <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
-            <li className={`invisible md:flex mx-auto text-white font-bold bg-rose-700 border-0 py-1 px-8 focus:outline-none hover:bg-rose-800 rounded-2xl text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-800"}`}>
+            <li className={`hidden md:flex mx-auto text-white font-bold bg-rose-700 border-0 py-1 px-8 focus:outline-none hover:bg-rose-800 rounded-2xl text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-800"}`}>
               <a className="hidden md:inline my-3" href="tel:6390103012">
                 <IoCallOutline className="hidden md:inline text-2xl" />
                 +91 6390103012 </a></li>
@@ -229,7 +229,7 @@ const LandingPage = () => {
         </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                  <div class="md:w-72 md:h-72 rounded-full inline-flex items-center border-2 border-rose-500 md:p-3 justify-center bg-gray-200 text-gray-400">
+                  <div class="md:w-72 md:h-72 rounded-full inline-flex items-center border-1 border-rose-800 md:p-3 justify-center bg-gray-200 text-gray-400">
                     <img src={About} alt="" className="rounded-full" />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
@@ -243,7 +243,7 @@ const LandingPage = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-rose-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a renowned expert in infertility treatment and women’s health, with over 38 years of experience. She has helped thousands of couples achieve their dream of parenthood through her compassionate counseling, meticulous approach, and consistently high IVF success rates. Deeply committed to ethical, patient-centric care, Dr. Bansal continues to be a trusted name in reproductive medicine.</p>
-                  <p class="leading-relaxed text-justify text-lg mb-4 bg-rose-50 md:p-5 rounded-full">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
+                  <p class="leading-relaxed text-justify text-lg mb-4 bg-rose-50 p-3 md:p-5 rounded-3xl md:rounded-full">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
 
                 </div>
 
@@ -255,68 +255,12 @@ const LandingPage = () => {
         <div className="container px-0 md:px-5 py-24 mx-auto flex flex-col">
 
           <h1 className="text-4xl font-bold text-center text-rose-800 font-asap forn-bold mb-10">Arpit Test Tube Baby Centre</h1>
-          <p className="text-justify bg-rose-700 p-3 md:p-5 rounded-3xl text-white">
+          <p className="text-justify bg-rose-800 p-3 md:p-5 rounded-3xl text-white">
             At Arpit Test Tube Baby Centre, we understand that the journey to parenthood can be filled with both hope and uncertainty. That’s why we are committed to offering compassionate, ethical, and cutting-edge fertility care tailored to each couple’s unique needs. With years of expertise in IVF, ICSI, IUI, and other assisted reproductive technologies, our center has helped hundreds of families realize their dream of having a child. Our state-of-the-art laboratory, world-class embryology setup, and experienced medical team ensure the highest standards of treatment and transparency. We believe in combining advanced science with emotional support—because fertility is not just about medicine, it's about trust, guidance, and walking together through one of the most important chapters of your life. Whether you are facing unexplained infertility, male or female factor issues, or seeking second opinions, Arpit IVF provides personalized care plans with high success rates and affordable options. Your journey starts with a conversation, and at Arpit IVF, we are here to listen, support, and deliver hope—one healthy baby at a time.
           </p>
         </div>
 
-        <section className="max-w-4xl mx-auto px-2 md:px-6 py-12" id="faqs">
-          <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <div key={index} className="border rounded-lg overflow-hidden">
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="w-full text-left px-4 py-3 bg-rose-50 hover:bg-indigo-100 flex justify-between items-center font-medium"
-                >
-                  {faq.question}
-                  <span className="text-rose-700">{openIndex === index ? '-' : '+'}</span>
-                </button>
-                {openIndex === index && (
-                  <div className="px-4 py-3 bg-white text-gray-700 text-sm">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
 
-        {/* <div className="bg-gray-200 py-12 px-6 md:px-20">
-          <h2 className="text-4xl font-bold text-center text-rose-800 font-asap mb-10">Steps of IVF Treatment</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-2 text-gray-700">
-            <div className="p-4 rounded-xl bg-rose-50">
-              <h3 className="text-xl font-semibold mb-2">1. Ovarian Stimulation</h3>
-              <p>Fertility medications are given to stimulate the ovaries to produce multiple eggs.</p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-pin-50 bg-white">
-              <h3 className="text-xl font-semibold mb-2">2. Egg Retrieval</h3>
-              <p>Eggs are collected from the ovaries using a minor surgical procedure under ultrasound guidance.</p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-rose-50">
-              <h3 className="text-xl font-semibold mb-2">3. Sperm Collection</h3>
-              <p>A semen sample is collected from the male partner to fertilize the eggs.</p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-white">
-              <h3 className="text-xl font-semibold mb-2">4. Fertilization</h3>
-              <p>Eggs and sperm are combined in the lab to allow fertilization, forming embryos.</p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-rose-50">
-              <h3 className="text-xl font-semibold mb-2">5. Embryo Culture</h3>
-              <p>Fertilized embryos are monitored and grown in the lab for a few days.</p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-white">
-              <h3 className="text-xl font-semibold mb-2">6. Embryo Transfer</h3>
-              <p>A healthy embryo is transferred into the uterus, and pregnancy is awaited.</p>
-            </div>
-          </div>
-        </div> */}
 
 
         <div className="bg-rose-800 py-16 px-6 md:px-20">
@@ -355,6 +299,32 @@ const LandingPage = () => {
           </div>
         </div>
 
+        <section className="max-w-4xl mx-auto px-2 md:px-6 py-12" id="faqs">
+          <h2 className="text-3xl font-asap text-rose-800 font-semibold mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div key={index} className="border rounded-lg overflow-hidden">
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full text-left px-4 py-3 bg-rose-50 hover:bg-indigo-50 flex justify-between items-center font-medium"
+                >
+                  {faq.question}
+                  <span className="text-rose-700">{openIndex === index ? '-' : '+'}</span>
+                </button>
+                {openIndex === index && (
+                  <div className="px-4 py-3 bg-white text-gray-700 text-sm">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+        {/* .............................. */}
+
+        {/* Elfsight Google Reviews | Untitled Google Reviews  */}
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-2cc578f8-6153-4917-87c6-234fdb1e61a3" data-elfsight-app-lazy></div>
         {/* ................................... */}
 
         <div className="flex flex-wrap mt-28 mb-8">
@@ -404,7 +374,7 @@ const LandingPage = () => {
           </ul>
         </div>
 
-        <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
+        <div className={`mx-auto text-white text-center font-bold bg-rose-800 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
 
         {/* .............................................. */}
 
@@ -412,7 +382,7 @@ const LandingPage = () => {
         &copy; {new Date().getFullYear()} Arpit Test Tube Baby Centre, All rights reserved.
         </footer> */}
 
-        <footer className="text-center text-sm text-gray-600 py-4 border-t">
+        <footer className="text-center bg-gray-200 text-sm text-gray-600 py-4 border-t">
           <p>© 2025 Arpit Test Tube Baby Centre, All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <a href="/privacy-policy" className="text-gray-600 underline hover:text-blue-600 transition">
