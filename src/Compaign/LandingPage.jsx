@@ -88,6 +88,27 @@ const LandingPage = () => {
   };
 
 
+  const faqs = [
+    { question: 'What is IVF?', answer: 'In vitro fertilization (IVF) is a treatment for infertility where eggs are fertilized by sperm outside the body, in a lab, and the embryo is then transferred to the uterus.' },
+    { question: 'Who can benefit from IVF?', answer: 'Couples with blocked fallopian tubes, low sperm count, endometriosis, unexplained infertility, or repeated failed fertility treatments may benefit from IVF.' },
+    { question: 'How long does an IVF cycle take?', answer: 'A complete IVF cycle typically takes about 4–6 weeks, from ovarian stimulation to embryo transfer.' },
+    { question: 'Is IVF painful?', answer: 'Most steps involve mild discomfort. Egg retrieval is done under sedation, and embryo transfer is usually painless.' },
+    { question: 'What is the success rate of IVF?', answer: 'Success depends on age, health, and fertility issues. On average, women under 35 have higher success rates than older women.' },
+    { question: 'Are there risks or side effects?', answer: 'Risks include ovarian hyperstimulation, multiple pregnancies, and mild procedure-related discomfort. Your doctor will guide you on safety measures.' },
+    { question: 'How soon can I know if IVF worked?', answer: 'A pregnancy test is usually done about 10–14 days after embryo transfer.' },
+    { question: 'Do I need to take special medications?', answer: 'Yes, hormone injections and medications support egg growth, ovulation, and uterine lining preparation.' },
+    { question: 'Can IVF be repeated if it fails?', answer: 'Yes, IVF can be repeated. Your doctor will evaluate and adjust the treatment protocol for better chances of success.' }
+  ];
+
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+
   return (
     <>
       <Helmet>
@@ -104,8 +125,8 @@ const LandingPage = () => {
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
             <li className={`invisible md:flex mx-auto text-white font-bold bg-rose-700 border-0 py-1 px-8 focus:outline-none hover:bg-rose-800 rounded-2xl text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-800"}`}>
               <a className="hidden md:inline my-3" href="tel:6390103012">
-              <IoCallOutline className="hidden md:inline text-2xl" />
-                 +91 6390103012 </a></li>
+                <IoCallOutline className="hidden md:inline text-2xl" />
+                +91 6390103012 </a></li>
             <li className="hidden md:block py-3 text-whit">
               <button className="bg-green-500 align-middle text-white p-2 mr-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
                 <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" className="" target="_blank"><FaWhatsapp size={20} /></a>
@@ -136,6 +157,9 @@ const LandingPage = () => {
             <h1 className="md:text-3xl font-asap font-bold mb-2">Years of Experience</h1>
             <p className="text-lg">38+</p>
           </div>
+        </div>
+        <div className={` mx-auto text-white text-center font-bold bg-rose-700 border-0 py-4 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-300"}`}>
+          <a className="text-lg text-center text-white" href="tel:6390103012">Quick Call With Our Expert</a>
         </div>
 
         <section id='contact' className="text-gray-600 body-font relative">
@@ -173,7 +197,6 @@ const LandingPage = () => {
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg">Book Now</button>
                 </div>
-                <div className={`flex mx-auto text-white font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-700"}`}>  <a className="text-sm text-white" href="tel:6390103012">Quick Call</a></div>
               </form>
             </div>
           </div>
@@ -199,14 +222,14 @@ const LandingPage = () => {
 
 
         <section class="text-gray-600 bg-gray-200 body-font">
-          <div class="container px-5 py-16 mx-auto flex flex-col">
+          <div class="container md:px-5 py-16 mx-auto flex flex-col">
             <div class="lg:w-4/6 mx-auto">
               {/* <div class="rounded-lg h-64 overflow-hidden">
         <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
         </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                  <div class="w-72 h-72 rounded-full inline-flex items-center border-2 border-rose-500 p-3 justify-center bg-gray-200 text-gray-400">
+                  <div class="md:w-72 md:h-72 rounded-full inline-flex items-center border-2 border-rose-500 md:p-3 justify-center bg-gray-200 text-gray-400">
                     <img src={About} alt="" className="rounded-full" />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
@@ -220,7 +243,7 @@ const LandingPage = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-rose-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg text-justify mb-4"> Dr. Vandana Bansal is a renowned expert in infertility treatment and women’s health, with over 38 years of experience. She has helped thousands of couples achieve their dream of parenthood through her compassionate counseling, meticulous approach, and consistently high IVF success rates. Deeply committed to ethical, patient-centric care, Dr. Bansal continues to be a trusted name in reproductive medicine.</p>
-                  <p class="leading-relaxed text-justify text-lg mb-4 bg-rose-50 p-5 rounded-full">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
+                  <p class="leading-relaxed text-justify text-lg mb-4 bg-rose-50 md:p-5 rounded-full">We are a state-of-the-art facility committed to helping couples achieve their dream of parenthood. With world-class technology, a compassionate team, and decades of experience, we provide personalized fertility care tailored to every hopeful parent’s journey.</p>
 
                 </div>
 
@@ -237,7 +260,29 @@ const LandingPage = () => {
           </p>
         </div>
 
-        <div className="bg-gray-200 py-12 px-6 md:px-20">
+        <section className="max-w-4xl mx-auto px-2 md:px-6 py-12" id="faqs">
+          <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div key={index} className="border rounded-lg overflow-hidden">
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full text-left px-4 py-3 bg-rose-50 hover:bg-indigo-100 flex justify-between items-center font-medium"
+                >
+                  {faq.question}
+                  <span className="text-rose-700">{openIndex === index ? '-' : '+'}</span>
+                </button>
+                {openIndex === index && (
+                  <div className="px-4 py-3 bg-white text-gray-700 text-sm">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* <div className="bg-gray-200 py-12 px-6 md:px-20">
           <h2 className="text-4xl font-bold text-center text-rose-800 font-asap mb-10">Steps of IVF Treatment</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-2 text-gray-700">
@@ -271,7 +316,7 @@ const LandingPage = () => {
               <p>A healthy embryo is transferred into the uterus, and pregnancy is awaited.</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         <div className="bg-rose-800 py-16 px-6 md:px-20">
@@ -359,7 +404,7 @@ const LandingPage = () => {
           </ul>
         </div>
 
-         <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
+        <div className={`mx-auto text-white text-center font-bold bg-rose-700 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
 
         {/* .............................................. */}
 
@@ -370,13 +415,13 @@ const LandingPage = () => {
         <footer className="text-center text-sm text-gray-600 py-4 border-t">
           <p>© 2025 Arpit Test Tube Baby Centre, All rights reserved.</p>
           <div className="mt-2 space-x-4">
-          <a href="/privacy-policy" className="text-gray-600 underline hover:text-blue-600 transition">
-          Privacy Policy
-          </a>
-          <span>|</span>
-          <a href="/terms-and-conditions" className="text-gray-600 underline hover:text-blue-600 transition">
-          Terms & Conditions
-          </a>
+            <a href="/privacy-policy" className="text-gray-600 underline hover:text-blue-600 transition">
+              Privacy Policy
+            </a>
+            <span>|</span>
+            <a href="/terms-and-conditions" className="text-gray-600 underline hover:text-blue-600 transition">
+              Terms & Conditions
+            </a>
           </div>
         </footer>
 

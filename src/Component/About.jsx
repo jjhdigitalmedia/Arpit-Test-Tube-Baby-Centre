@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/neonStyle.css'
-import aboutvandana from '../assets/aboutvandana.jpg'
+// import aboutvandana from '../assets/aboutvandana.jpg'
 import DrVandana from '../assets/DrVandana.jpg'
 import akBansal from '../assets/akBansal.jpg'
 import { Link } from 'react-router-dom'

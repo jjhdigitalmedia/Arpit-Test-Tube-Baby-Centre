@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import DrBANSAL from '../assets//DrBANSAL.jpg';
-import aboutvandana from '../assets/aboutvandana.jpg';
+import DrVandana from '../assets/DrVandana.jpg';
 import DrBansalPic from '../assets/IVFTeamPic/DrBansalPic.jpg';
 import DrVandanaPic from '../assets/IVFTeamPic/DrVandanaPic.jpg';
 import DrArpitPic from '../assets/IVFTeamPic/DrArpitPic.png';
@@ -36,7 +36,7 @@ const pics = [
 
     },
     {
-        photo: aboutvandana,
+        photo: DrVandana,
         name: 'Dr Vandan Bansal',
         qualification: 'MS, D.Phil (Gold Medalist), DGO, FCGP',
         desg: 'Director',
