@@ -337,7 +337,7 @@ const Footer = () => {
                 Term & Condition
               </Link>
               |
-              <Link to="privacy-policy texy">
+              <Link to="privacy-policy">
                 Privacy Policy
               </Link>
             </div>
