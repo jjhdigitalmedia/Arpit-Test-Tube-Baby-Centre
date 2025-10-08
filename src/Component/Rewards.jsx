@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import qqq1 from '../assets/Banners/qqq1.jpg';
 import lab0 from "../assets/lab0.png";
