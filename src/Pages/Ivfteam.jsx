@@ -20,78 +20,78 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
 
 
 
 
-const pics = [
-    {
-        photo: DrBANSAL,
-        name: 'Late Dr. AK Bansal',
-        qualification: 'M.B.B.S., MS, FAIS, FCGP, FIAGES',
-        desg: 'Founder',
+// const pics = [
+//     {
+//         photo: DrBANSAL,
+//         name: 'Late Dr. AK Bansal',
+//         qualification: 'M.B.B.S., MS, FAIS, FCGP, FIAGES',
+//         desg: 'Founder',
 
-    },
-    {
-        photo: DrVandana,
-        name: 'Dr Vandan Bansal',
-        qualification: 'MS, D.Phil (Gold Medalist), DGO, FCGP',
-        desg: 'Director',
+//     },
+//     {
+//         photo: DrVandana,
+//         name: 'Dr Vandan Bansal',
+//         qualification: 'MS, D.Phil (Gold Medalist), DGO, FCGP',
+//         desg: 'Director',
 
-    },
-    {
-        photo: DrArpitPic,
-        name: 'Dr Arpit Bansal',
-        qualification: 'MBBS, MS, FMAS, FCS',
-        desg: 'Director',
+//     },
+//     {
+//         photo: DrArpitPic,
+//         name: 'Dr Arpit Bansal',
+//         qualification: 'MBBS, MS, FMAS, FCS',
+//         desg: 'Director',
 
-    },
-    {
-        photo: DrAnjulaPic,
-        name: 'Dr Anjula Sahay',
-        qualification: 'MBBS, DGO, FCPS',
-        desg: 'IVF Counselor',
+//     },
+//     {
+//         photo: DrAnjulaPic,
+//         name: 'Dr Anjula Sahay',
+//         qualification: 'MBBS, DGO, FCPS',
+//         desg: 'IVF Counselor',
 
-    },
-    {
-        photo: gallery01,
-        name: 'Mrs. Mamta Tiwari',
-        qualification: 'M.Sc. (Medical Micro Biology)',
-        desg: 'IVF Counselor',
+//     },
+//     {
+//         photo: gallery01,
+//         name: 'Mrs. Mamta Tiwari',
+//         qualification: 'M.Sc. (Medical Micro Biology)',
+//         desg: 'IVF Counselor',
 
-    },
-    {
-        photo: BosePic,
-        name: 'Mr Saugat Bose',
-        qualification: 'M.Sc. (Biochemistry)',
-        desg: 'Embryologist',
+//     },
+//     {
+//         photo: BosePic,
+//         name: 'Mr Saugat Bose',
+//         qualification: 'M.Sc. (Biochemistry)',
+//         desg: 'Embryologist',
 
-    },
-    {
-        photo: gallery01,
-        name: 'Dr Harshit Bansal',
-        qualification: 'Photo booth  jianbing microdosing tousled waistcoat',
-        desg: 'slk',
+//     },
+//     {
+//         photo: gallery01,
+//         name: 'Dr Harshit Bansal',
+//         qualification: 'Photo booth  jianbing microdosing tousled waistcoat',
+//         desg: 'slk',
 
-    },
-    {
-        photo: gallery01,
-        name: 'Dr Sakshi Bansal',
-        qualification: 'slkg',
-        desg: 'slk',
+//     },
+//     {
+//         photo: gallery01,
+//         name: 'Dr Sakshi Bansal',
+//         qualification: 'slkg',
+//         desg: 'slk',
 
-    },
-    {
-        photo: gallery01,
-        name: 'Dr Zainab',
-        qualification: 'slkg',
-        desg: 'slk',
+//     },
+//     {
+//         photo: gallery01,
+//         name: 'Dr Zainab',
+//         qualification: 'slkg',
+//         desg: 'slk',
 
-    }
-]
+//     }
+// ]
 
 const IVFteam = () => {
     return (
@@ -120,9 +120,6 @@ const IVFteam = () => {
 }
 
 export default IVFteam;
-
-// App.js
-// import React, { useState } from 'react';
 
 const CardDemo = () => {
     // Example card data
@@ -219,33 +216,6 @@ const CardDemo = () => {
         </>
     );
 }
-// export default CardDemo;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const cards = [
-//     { id: 1, title: "Cardrrrrrrrrrrrrrrrr 1", desc: "Description 1", photo: DrBANSAL  },
-//     { id: 2, title: "Carrrrrrrrd 2", desc: "Description 2", photo: DrBANSAL  },
-//     { id: 3, title: "Carrrrrrrrrd 3", desc: "Description 3", photo: DrBANSAL },
-//     { id: 4, title: "Carrrrrrrrrrrrd 4", desc: "Description 4", photo: DrBANSAL },
-//     { id: 5, title: "Carrrrrrrd 5", desc: "Description 5", photo: DrBANSAL },
-//     { id: 6, title: "Card 6", desc: "Description 6", photo: DrBANSAL },
-//     { id: 7, title: "Card 7", desc: "Description 7", photo: DrBANSAL },
-//     { id: 8, title: "Card 8", desc: "Description 8", photo: DrBANSAL },
-// ];
 
  const cards = [
         { id: 6, photo: DrBansalPic, title: 'Late Dr. Ashwini Kumar Bansal', description: 'M.B.B.S., MS, FAIS, FCGP, FIAGES', Knowmore: 'Founder' },
@@ -329,15 +299,6 @@ const CardSlider = () => {
                                 key={card.id}
                                 className="bg-white w-96 sm:w-[300px] z-0 border-2 border-rose-700 p-6 border-blak my-20 rounded-lg shadow-md flex-shrink-0"
                             >
-                                {/* <div className="absolute -top-0 left-1/2 transform -translate-x-1/2">
-                                    <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-md">
-                                        <img
-                                            src={card.photo}
-                                            alt="Profile"
-                                            className="object-cover w-full h-full"
-                                        />
-                                    </div>
-                                </div> */}
                                 <div className="-mt-28 text-center">
                                      <div className="w-44 h-44 rounded-full p-2 shadow-md mx-auto border-2 overflow-hidden">
                                         <img
@@ -355,8 +316,6 @@ const CardSlider = () => {
                                         Know More
                                     </button>
                                 </div>
-                                {/* <h2 className="text-xl font-bold">{card.title}</h2>
-                <p className="text-gray-600">{card.desc}</p> */}
                             </div>
                         ))}
                     </motion.div>
@@ -382,5 +341,3 @@ const CardSlider = () => {
         </div>
     );
 };
-
-// export default CardSlider;

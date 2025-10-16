@@ -1,4 +1,3 @@
-import React from 'react'
 import A from '../assets/NewsPapers/A.jpg'
 import B from '../assets/NewsPapers/B.jpg'
 import C from '../assets/NewsPapers/C.jpg'
