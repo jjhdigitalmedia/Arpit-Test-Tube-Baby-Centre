@@ -120,7 +120,7 @@ const LandingPage = () => {
       </Helmet>
       <div className="min-h-screen bg-white text-gray-800">
         {/* Header */}
-        <header className="bg-rose-50 bg-white shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
+        <header className=" bg-white shadow-md text-black sticky top-0 z-20 py-3 px-4 text-center text-xl font-bold">
           <ul className="flex flex-wrap md:justify-between text-center md:mx-72">
             <li className="text-rose-700"><img src={LogoAB} className="w-40 md:w-60" alt="" /></li>
             <li className={`hidden md:flex mx-auto text-white font-bold bg-rose-700 border-0 py-1 px-8 focus:outline-none hover:bg-rose-800 rounded-2xl text-lg transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-sky-800"}`}>

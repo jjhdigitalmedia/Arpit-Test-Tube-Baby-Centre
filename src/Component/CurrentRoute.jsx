@@ -8,7 +8,7 @@ const CurrentRoute = () => {
     return null;
   }
   return (
-    <div className="text-sm bg- text-white pt-20 pb-10 bg-gray-300 bg-gradient-to-t from-stone-400 to-stone-100 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto bg-cover bg-center h-64 w-full"
+    <div className="text-sm bg- text-white pt-20 pb-10 bg-gray-300 bg-gradient-to-t from-stone-200 to-stone-100 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto bg-cover bg-center h-64 w-full"
     // style={{ backgroundImage: `url(${BackCover1})` }}
     
     >
@@ -30,7 +30,7 @@ const CurrentRoute = () => {
                 <span className="font-semibold">{name}</span>
 
               ) : (
-                <Link to={path} className="text-blue-600 hover:underline font-medium">
+                <Link to={path} className="text-rose-600 hover:underline font-medium">
                   {name}
                 </Link>
               )}

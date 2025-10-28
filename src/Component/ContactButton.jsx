@@ -25,7 +25,7 @@ const ContactButton = () => {
           </div>
         )}
         <button
-          className="bg-rose-700 text-white p-3 rounded-full shadow-lg hover:bg-rose-800 transition-all"
+          className="bg-rose-700 text-white p-3 rounded-full shadow-lg hover:bg-rose-800 transition-all"  aria-label="Toggle menu"
         >
           <FaBars size={20} />
         </button>

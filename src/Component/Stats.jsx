@@ -58,7 +58,7 @@ const Stats = () => {
   return (
     <>
       <div>
-        <img className='md:w-4/5 -mt-10 mx-auto' src={familyDoctors1} alt="" />
+        <img className='md:w-4/5 -mt-10 mx-auto' src={familyDoctors1} alt="A Family of Doctor's Prayagraj" />
       </div>
     <div className="bg-rose-800 flex flex-wrap p-16 w-full m-auto ">
       <div ref={elementRef} className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-10">

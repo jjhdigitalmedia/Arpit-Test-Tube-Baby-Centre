@@ -16,7 +16,7 @@ const Rewards = () => {
         <Link to="ivf-lab" className="bg-white m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={lab0}
-            alt="Mountain"
+            alt="Arpit Test Tube Baby Centre Lab"
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
@@ -32,7 +32,7 @@ const Rewards = () => {
         <Link to='patients-review' className="bg-white m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden  max-w-72">
           <img
             src={patientweb}
-            alt="Mountain"
+            alt="Patient's Testimonials - Arpit Test Tube Baby Centre"
             className="w-full  object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">
@@ -47,7 +47,7 @@ const Rewards = () => {
         <Link to="guest-speaker" className="bg-whie m-2 h-auto rounded-2xl shadow-md shadow-slate-300 overflow-hidden max-w-72">
           <img
             src={speaker1}
-            alt="Mountain"
+            alt="Dr Vandana Bansal as Speaker"
             className="w-full object-cover border-8 border-white rounded-2xl"
           />
           <div className="px-4 py-0 pt-3">

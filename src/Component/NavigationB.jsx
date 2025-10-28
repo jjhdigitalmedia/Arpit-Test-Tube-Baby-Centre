@@ -51,9 +51,9 @@ function NavigationB() {
           <span className="pr-8 text-sm text-white">
             <IoCallOutline className="inline mr-2" />
             {/* Phone: +91 6390103002, +91 9151037783 */}
-            <a className="pr-3 text-sm text-white" href="tel:9151037784">Phone: +91 9151037784,</a>
-            <a className="pr-6 text-sm text-white" href="tel:9151037783">+91 6390103012</a>
-            <a className="pr-6 text-sm text-white" href="tel:6390103002">+91 6390103002</a>
+            <a className="pr-3 text-sm text-white" title="Contact Number of Jeevan Jyoti Hospital" href="tel:9151037784">Phone: +91 9151037784,</a>
+            <a className="pr-6 text-sm text-white" title="Contact Number of Jeevan Jyoti Hospital" href="tel:9151037783">+91 6390103012</a>
+            <a className="pr-6 text-sm text-white" title="Contact Number of Jeevan Jyoti Hospital" href="tel:6390103002">+91 6390103002</a>
           </span>
           <span className="pr-8 text-sm text-white">
             <MdOutlineMail className="inline mr-2" />
@@ -73,7 +73,7 @@ function NavigationB() {
           </a>
         </div> */}
         <div>
-          <a href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D' target='_blank' className="pr-8 text-sm text-white">
+          <a title="Google Map showing location of Jeevan Jyoti Hospital, Allahabad" href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D' target='_blank' className="pr-8 text-sm text-white">
             <IoLocationOutline className="inline " />162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
           </a>
         </div>
@@ -81,9 +81,9 @@ function NavigationB() {
       <nav className="bg-white py-3 px-4 shadow-sm sticky top-0 z-20">
         <div className="containe flex items-center justify-between">
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
-          <Link to='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
+          <Link to='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32 " aria-label="Home - Jeevan Jyoti Hospital">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <img src={LogoAB} className="w-44 md:w-56" alt="" />
+              <img src={LogoAB} className="w-44 md:w-56" alt="Logo of Arpit Test Tube Baby Centre Prayagraj" />
 
             </span>
           </Link>
@@ -228,7 +228,7 @@ function NavigationB() {
             Contact Us
           </Link>
           <button
-            className="md:hidden text-black focus:outline-none"
+            className="md:hidden text-black focus:outline-none"  aria-label="Open and close navigation menu"
             onClick={toggleMobileMenu}
           >
             {isMobileMenuOpen ? (

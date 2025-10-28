@@ -58,7 +58,7 @@ const Head = () => {
             <div key={index} className="flex-shrink-0 w-full">
               <img
                 src={image}
-                alt={`Slide ${index}`}
+                alt={`Arpit Test Tube Baby centre ${index}`}
                 className="w-full h-auto"
               />
             </div>
@@ -76,7 +76,7 @@ const Head = () => {
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
           {images.map((_, index) => (
             <button
-              key={index}
+              key={index}  aria-label="Go to slide"
               className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-rose-700' :  'bg-gray-50'}`}
               onClick={() => setCurrentIndex(index)}
             />
