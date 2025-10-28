@@ -21,7 +21,7 @@ function App() {
       {/* ff918d hexa color code for webstie 
     74cef0 sky blue color for website
      */}
-      <NavigationB  />
+      <NavigationB />
       <div className="">
         <CurrentRoute />
       </div>
@@ -32,7 +32,9 @@ function App() {
           </button>
         </a>
       </div>
-      <Outlet />
+      <main id='main-content'>
+        <Outlet />
+      </main>
       <Footer />
     </>
   )
