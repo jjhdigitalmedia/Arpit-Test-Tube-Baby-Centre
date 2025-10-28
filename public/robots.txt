@@ -1,0 +1,9 @@
+# robots.txt for https://arpitivf.com
+# Created: 2025-10-28
+# Purpose: Allow search engines to index all pages except private or admin areas.
+
+User-agent: *
+Allow: /
+
+# Sitemap location helps Google and Bing crawl your pages efficiently
+Sitemap: https://arpitivf.com/sitemap.xml
