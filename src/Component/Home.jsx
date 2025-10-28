@@ -22,8 +22,8 @@ const Home = () => {
         <title>Arpit Test Tube Baby Centre Prayagraj</title>
         <meta name="description" content="Arpit Test Tube Baby Centre, Prayagraj – trusted IVF and fertility clinic with advanced technology, expert team, and high success rates. Book your consultation today!" />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
-        <meta property="og:title" content="Best Gynecology Services" />
-        <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
+        <meta property="og:title" content="Infertility Treatment in Prayagraj" />
+        <meta property="og:description" content="Infertility & IVF Expert with women's healthcare with trusted gynecologists." />
       </Helmet>
       <Arrow />
       <ContactButton />
