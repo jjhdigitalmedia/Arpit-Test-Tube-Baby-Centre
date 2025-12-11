@@ -8,7 +8,7 @@ const CurrentRoute = () => {
     return null;
   }
   return (
-    <div className="text-sm bg- text-white pt-20 pb-10 bg-gray-300 bg-gradient-to-t from-stone-200 to-stone-100 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto bg-cover bg-center h-64 w-full"
+    <div className="text-sm bg- text-white pt-20 pb-10 bg-gray-400 bg-gradient-to-t from-stone-300 to-stone-100 md:pb-20 md:pt-40 px-8 md:px-40  mx-auto bg-cover bg-center h-64 w-full"
     // style={{ backgroundImage: `url(${BackCover1})` }}
     
     >

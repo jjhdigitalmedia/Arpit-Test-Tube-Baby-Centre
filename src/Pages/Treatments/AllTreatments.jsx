@@ -202,7 +202,7 @@ function AllTreatments() {
     const [selectedTreatment, setSelectedTreatment] = useState(treatmentsData[0]);
 
     return (
-        <div className="grid mx-auto bg-gray-100 grid-cols-1 flex-wrap-reverse md:grid-cols-3 gap-6 p-6 ">
+        <div className="grid mx-auto bg-zinc-50 grid-cols-1 flex-wrap-reverse md:grid-cols-3 gap-6 w-4/5 p-6 ">
             {/* Treatments List Section */}
             <div className="p-1 rounded-2xl h-fit bg-white shadow-md space-y-4">
                 {treatmentsData.map((treatment) => (
@@ -210,13 +210,13 @@ function AllTreatments() {
                         key={treatment.id}
                         onClick={() => setSelectedTreatment(treatment)}
                         className={`flex items-start gap-4 p-4
-                          hover:bg-rose-100 cursor-pointer rounded-xl transition-all  ${selectedTreatment.id === treatment.id ? 'bg-rose-100' : 'bg-'}`}
+                          hover:bg-rose-50 cursor-pointer rounded-xl transition-all  ${selectedTreatment.id === treatment.id ? 'bg-rose-50 border-1 border-rose-800' : 'bg-'}`}
                     >
                         <img src={treatment.icon} className="w-14 rounded-md" alt="" />
                         {/* {treatment.icon} */}
                         <div>
-                            <h3 className="text-xl font-semibold">{treatment.title}</h3>
-                            <p className="text-gray-600 text-md">{treatment.shortDescription}</p>
+                            <h3 className="md:stext-xl font-semibold">{treatment.title}</h3>
+                            <p className="text-gray-600 md:text-md">{treatment.shortDescription}</p>
                         </div>
                     </div>
                 ))}
@@ -230,7 +230,7 @@ function AllTreatments() {
             {TreatmentComponent.map((treatment) => (
                 treatment.title === selectedTreatment.title ? (
                     <div
-                        className="col-span-1 bg-white md:col-span-2 p-6 rounded-2xl">
+                        className="col-span-1 bg-white shadow-md md:col-span-2 p-6 rounded-2xl">
                         {treatment.Comp}
                     </div>
                 )

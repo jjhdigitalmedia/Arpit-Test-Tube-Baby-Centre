@@ -379,7 +379,7 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'terms-and-condition',
+        path: 'terms-and-conditions',
         element: <TermsAndConditions />,
         children: []
       },
@@ -534,7 +534,7 @@ const router = createBrowserRouter([
   },
   {
    path: '/ivf-treatment',
-   element: <> <LandingPage /></>,
+   element: <><LandingPage /></>,
   
  },
   {

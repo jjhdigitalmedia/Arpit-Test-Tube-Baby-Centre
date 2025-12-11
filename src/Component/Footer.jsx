@@ -337,7 +337,7 @@ const Footer = () => {
               © 2025 Arpit Test Tube Baby Centre | All rights reserved
             </p>
             <div className="text-center">
-              <Link to='terms-and-condition'>
+              <Link to='terms-and-conditions'>
                 Term & Condition
               </Link>
               |
