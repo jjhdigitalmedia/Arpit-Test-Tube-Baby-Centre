@@ -3,11 +3,11 @@ import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import PromoAdF2 from "../assets/PromoAdF2.webp";
 import LogoAB from '../assets/LogoAB.webp'
-// import DrVandana from '../assets/DrVandana.webp'
 import About from '../assets/About.JPG'
 import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
 import { Helmet } from "react-helmet";
+// import DrVandana from '../assets/DrVandana.webp'
 // import PromoAd from "../assets/PromoAd.jpg";
 
 const LandingPage = () => {
@@ -37,16 +37,15 @@ const LandingPage = () => {
       nextImage(); // Call the nextImage function to move to the next slide
     }, 40000); // 2 seconds interval
 
-    // Clean up interval on component unmount
     return () => clearInterval(interval);
   }, []);
 
-  // Function to go to the previous image
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
   // ........................
+  
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -87,7 +86,6 @@ const LandingPage = () => {
     }
   };
 
-
   const faqs = [
     { question: 'What is IVF?', answer: 'In vitro fertilization (IVF) is a treatment for infertility where eggs are fertilized by sperm outside the body, in a lab, and the embryo is then transferred to the uterus.' },
     { question: 'Who can benefit from IVF?', answer: 'Couples with blocked fallopian tubes, low sperm count, endometriosis, unexplained infertility, or repeated failed fertility treatments may benefit from IVF.' },
@@ -100,14 +98,11 @@ const LandingPage = () => {
     { question: 'Can IVF be repeated if it fails?', answer: 'Yes, IVF can be repeated. Your doctor will evaluate and adjust the treatment protocol for better chances of success.' }
   ];
 
-
   const [openIndex, setOpenIndex] = useState(null);
-
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
 
   return (
     <>
@@ -219,14 +214,9 @@ const LandingPage = () => {
           </div>
         </div>
 
-
-
         <section class="text-gray-600 bg-gray-200 body-font">
           <div class="container md:px-5 py-16 mx-auto flex flex-col">
             <div class="lg:w-4/6 mx-auto">
-              {/* <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
-        </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                   <div class="md:w-72 md:h-72 rounded-full inline-flex items-center border-1 border-rose-800 md:p-3 justify-center bg-gray-200 text-gray-400">
@@ -374,7 +364,7 @@ const LandingPage = () => {
           </ul>
         </div>
 
-        <div className={`mx-auto text-white text-center font-bold bg-rose-800 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:9151037783">Quick Call</a></div>
+        <div className={`mx-auto text-white text-center font-bold bg-rose-800 border-0 py-2 px-8 focus:outline-none hover:bg-rose-800 rounded transition-colors duration-700 ease-in-out ${isRed ? "bg-red-700" : "bg-rose-200"}`}>  <a className="text-lg text-center text-white" href="tel:6390103012">Quick Call</a></div>
 
         {/* .............................................. */}
 

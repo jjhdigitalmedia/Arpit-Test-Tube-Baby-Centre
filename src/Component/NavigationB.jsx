@@ -127,44 +127,44 @@ function NavigationB() {
               <div className="dropdown-content font-thin mt-1">
                 <a className="dropdownn">
                   <Link to='treatments' className="dropbtnn">Treatments</Link>
-                  <div className="dropdown-contentt w-72 py-2 font-medium bg-rose-50">
-                    <Link to="treatments/iui" onClick={navClose} className=" px-6 bg-rose-50">
+                  <div className="dropdown-contentt w-72 py-2 font-medium bg-rose-800">
+                    <Link to="treatments/iui" onClick={navClose} className=" px-6 text-white bg-rose-800">
                       IUI
                     </Link>
-                    <Link to="treatments/ivf-et" onClick={navClose} className="px-6 my-2 bg-rose-50">
+                    <Link to="treatments/ivf-et" onClick={navClose} className="px-6 my-2 hover:text-black text-white bg-rose-800">
                       IVF ET
                     </Link>
-                    <Link to="treatments/icsi" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/icsi" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       ICSI
                     </Link>
-                    <Link to="treatments/laser-assisted" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/laser-assisted" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Laser Assisted Hatching (LAH)
                     </Link>
-                    <Link to="treatments/imsi" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/imsi" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       IMSI
                     </Link>
-                    <Link to="treatments/embryo-donation" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/embryo-donation" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Embryo Donation (ED)
                     </Link>
-                    <Link to="treatments/oocyte-donation" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/oocyte-donation" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Occyte Donation (OD)
                     </Link>
-                    <Link to="treatments/blastocyst-transfer" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/blastocyst-transfer" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Blastocyst Transfer
                     </Link>
-                    <Link to="treatments/semen-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/semen-cryopreservation" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Semen Cryopreservation
                     </Link>
-                    <Link to="treatments/oocyte-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/oocyte-cryopreservation" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Oocyte Cryopreservation
                     </Link>
-                    <Link to="treatments/embryo-bank" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/embryo-bank" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       Embryo Banking (Cryopreservation)
                     </Link>
-                    <Link to="treatments/mesa-microepididymal-sperm-aspiration" onClick={navClose} className="my-2 px-6 border-zinc-300 bg-rose-50">
+                    <Link to="treatments/mesa-microepididymal-sperm-aspiration" onClick={navClose} className="my-2 px-6 border-zinc-300 text-white bg-rose-800">
                       MESA (Microepididymal Sperm Aspiration)
                     </Link>
-                    <Link to="treatments/tesa-testicular-sperm-aspiration-cryopreservation" onClick={navClose} className="my-2 px-6 bg-rose-50">
+                    <Link to="treatments/tesa-testicular-sperm-aspiration-cryopreservation" onClick={navClose} className="my-2 px-6 text-white bg-rose-800">
                       TESA (Testicular Sperm Aspiration and Cryopreservation)
                     </Link>
                   </div>
