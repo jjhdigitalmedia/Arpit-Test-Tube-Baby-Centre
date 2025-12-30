@@ -333,7 +333,7 @@ const Footer = () => {
             {/* <a className="text-white flex title-font font-medium items-center md:justify-start justify-center">
               <span className="ml-3 text-xl">Best IVF Centre in Prayagraj</span>
             </a> */}
-            <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
+            <p className="text-sm text-gray-700 text-centre sm:ml-6 sm:mt-0">
               © 2025 Arpit Test Tube Baby Centre | All rights reserved
             </p>
             <div className="text-center">
