@@ -3,7 +3,7 @@ const Facilities = () => {
   return (
     <>
       <Helmet>
-        <title>Facilities: Arpit Test Tube Baby Centre Prayagraj</title>
+        <title>Facilities - Arpit Test Tube Baby Centre Prayagraj</title>
         <meta name="description" content="Explore the Arpit IVF Centre gallery – see our world-class infrastructure, lab facilities, and patient-friendly environment in Prayagraj." />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best IVF and Gynecology Services" />
