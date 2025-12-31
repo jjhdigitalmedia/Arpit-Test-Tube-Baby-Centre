@@ -28,7 +28,7 @@ const Home = () => {
       <Arrow />
       <ContactButton />
       <Head />
-      <Rewards />
+      {/* <Rewards /> */}
       <Treatements />
       {/* <VideoOfCentre/> */}
       <About />
