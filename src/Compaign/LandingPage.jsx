@@ -267,7 +267,7 @@ const LandingPage = () => {
                 <li>Egg Retrieval Procedure</li>
                 <li>Fertilization & Embryo Transfer</li>
               </ul>
-              <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,0,000 per cycle</p>
+              <p className="mt-4 font-semibold text-rose-700">Starts from – ₹1,00,000 per cycle</p>
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-6">
