@@ -12,7 +12,7 @@ const IuiTreatment = () => {
         <meta property="og:title" content="Best Gynecology Services" />
         <meta property="og:description" content="Expert women's healthcare with trusted gynecologists." />
       </Helmet>
-      <div className='flex mx-auto flex-wrap p-10 pl-28 my-20 justify-between md:w-11/12 items-cente'>
+      <div className='flex mx-auto flex-wrap pl-10 my-5 justify-between md:w- items-cente'>
         <div className='md:w-1/2'>
           <h1 className='text-2xl md:text-4xl my-4 font-medium'>IUI (Intra uterine Insemination)</h1>
           <p>Intrauterine Insemination (IUI) is a minimally invasive fertility treatment that involves placing processed sperm directly into the uterus during ovulation. This increases the chances of fertilization by bringing the sperm closer to the egg.</p>
@@ -20,9 +20,9 @@ const IuiTreatment = () => {
           <ul className='list-disc'>
             <li>Unexplained infertility</li>
             <li>Mild male factor infertility</li>
-            <li>Cervical mucus problems</li> 
-            <li>Ovulatory disorders</li> 
-            <li>Donor sperm use</li> 
+            <li>Cervical mucus problems</li>
+            <li>Ovulatory disorders</li>
+            <li>Donor sperm use</li>
           </ul>
           <h2 className='text-2xl my-4'>Procedure Overview</h2>
           <ul className='list-disc'>

@@ -32,7 +32,7 @@ function App() {
           </button>
         </a>
       </div>
-      <main id='main-content'>
+      <main id='main-cntent'>
         <Outlet />
       </main>
       <Footer />
