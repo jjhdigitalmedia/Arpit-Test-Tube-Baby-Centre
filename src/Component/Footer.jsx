@@ -271,7 +271,7 @@ const Footer = () => {
             </a>
             <a className="my-3 text-white block" target="_blank" href="tel:6390103002">
               <IoCallOutline className="inline mr-2" />
-              +91 6390103002</a>
+              +91 7705910037</a>
             <a className="my-3 text-white block" target="_blank" href="tel:9151037784">
               <IoCallOutline className="inline mr-2" />
               +91 9151037784</a>
