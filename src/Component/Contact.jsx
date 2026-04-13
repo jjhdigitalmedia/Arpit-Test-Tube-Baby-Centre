@@ -31,15 +31,19 @@ const Contact = () => {
     if (res.success) {
       console.log("Success", res);
       alert('Form has bees successfully submitted, Thanks for contact me')
-      const formData = new FormData('');
-      
- if (typeof gtag === "function") {
-      windows.gtag('event', 'conversion', {
-        'send_to': 'AW-17183522494' // <-- Replace with your own conversion ID
-      });
-    }
-      
-      
+      // const formData = new FormData('');
+
+      // ✅ Google Ads Conversion Trigger
+      if (typeof window.gtag === "function") {
+        window.gtag('event', 'conversion', {
+          send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
+        });
+      }
+
+      // ✅ Form reset (correct way)
+      event.target.reset();
+
+
     }
   };
 
@@ -72,7 +76,7 @@ const Contact = () => {
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
+                <label htmlFor="message" className="leading-7 text-sm text-gray-800">Message</label>
                 <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-700 focus:bg-white focus:ring-2 focus:ring-rose-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
             </div>
@@ -82,7 +86,7 @@ const Contact = () => {
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               {/* <a className="text-rose-500 text-wrap">arpitivf@gmail.com</a> */}
               <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-rose-700' target="_blank">arpitivf@gmail.com</a>
-              <a href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
+              <a href='https://www.google.com/maps/place/%F0%9D%97%94%F0%9D%97%BF%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81+%F0%9D%97%A7%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81+%F0%9D%97%A7%F0%9D%98%82%F0%9D%97%AF%F0%9D%97%B2+%F0%9D%97%95%F0%9D%97%AE%F0%9D%97%AF%F0%9D%98%86+%F0%9D%97%96%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2+-+Best+IVF+Centre+Allahabad%2F+Best+Test+Tube+Baby+Centre%2F+IVF+Centre+And+Hospital%2F+IVF+Specialist/@25.4362706,81.844079,612m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3985354ad3d262eb:0xab072cc57813c85!8m2!3d25.4362706!4d81.8466593!16s%2Fg%2F1tf9lnwq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D' className="leading-normal block my-5" target='_blank'>162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
               </a>
               <div className='flex m-auto w-fit'>
                 <a href="https://www.instagram.com/dr.vandanabansal" target='_blank' aria-label="Instagram profile of Dr. Vandana Bansal">
