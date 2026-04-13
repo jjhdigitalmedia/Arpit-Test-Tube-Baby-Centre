@@ -40,9 +40,14 @@ const Contact = () => {
       //   });
       // }
 
-      window.gtag && window.gtag('event', 'conversion', {
-  send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
-});
+      setTimeout(() => {
+        console.log("Firing conversion now...");
+
+        window.gtag('event', 'conversion', {
+          send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
+        });
+
+      }, 1000);
 
       // ✅ Form reset (correct way)
       event.target.reset();
