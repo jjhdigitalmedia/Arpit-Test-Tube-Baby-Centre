@@ -34,11 +34,15 @@ const Contact = () => {
       // const formData = new FormData('');
 
       // ✅ Google Ads Conversion Trigger
-      if (typeof window.gtag === "function") {
-        window.gtag('event', 'conversion', {
-          send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
-        });
-      }
+      // if (typeof window.gtag === "function") {
+      //   window.gtag('event', 'conversion', {
+      //     send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
+      //   });
+      // }
+
+      window.gtag && window.gtag('event', 'conversion', {
+  send_to: 'AW-17183522494/B18dCMyb0eEaEL793oFA'
+});
 
       // ✅ Form reset (correct way)
       event.target.reset();
