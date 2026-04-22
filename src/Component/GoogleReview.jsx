@@ -5,8 +5,8 @@ const GoogleReview = () => {
   return (
     // <div className="w-full md:px-32 py- mx-auto">
     <div className="my-8 w-full md:px-32 py- mx-auto">
-      <script src="https://static.elfsight.com/platform/platform.js" async></script>
-      <div class="elfsight-app-ad2e5e08-1de5-4fde-8a64-b8282d48abb7" data-elfsight-app-lazy></div>
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-2cc578f8-6153-4917-87c6-234fdb1e61a3" data-elfsight-app-lazy></div>
       {/* </div> */}
       {/* <div className="my-8">
         <script src="https://static.elfsight.com/platform/platform.js" async></script>

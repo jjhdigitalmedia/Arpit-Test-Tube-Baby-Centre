@@ -2,10 +2,11 @@ import React, { useEffect, useState, useRef } from "react";
 import { IoCallOutline } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import PromoAdF2 from "../assets/PromoAdF2.webp";
-import LogoAB from '../assets/LogoAB.webp'
+// import LogoAB from '../assets/LogoAB.webp'
 import About from '../assets/About.JPG'
 import FirstBanner from "../assets/Heros/FirstBanner.webp";
 import "../Style/Style.css";
+import LogoAB from '../assets/LogoAB.png'
 import { Helmet } from "react-helmet";
 // import DrVandana from '../assets/DrVandana.webp'
 // import PromoAd from "../assets/PromoAd.jpg";

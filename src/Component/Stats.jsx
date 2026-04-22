@@ -60,7 +60,7 @@ const Stats = () => {
       <div>
         <img className='md:w-4/5 -mt-10 mx-auto' src={familyDoctors1} alt="A Family of Doctor's Prayagraj" />
       </div>
-    <div className="bg-rose-800 flex flex-wrap p-16 w-full m-auto ">
+    {/* <div className="bg-rose-800 flex flex-wrap p-16 w-full m-auto ">
       <div ref={elementRef} className="lg:w-1/4 md:border-r-2 text-center md:w-1/2 w-full px-10">
         <h1 className='mb-8 text-4xl font-bold font-asap text-white '>Happy Couples</h1>
         <span className='text-3xl text-white font-extrabold'>{patients}+</span>
@@ -81,7 +81,7 @@ const Stats = () => {
         <span className='text-3xl text-white font-extrabold'>99+</span>
       </div>
 
-    </div>
+    </div> */}
     </>
   )
 }

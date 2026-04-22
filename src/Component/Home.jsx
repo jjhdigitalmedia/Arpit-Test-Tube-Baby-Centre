@@ -4,16 +4,18 @@ import Rewards from './Rewards'
 import Treatements from './Treatements'
 import GoogleReview from './GoogleReview'
 import About from './About'
-// import NewsImages from './NewsImages' 
 import { FAQ } from './FAQ'
 import Contact from './Contact'
 import Stats from './Stats'
 import Ivfteam from '../Pages/Ivfteam'
 import Appointment from './Appointment'
-// import VideoOfCentre from './VideoOfCentre'
 import { Helmet } from "react-helmet";
 import Arrow from './Arrow'
 import ContactButton from './ContactButton'
+import CardCarousel from './IVFTeamHome'
+import IVFTeamHome from './IVFTeamHome'
+// import NewsImages from './NewsImages' 
+// import VideoOfCentre from './VideoOfCentre'
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
       {/* <GoogleReview /> */}
       <Stats />
       {/* <NewsImages/> */}
+<IVFTeamHome/>
+<GoogleReview/>
       <Contact />
       <FAQ />
       <Appointment />
